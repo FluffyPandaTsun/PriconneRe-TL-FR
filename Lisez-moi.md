@@ -8,15 +8,15 @@
 
 ---
 
-⚠️ **Warning:** _Please use it at your own risk!!  We are not responsible for any actions taken toward your account if you use this translation tool_
+⚠️ **Attention:** _A vos risques et périls!!  Nous ne sommes pas responsable de toute utilisation concernant votre compte en utilisant ce fork_
 
-Priconne Re: TL is an unofficial English UI patch for [Cygames' Princess Connect Re: Dive JP](https://dmg.priconne-redive.jp/). This project's main focus is translating the game's user interface into English so non-Japanese people can play it easier.
+Priconne Re: TL FR est un patch d'interface non-officiel en français pour [Cygames' Princess Connect Re: Dive JP](https://dmg.priconne-redive.jp/). Ce projet se concentre principalement sur la localisation d'interface du jeu afin de faciliter les joueurs ne conprennant pas le japonais en français.
 
-_Any help and contributions are welcome!_
+_Toute aide et contributions sont les bienvenues !_
 
 ---
 
-## ![Tantei](https://static.wikia.nocookie.net/princess-connect/images/f/fb/Kasumi_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925082622) Table of contents
+## ![Tantei](https://static.wikia.nocookie.net/princess-connect/images/f/fb/Kasumi_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925082622) Table des matières
 - [ Table of contents](#-table-of-contents)
 - [ INSTALLATION](#-installation)
 - [ UPDATING](#-updating)
