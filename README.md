@@ -72,8 +72,8 @@ The Vanilla state of the priconner folder was like the below picture:
 
 ## ![Saren](https://static.wikia.nocookie.net/princess-connect/images/b/b3/Saren_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925084518) DONATION
 
-Any donation is a huge encouragement for having more motivation to maintain text and texture translation. Many thanks, You guys! ![KokkoroThumpUp](https://cdn.discordapp.com/emojis/974959962814021683.webp?size=32)
+Chaque don permet au développeur d'origine de ce projet de maintenir et de continuer le support de ce projet. N'hésitez pas à le soutenir ![KokkoroThumpUp](https://cdn.discordapp.com/emojis/974959962814021683.webp?size=32)
 
-Your name will appear on monthly video on [my channel](https://www.youtube.com/playlist?list=PL7rvyKiF8qfl4WgOAcSOuYnkg4fEbL66c)
+Votre nom sera crédité chaque mois dans la [chaine Youtube du développeur](https://www.youtube.com/playlist?list=PL7rvyKiF8qfl4WgOAcSOuYnkg4fEbL66c)
 
 [![ko-fi](https://img.shields.io/badge/_-kofi-red.svg?logo=kofi&labelColor=555555&style=for-the-badge)](https://ko-fi.com/E1E5HG8RP) [![saweria](https://img.shields.io/badge/_-Saweria.co-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://saweria.co/imaterial "Saweria.co") [![saweria](https://img.shields.io/badge/_-Patreon-red.svg?logo=patreon&labelColor=555555&style=for-the-badge)](https://patreon.com/imaterial "Saweria.co")
