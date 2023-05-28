@@ -3,7 +3,7 @@
 
 [![Download](https://img.shields.io/github/downloads/ImaterialC/PriconneRe-TL/total.svg?color=brightgreen&label=download&style=flat)](https://github.com/ImaterialC/PriconneRe-TL/releases/latest "Download") [![Discord](https://img.shields.io/discord/967648014497890325?color=blue&labelColor=555555&label=discord&logo=discord&style=flat)](https://discord.gg/vZjAy67KpB "Discord") [![BepInEx](https://img.shields.io/badge/-BepInEx-yellow.svg?logo=unity&labelColor=555555&style=flat)](https://github.com/BepInEx/BepInEx "BepInEx") [![AutoTranslator](https://img.shields.io/badge/-AutoTranslator-orange.svg?logo=unity&labelColor=555555&style=flat)](https://github.com/bbepis/XUnity.AutoTranslator "AutoTranslator") [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Donate](https://img.shields.io/badge/_-donate-red.svg?logo=githubsponsors&labelColor=555555&style=flat)](#-donation "Donate")
 
-<i>An English patch for Princess Connect! ReDive JP server</i>
+<i>Un patch en français pour Princess Connect! ReDive serveur JP</i>
 </h2>
 
 ---
@@ -27,27 +27,27 @@ _Toute aide et contributions sont les bienvenues !_
 
 ## ![Nozomi](https://static.wikia.nocookie.net/princess-connect/images/4/46/Nozomi_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925084658) INSTALLATION
 
-1. Make sure that you installed [PriconneR](https://dmg.priconne-redive.jp/) from DMM Game Launcher, not via Android Emulator
-2. Download the latest release asset from [latest release](https://github.com/ImaterialC/PriconneRe-TL/releases/latest "Releases")
-3. Extract all files from zip files to your `priconner` folder
-4. Make sure your `priconner` folder looks like this
+1. Assurez-vous avoir installé en avance [PriconneR](https://dmg.priconne-redive.jp/) depuis le launcher DMM Game. Ne fonctionne pas sur les émulateurs Android ;
+2. Téléchargez la dernière version du patch [latest release](https://github.com/ImaterialC/PriconneRe-TL/releases/latest "Releases") ;
+3. Placez tous les fichiers dans votre ficher zip dans votre dossier `priconner` ;
+4. Assurez-vous que votre dosser `priconner` ressemble à l'image ci-dessous :
 
 ![Patched](https://github.com/ImaterialC/PriconneRe-TL/assets/105358849/f9ef7290-1ed4-41d4-b55e-616cb3d84636)
 
-_The first run will cause a freeze for minutes, the second run and so on will be like usual._
+_La première lancement du jeu va freeze pendant quelques minutes, les lancements suivantes vont fonctionner comme d'habitude._
 
 ## ![Shiori](https://static.wikia.nocookie.net/princess-connect/images/7/77/Shiori_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925113434) MISE A JOUR
 
-It is recommended to delete the old patch files instead of just replacing them
+Il est vivement reccommandé de supprimer tous les fichiers du précédent patch.
 
-Delete the old `BepInEx` folder then extract the zip files again.
+Supprimez l'ancienne version de votre dossier `BepInEx` et placez la nouvelle version dans votre dossier.
 
 ## ![Maho](https://static.wikia.nocookie.net/princess-connect/images/a/a7/Maho_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925080932) DESINSTALLATION
 
 Simply delete patch files that were extracted to the `priconner` folder
 No Priconne files that were modified or damaged while installing this patch so you can simply delete them manually. Your game will turn back to a vanilla state.
 
-Files that must delete for uninstalling were:
+Les fichiers qui doivent être supprimé sont :
 ```
 BepInEx
 dotnet
@@ -57,7 +57,7 @@ winhttp.dll
 .doorstop_version
 ```
 
-The Vanilla state of the priconner folder was like the below picture:
+La version Vanilla du dosser priconner ressemble à l'image ci dessous :
 ![Vanila state](https://github.com/ImaterialC/PriconneRe-TL/assets/105358849/3d5823e6-5f67-42be-aaa7-dd2c452535a5)
 
 ## ![Kyouka](https://static.wikia.nocookie.net/princess-connect/images/3/39/Kyouka_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925113712) PARAMETRES, OPTIONS, ET FONCTIONNALITES
