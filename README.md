@@ -8,7 +8,7 @@
 
 ---
 
-⚠️ **Attention:** _A vos risques et périls!!  Nous ne sommes pas responsable de toute utilisation concernant votre compte en utilisant ce fork_
+⚠️ **Attention:** _A vos risques et périls !!  Nous ne sommes pas responsable de toute utilisation concernant votre compte en utilisant ce fork_
 
 Priconne Re: TL FR est un patch d'interface non-officiel en français pour [Cygames' Princess Connect Re: Dive JP](https://dmg.priconne-redive.jp/). Ce projet se concentre principalement sur la localisation d'interface du jeu afin de faciliter les joueurs ne conprennant pas le japonais en français.
 
@@ -17,11 +17,11 @@ _Toute aide et contributions sont les bienvenues !_
 ---
 
 ## ![Tantei](https://static.wikia.nocookie.net/princess-connect/images/f/fb/Kasumi_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925082622) Table des matières
-- [ Table of contents](#-table-of-contents)
+- [ Table des matières](#-table-of-contents)
 - [ INSTALLATION](#-installation)
-- [ UPDATING](#-updating)
-- [ UNINSTALLATION](#-uninstallation)
-- [ SETTINGS, OPTIONS, AND FEATURES](#-settings-options-and-features)
+- [ MISE A JOUR](#-updating)
+- [ DESINSTALLATION](#-uninstallation)
+- [ PARAMETRES, OPTIONS, ET FONCTIONNALITES](#-settings-options-and-features)
 - [ DONATION](#-donation)
 
 
@@ -36,13 +36,13 @@ _Toute aide et contributions sont les bienvenues !_
 
 _The first run will cause a freeze for minutes, the second run and so on will be like usual._
 
-## ![Shiori](https://static.wikia.nocookie.net/princess-connect/images/7/77/Shiori_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925113434) UPDATING
+## ![Shiori](https://static.wikia.nocookie.net/princess-connect/images/7/77/Shiori_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925113434) MISE A JOUR
 
 It is recommended to delete the old patch files instead of just replacing them
 
 Delete the old `BepInEx` folder then extract the zip files again.
 
-## ![Maho](https://static.wikia.nocookie.net/princess-connect/images/a/a7/Maho_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925080932) UNINSTALLATION
+## ![Maho](https://static.wikia.nocookie.net/princess-connect/images/a/a7/Maho_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925080932) DESINSTALLATION
 
 Simply delete patch files that were extracted to the `priconner` folder
 No Priconne files that were modified or damaged while installing this patch so you can simply delete them manually. Your game will turn back to a vanilla state.
@@ -60,7 +60,7 @@ winhttp.dll
 The Vanilla state of the priconner folder was like the below picture:
 ![Vanila state](https://github.com/ImaterialC/PriconneRe-TL/assets/105358849/3d5823e6-5f67-42be-aaa7-dd2c452535a5)
 
-## ![Kyouka](https://static.wikia.nocookie.net/princess-connect/images/3/39/Kyouka_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925113712) SETTINGS, OPTIONS, AND FEATURES
+## ![Kyouka](https://static.wikia.nocookie.net/princess-connect/images/3/39/Kyouka_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925113712) PARAMETRES, OPTIONS, ET FONCTIONNALITES
 
 - Using [A fork of BepInEx Bleeding Edge](https://github.com/krulci/BepInEx) as the framework to inject [Kevga/XUnity.AutoTranslator](https://github.com/Kevga/XUnity.AutoTranslator) plugin.
 - You can find their config here:
@@ -74,6 +74,6 @@ The Vanilla state of the priconner folder was like the below picture:
 
 Chaque don permet au développeur d'origine de ce projet de maintenir et de continuer le support de ce projet. N'hésitez pas à le soutenir ![KokkoroThumpUp](https://cdn.discordapp.com/emojis/974959962814021683.webp?size=32)
 
-Votre nom sera crédité chaque mois dans la [chaine Youtube du développeur](https://www.youtube.com/playlist?list=PL7rvyKiF8qfl4WgOAcSOuYnkg4fEbL66c)
+Votre nom sera crédité chaque mois dans la [chaine Youtube du développeur.](https://www.youtube.com/playlist?list=PL7rvyKiF8qfl4WgOAcSOuYnkg4fEbL66c)
 
 [![ko-fi](https://img.shields.io/badge/_-kofi-red.svg?logo=kofi&labelColor=555555&style=for-the-badge)](https://ko-fi.com/E1E5HG8RP) [![saweria](https://img.shields.io/badge/_-Saweria.co-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://saweria.co/imaterial "Saweria.co") [![saweria](https://img.shields.io/badge/_-Patreon-red.svg?logo=patreon&labelColor=555555&style=for-the-badge)](https://patreon.com/imaterial "Saweria.co")
