@@ -17,11 +17,11 @@ _Toute aide et contributions sont les bienvenues !_
 ---
 
 ## ![Tantei](https://static.wikia.nocookie.net/princess-connect/images/f/fb/Kasumi_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925082622) Table des matières
-- [ Table des matières](#-table-of-contents)
+- [ Table des matières](#-table-des-matières)
 - [ INSTALLATION](#-installation)
-- [ MISE A JOUR](#-updating)
-- [ DESINSTALLATION](#-uninstallation)
-- [ PARAMETRES, OPTIONS, ET FONCTIONNALITES](#-settings-options-and-features)
+- [ MISE A JOUR](#-mise-à-jour)
+- [ DESINSTALLATION](#-desinstallation)
+- [ PARAMETRES, OPTIONS, ET FONCTIONNALITES](#-paramètres-options-et-fonctionnalités)
 - [ DONATION](#-donation)
 
 
