@@ -57,7 +57,7 @@ winhttp.dll
 .doorstop_version
 ```
 
-La version Vanilla du dosser priconner ressemble à l'image ci dessous :
+La version Vanilla du dosser `priconner` ressemble à l'image ci dessous :
 ![Vanila state](https://github.com/ImaterialC/PriconneRe-TL/assets/105358849/3d5823e6-5f67-42be-aaa7-dd2c452535a5)
 
 ## ![Kyouka](https://static.wikia.nocookie.net/princess-connect/images/3/39/Kyouka_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925113712) PARAMETRES, OPTIONS, ET FONCTIONNALITES
