@@ -12,6 +12,8 @@ r:"^トレーニングログ保存件数 ([0-9/]+)$"=Saved training logs: 6/30
 マイログに保存しました。=Save it to My Log.
 r:"^([0-9/]+)回$"=$1×
 
+[3C404E]サポート設定で獲得できるマナが\n合計[-][FFBB00,CE4F00]5,000,000[-][3C404E]マナ以上たまりました。[-]=[3C404E]Total mana obtained through support settings has exceeded [FFBB00,CE4F00]5,000,000[-] mana.[-]
+
 ===Clan List===
 r:"^\[FFBB00\,CE4F00\]最終ログイン:(\d+)時間以内\[-\]$"=[FFBB00,CE4F00]Online for: $1h[-]
 r:"^\[FFBB00\,CE4F00\]最終ログイン:(\d+)日前\[-\]$"=[FFBB00,CE4F00]Last Login: $1d ago[-]
@@ -39,7 +41,7 @@ r:"^(.{1,10})がリーダーになりました。$"=$1 has become a leader.
 r:"^(.{1,10})がサブリーダーになりました。$"=$1 has become a sub-leader.
 r:"^(.{1,10})がクランを結成しました。$"=$1 created a clan.
 r:"^(.{1,10})がクランから脱退しました。$"=$1 has left the clan.
-r:"^(.{1,10})をクランから除名しました。$"=$1 has kicked from the clan.
+r:"^(.{1,10})をクランから除名しました。$"=$1 has been kicked from the clan.
 
 r:"^([\-0-9]+)日 ?([\-0-9]+)時間 ?([\-0-9]+)分$"=$1d $2h $3m
 r:"^([\-0-9]+)日 ?([\-0-9]+)時間$"=$1d $2h
@@ -83,6 +85,7 @@ sr:"^([0-9]{1,2}月)の順位：$"=$1 Rank:
 ===Clan===
 装備リクエスト=Request
 次回のモード変更開始まで\nモードは変更できません。=The mode cannot be changed\nuntil the next mode change starts.
+段階を変更したバトルでは\n撃破報酬は獲得できません。=Battles that Tier changed will not\nreceive a reward for defeating them.
 
 クランバトル モード変更受付終了=Mode Change Request Closed.
 開催までお待ちください。=Please wait until CB ends.
@@ -473,4 +476,6 @@ r:"^\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]ダメージ\[-\]\[3C404E\]で撃破\[
 このログを削除してもよろしいですか?=Is it okay to delete this log?
 
 クランに加入=Join a Clan
-クランに所属すると、\nクランバトルに挑戦することができます。=If you join to a Clan,\nyou can challenge Clan Battles.
+クランに所属すると、\nクランバトルに挑戦することができます。=If you join to a Clan,\nyou can participate in Clan Battles.
+クランに所属すると、=If you join to a Clan,
+クランバトルに挑戦することができます。=you can participate in Clan Battles.

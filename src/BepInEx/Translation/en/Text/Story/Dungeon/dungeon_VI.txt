@@ -57,21 +57,21 @@
 
 うう、深くて真っ暗で、なんだか怖いですね～\n本当にこんな場所をいちばん下まで降りるんですか？\nお魚さんだけ捕って帰りません？=Uh, it's deep, dark, and somehow scary? Don't you catch only the fish and go home?
 
-ペコリーヌさま、今すこしの辛抱でございます。\nだいぶ深いところまで潜ってきましたし……\nおや、なにやら見えてまいりましたよ。=Pecoline, I'm a little patient now. I've been diving to a very deep place ... oh, I can see something.
+ペコリーヌさま、今すこしの辛抱でございます。\nだいぶ深いところまで潜ってきましたし……\nおや、なにやら見えてまいりましたよ。=Pecorine, I'm a little patient now. I've been diving to a very deep place ... oh, I can see something.
 
 底のほうでなにか光って……あれが噂の海底神殿かしら？\nこのあたりの岩場をあたしの魔法で繋いでいけば、\nうまいこと辿り着けそうね。=Something glows at the bottom ... Is that the rumored seabed temple? If I connect the rocky areas around here with my magic, we should be able to reach it.
 
 [3C404EFF]いたずらに進んでは危険かもしれません。[3C404EFF]\n[3C404EFF]せめて[3C404EFF]もうすこし情報が欲しいところですが……=It may be dangerous to go rashly. At least we need more information ...
 
-おお、キャルさま、冴えておいでです。\nわたくしその発想には思い至りませんでした。\n早速、お話をうかがってみましょう。=Oh, Kyaru-sama, Thats brilliant. I never thought of that. Let's talk about it.
+おお、キャルさま、冴えておいでです。\nわたくしその発想には思い至りませんでした。\n早速、お話をうかがってみましょう。=Oh, Kyaru-sama, Thats brIllyant. I never thought of that. Let's talk about it.
 
 そういえばコロ助、あんた精霊と話ができるんでしょ？\nこのへんにいる水の精霊とかから、話を聞けないもんなの？=Speaking of which Korosuke, you can talk to the spirit, right? Can't you hear the story from the water spirit?
 
 いたずらに進んでは危険かもしれません。\nせめてもうすこし情報が欲しいところですが……=It may be dangerous to go rashly. At least we need more information ...
 
-[3C404EFF]おお、[3C404EFF]キャルさま、[3C404EFF]冴えておいでです。=Oh, Kyaru-sama, that's brilliant.
+[3C404EFF]おお、[3C404EFF]キャルさま、[3C404EFF]冴えておいでです。=Oh, Kyaru-sama, that's brIllyant.
 
-[3C404EFF]Oh, Cal -sama, I'm clear.[3C404EFF]\nわたくし[3C404EFF]その発想には思い至りませんでした。[3C404EFF]\n早速、[3C404EFF]お話をうかがってみましょう。=Oh, Kyaru-sama, Thats brilliant. I never thought of that. Let's talk about it.
+[3C404EFF]Oh, Cal -sama, I'm clear.[3C404EFF]\nわたくし[3C404EFF]その発想には思い至りませんでした。[3C404EFF]\n早速、[3C404EFF]お話をうかがってみましょう。=Oh, Kyaru-sama, Thats brIllyant. I never thought of that. Let's talk about it.
 
 [3C404EFF]……ええ。[3C404EFF]はい、[3C404EFF]本日はお日柄もよく。[3C404EFF]\nわたくし[3C404EFF]コッコロと申します。=……Ehm. Yes, today is a good day. My name is Kokkoro.
 
