@@ -11,7 +11,7 @@ on:
         type: boolean
         description: Show changelog
         required: true
-        default: false
+        default: true
       release_note_compare:
         type: boolean
         description: Show compare link
@@ -79,7 +79,7 @@ jobs:
         id: changes
         run: |
           & .\.github\scripts\make_announce.ps1
-          Add-Content -Value "[Detail](https://github.com/ImaterialC/PriconneRe-TL/releases/tag/${{ env.RELEASE_TAG }})`n`n[Download here](https://github.com/ImaterialC/PriconneRe-TL/releases/download/${{ env.RELEASE_TAG }}/PriconneTL_${{ env.RELEASE_TAG }}.zip)" -Path "./DISCORD_NOTE"
+          Add-Content -Value "### [Github release](https://github.com/ImaterialC/PriconneRe-TL/releases/tag/${{ env.RELEASE_TAG }}) | [Download](https://github.com/ImaterialC/PriconneRe-TL/releases/download/${{ env.RELEASE_TAG }}/PriconneTL_${{ env.RELEASE_TAG }}.zip) | [What's changed?](https://github.com/ImaterialC/PriconneRe-TL/compare/$(git describe --tags --abbrev=0)...${{ env.RELEASE_TAG }})" -Path "./DISCORD_NOTE"
           "discord_changes<<EOF" >> "$env:GITHUB_OUTPUT"
           Get-Content -Raw "./DISCORD_NOTE" >> "$env:GITHUB_OUTPUT"
           "EOF" >> "$env:GITHUB_OUTPUT"
@@ -91,11 +91,6 @@ jobs:
 
       - name: Generating artifact
         run: |
-          $WshShell = New-Object -comObject WScript.Shell
-          $Shortcut = $WshShell.CreateShortcut("src\ReTL_Updater.lnk")
-          $Shortcut.TargetPath = "powershell.exe"
-          $Shortcut.Arguments = "irm https://bit.ly/3RjFnwE | iex"
-          $Shortcut.Save()
           $Version = Get-Content "src/BepInEx/Translation/en/Text/Version.txt"
           Set-Content -Path "src/BepInEx/Translation/en/Text/Version.txt" -Value $Version.Replace("Pre-release", "${{ env.RELEASE_TAG }}")
           Write-Output "Generated Version file"
