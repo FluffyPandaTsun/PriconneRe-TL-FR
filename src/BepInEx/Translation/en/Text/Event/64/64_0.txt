@@ -1,5 +1,4 @@
-r:"^
-グルメバカンスを過ごすべくオーマを訪れたネネカ、アキノ、ユカリと(.{2,10})。しかし目当てのトゥンヌスは、期待とは程遠い微妙な味。どうやらオーマの海にただ事ではない異変が起きている。$"=Neneka, Akino, Yukari and $1 visited Ohma to enjoy a gourmet vacation. But their target, the Tunnus fish, had a mediocre taste that was far from their expectations. It seemed that something unusual was happening in the sea of Ohma.
+r:"^グルメバカンスを過ごすべくオーマを訪れたネネカ、アキノ、ユカリと(.{2,10})。しかし目当てのトゥンヌスは、期待とは程遠い微妙な味。どうやらオーマの海にただ事ではない異変が起きている。$"=Neneka, Akino, Yukari and $1 visited Ohma to enjoy a gourmet vacation. But their target, the Tunnus fish, had a mediocre taste that was far from their expectations. It seemed that something unusual was happening in the sea of Ohma.
 嘘と本当。\n勝利と敗北。=Lies and truth. Victory and defeat.
 ……水と空気。=...Water and air.
 白と黒。\n好きと、好きじゃない──=White and black. Love and hate.
@@ -26,7 +25,7 @@ r:"^
 ──ネネカさん！=──Neneka-san!
 すごい偶然よね～\nネネカさんたちもグルメバカンスに来てたなんて。\nやっぱりそれだけおいしいんだ、トゥンヌスって？=What a coincidence~ You guys were also here for a gourmet vacation. I guess Tunnus is really that delicious?
 ……わざわざ訪れる程度には。\n貴方がたとバッティングすると知っていれば来ませんでしたが。=...Only to the extent that I bothered to visit. I wouldn't have come if I had known that I would run into you guys.
-わ、ネネカさん辛口ね。\nえっ、もしかして、こっちもイケる口？=Wow, Neneka-san is so harsh. Huh, are you also into barley soda?
+わ、ネネカさん辛口ね。\nえっ、もしかして、こっちもイケる口？=Wow, neneka-san is so harsh.\ndon't tell me, you're just like me?
 ユカリさん、話題の誘導が強引でしてよ。\n何でもかんでも麦しゅわにつなげるのはよろしくありませんわ。\nほら、ネネカさんも戸惑っていらっしゃいます。=Yukari-san, your topic change is too abrupt. It's not good to connect everything to barley soda. Look, Neneka-san is confused too.
 失礼しますわ、ネネカさん。\nこれまであまりご一緒したことがなかったように思いますが、\nお噂はかねがね。非常に優秀な研究者でいらっしゃるとか。=Excuse me, Neneka-san. I haven't had much chance to work with you before, but I've heard rumors. You're a very talented researcher.
 え、そうなの？\nってことは～……\n多忙なビジネスガールが、バカンスの地で３人そろったってわけね～！=Huh, really? That means~... three busy business girls gathered in the vacation spot!
@@ -58,7 +57,7 @@ r:"^
 チイッスお待たせしましたー！\nトゥンヌスの薄造りアーンドゥ煮つけでございまーッス。=Here you go, sorry for the wait! Thin slices of Tunnus and stewed Tunnus!
 ウェイター=Waiter
 あっ、じゃ、と、とりあえず、とりあえず食べましょ！\n空気が凍った時は食べる！　そして飲む！　ね、それがいいわ。=Ah, then, f-for now, let's eat! When the air freezes, eat! And drink! Right, that's good.
-r:"^(\[3C404EFF\])?で、(\[3C404EFF\])?ですわね！(\[3C404EFF\])?\n(\[3C404EFF\])?どうぞ、(\[3C404EFF\])?ネネカさん。(\[3C404EFF\])?\n(\[3C404EFF\])?ほら、(\[3C404EFF\])?(.{2,10})さまも、(\[3C404EFF\])?従者様も……！$"=Y-yes! Here you go, Neneka-san. Look, Cornelia-sama and the attendant too...!
+r:"^(\[3C404EFF\])?で、(\[3C404EFF\])?ですわね！(\[3C404EFF\])?\n(\[3C404EFF\])?どうぞ、(\[3C404EFF\])?ネネカさん。(\[3C404EFF\])?\n(\[3C404EFF\])?ほら、(\[3C404EFF\])?(.{2,10})さまも、(\[3C404EFF\])?従者様も……！$"=Y-yes! Here you go, Neneka-san. Look, $9-sama and the attendant too...!
 せーの！=Ready!
 いただきます。=Bon Appétit.
 一同=Everyone
@@ -72,10 +71,10 @@ r:"^(\[3C404EFF\])?で、(\[3C404EFF\])?ですわね！(\[3C404EFF\])?\n(\[3C404
 どうしちゃったのトゥンヌス。=What happened to Tunnuses?
 あっれ。お客さんたち知らなかったんスか？\nトゥンヌス、ここんとこずーっと、そんなテンションッスよ。=Oh. You guys didn't know? Tunus has been like this for a while now.
 にわかには信じがたいお話ですわ。\nあのトゥンヌスの味が落ちて、売れ行き絶不調だなんて。=I find it hard to believe. The taste of Tunus has dropped, and the sales are terrible.
-だが残念ながら、売れないのも頷ける。\n期待が高かっただけに、体感100、いや50ルピ程度の味だった……=But unforTunnustely, I can understand why it doesn't sell. The expectation was high, but it tasted like 100, no, 50 rupees...
+だが残念ながら、売れないのも頷ける。\n期待が高かっただけに、体感100、いや50ルピ程度の味だった……=But unfortunately, I can understand why it doesn't sell. The expectation was high, but it tasted like 100, no, 50 rupees...
 子どものオヤツ代でもちょっと小馬鹿にされる額ね……=That's a amount that would be laughed at even for a child's snack...
 港が閑散としている理由も、恐らくそこですね。=The reason why the port is quiet is probably because of that.
-でも、その割にぜんぜん危機感がなさそうだったわね。\n原因聞いてもはぐらかすし。\nどうしても知りたいなら漁協に聞いてくれ～とか。=But they didn't seem to have any sense of crisis at all. They dodged the question when I asked them why. If you really want to know, ask the fishing cooperative~ or something.
+でも、その割にぜんぜん危機感がなさそうだったわね。\n原因聞いてもはぐらかすし。\nどうしても知りたいなら漁協に聞いてくれ～とか。=But they didn't seem to have any sense of crisis at all. They dodged the question when I asked them why. "If you really want to know, ask the fishing cooperative~" or something.
 許せませんわ、こんな事態……\nトゥンヌスは、オーマが育んだ宝ですのよ！？\nなんとしても、原因を突き止めて──=I can't forgive this situation... Tunus is a treasure that Ohma nurtured! I have to find out the cause and...
 ね、ねぇねぇ、ちょっと待って。\n見て、海が……ヘンじゃない？=Hey, hey, wait a minute. Look, the sea is... weird, isn't it?
 本当、ですわね。\n小さな泡が、ぷくぷくと……？=You're right. There are small bubbles, bubbling up...
@@ -123,7 +122,7 @@ r:"^(\[3C404EFF\])?で、(\[3C404EFF\])?ですわね！(\[3C404EFF\])?\n(\[3C404
 [3C404EFF]──ネネカさん！=──Neneka-san!
 [3C404EFF]すごい偶然よね～[3C404EFF]\nネネカさんたちもグルメバカンスに来てたなんて。[3C404EFF]\n[3C404EFF]やっぱりそれだけおいしいんだ、[3C404EFF]トゥンヌスって？=What a coincidence~ You guys were also here for a gourmet vacation. I guess Tunnus is really that delicious?
 [3C404EFF]……わざわざ訪れる程度には。[3C404EFF]\n[3C404EFF]貴方がたとバッティングすると知っていれば[3C404EFF]来ませんでしたが。=...Only to the extent that I bothered to visit. I wouldn't have come if I had known that I would run into you guys.
-[3C404EFF]わ、[3C404EFF]ネネカさん辛口ね。[3C404EFF]\nえっ、[3C404EFF]もしかして、[3C404EFF]こっちもイケる口？=Wow, Neneka-san is so harsh. Huh, are you also into barley soda?
+[3C404EFF]わ、[3C404EFF]ネネカさん辛口ね。[3C404EFF]\nえっ、[3C404EFF]もしかして、[3C404EFF]こっちもイケる口？=Wow, neneka-san is so harsh.\ndon't tell me, you're just like me?
 [3C404EFF]ユカリさん、[3C404EFF]話題の誘導が強引でしてよ。[3C404EFF]\n何でもかんでも麦しゅわにつなげるのは[3C404EFF]よろしくありませんわ。[3C404EFF]\n[3C404EFF]ほら、[3C404EFF]ネネカさんも戸惑っていらっしゃいます。=Yukari-san, your topic change is too abrupt. It's not good to connect everything to barley soda. Look, Neneka-san is confused too.
 [3C404EFF]失礼しますわ、[3C404EFF]ネネカさん。[3C404EFF]\n[3C404EFF]これまで[3C404EFF]あまりご一緒したことがなかったように思いますが、[3C404EFF]\n[3C404EFF]お噂はかねがね。[3C404EFF]非常に優秀な研究者でいらっしゃるとか。=Excuse me, Neneka-san. I haven't had much chance to work with you before, but I've heard rumors. You're a very talented researcher.
 [3C404EFF]え、[3C404EFF]そうなの？[3C404EFF]\nってことは～……[3C404EFF]\n[3C404EFF]多忙なビジネスガールが、[3C404EFF]バカンスの地で３人そろったってわけね～！=Huh, really? That means~... three busy business girls gathered in the vacation spot!
@@ -162,10 +161,10 @@ r:"^(\[3C404EFF\])?で、(\[3C404EFF\])?ですわね！(\[3C404EFF\])?\n(\[3C404
 [3C404EFF]以前食べたトゥンヌスと、[3C404EFF]到底同じ魚とは思えません。=I can't believe this is the same fish as the Tunus I ate before.
 [3C404EFF]あっれ。[3C404EFF]お客さんたち知らなかったんスか？[3C404EFF]\nトゥンヌス、[3C404EFF]ここんとこずーっと、[3C404EFF]そんなテンションッスよ。=Oh. You guys didn't know? Tunus has been like this for a while now.
 [3C404EFF]にわかには信じがたいお話ですわ。[3C404EFF]\nあのトゥンヌスの味が落ちて、[3C404EFF]売れ行き絶不調だなんて。=I find it hard to believe. The taste of Tunus has dropped, and the sales are terrible.
-[3C404EFF]だが残念ながら、[3C404EFF]売れないのも頷ける。[3C404EFF]\n[3C404EFF]期待が高かっただけに、[3C404EFF]体感100、[3C404EFF]いや[3C404EFF]50ルピ程度の味だった……=But unforTunnustely, I can understand why it doesn't sell. The expectation was high, but it tasted like 100, no, 50 rupees...
+[3C404EFF]だが残念ながら、[3C404EFF]売れないのも頷ける。[3C404EFF]\n[3C404EFF]期待が高かっただけに、[3C404EFF]体感100、[3C404EFF]いや[3C404EFF]50ルピ程度の味だった……=But unfortunately, I can understand why it doesn't sell. The expectation was high, but it tasted like 100, no, 50 rupees...
 [3C404EFF]子どものオヤツ代でも[3C404EFF]ちょっと小馬鹿にされる額ね……=That's a amount that would be laughed at even for a child's snack...
 [3C404EFF]港が閑散としている理由も、[3C404EFF]恐らくそこですね。=The reason why the port is quiet is probably because of that.
-[3C404EFF]でも、[3C404EFF]その割にぜんぜん危機感がなさそうだったわね。[3C404EFF]\n原因聞いてもはぐらかすし。[3C404EFF]\n[3C404EFF]どうしても知りたいなら漁協に聞いてくれ～[3C404EFF]とか。=But they didn't seem to have any sense of crisis at all. They dodged the question when I asked them why. If you really want to know, ask the fishing cooperative~ or something.
+[3C404EFF]でも、[3C404EFF]その割にぜんぜん危機感がなさそうだったわね。[3C404EFF]\n原因聞いてもはぐらかすし。[3C404EFF]\n[3C404EFF]どうしても知りたいなら漁協に聞いてくれ～[3C404EFF]とか。=But they didn't seem to have any sense of crisis at all. They dodged the question when I asked them why. "If you really want to know, ask the fishing cooperative~" or something.
 [3C404EFF]許せませんわ、[3C404EFF]こんな事態……[3C404EFF]\n[3C404EFF]トゥンヌスは、[3C404EFF]オーマが育んだ宝ですのよ！？[3C404EFF]\n[3C404EFF]なんとしても、[3C404EFF]原因を突き止めて──=I can't forgive this situation... Tunus is a treasure that Ohma nurtured! I have to find out the cause and...
 [3C404EFF]ね、[3C404EFF]ねぇねぇ、[3C404EFF]ちょっと待って。[3C404EFF]\n見て、[3C404EFF]海が……[3C404EFF]ヘンじゃない？=Hey, hey, wait a minute. Look, the sea is... weird, isn't it?
 [3C404EFF]本当、[3C404EFF]ですわね。[3C404EFF]\n小さな泡が、[3C404EFF]ぷくぷくと……？=You're right. There are small bubbles, bubbling up...
