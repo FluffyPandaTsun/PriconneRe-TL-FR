@@ -22,8 +22,8 @@
 ---Item List Receive---A->Item,B->Number
 
 ---Item Receive---
-sr:"^\[3C404E\]([\s\S]+)×\[-\]\[FFBB00,CE4F00\](\d+)\[-\]$"=[3C404E]$1 × [-][FFBB00,CE4F00]$2[-]
-sr:"^(\D+)×(\d+)$"=$1 × $2
+sr:"^(\[[0-9A-Fa-f,]{6,13}\])?(\D+)(?:×|x)(?:\[-\])?(\[[0-9A-Fa-f,]{6,13}\])?(\d+)(\[-\])?(?:\[-\])?$"=$1$2 × $3$4$5$5
+
 ---sort---
 フィルタ=Filter
 期限あり=Limited Time
@@ -70,8 +70,7 @@ sr:"^「(.+)キャンペーン」(\d+日)目で獲得したアイテムです。
 運営からのプレゼントです。=Gift from the management.
 
 ---Premium---
-sr:"^\[3C404E\]([0-9]*[^0-9]+)(\d+)日目のアイテムセット\[-\] \[3C404E\]あと\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]日有効\[-\]$"=[3C404E]$1: Day $2 reward. [FFBB00,CE4F00]$3[-][3C404E] day(s) remaining.[-]
-
+sr:"^\[3C404E\]([0-9]*[^0-9]+)(\d+)日目のアイテムセット\[-\] \[3C404E\]あと\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]日有効\[-\](?: \[3C404E\](\+\d+)日予約中\[-\])?$"=[3C404E]$1: Day $2 reward. [FFBB00,CE4F00]$3[-]$4[3C404E] day(s) remaining.[-]
 
 
 所持上限に達しているアイテムがあります。\n対象アイテムは受け取れませんでした。=Item limit reached.\nUnable to receive the designated item.
