@@ -1,6 +1,5 @@
 【物理】後衛で、相棒と共に山を駆ける新米レンジャー。スキルで自分の攻撃力とクリティカル時のダメージを上げＴＰを回復し、ダメージと防御力ダウンで敵を追い込む。=[Physical] A fresh new Ranger who dashes through the mountains with her partner in the backline. She use skills to increase own P.ATK and P.crit dmg, as well as recover TP. She also use skills to inflict P.DMG and decrease the enemy's P.DEF, pushing them into a corner.
 
-
 魔物襲撃事件を追え=Track Down the Monster Attack Incident
 救えなかった命、救えた命=Lives That Couldn't Be Saved, Lives That Could Be Saved
 明日への希望と小さな約束=Hope for Tomorrow and Small Promises
@@ -17,9 +16,9 @@ r:"^敵単体に(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)�
 
 
 フォレストブレッシング=Forest Break
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理攻撃クリティカル時のダメージを8％アップ\n自分のＴＰを150回復$"=Cast time: 0.44s\n►Boosts own P.ATK by $1 for 180s.\n►Increases own P.crit dmg by 8% for 180s.\n►Recovers own TP by 150.
+r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理攻撃クリティカル時のダメージを8％アップ\n自分のＴＰを150回復$"=Cast time: 0.44s\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.crit dmg by 8% for 180s.\n►Recovers own TP by 150.
 
-自分の物理攻撃力を大アップ、物理攻撃クリティカル時のダメージを小アップさせ、ＴＰを中回復する。=Increase own P.ATK power by a large amount and slightly increase the P.crit dmg. Also recover TP by a medium amount.
+自分の物理攻撃力を大アップ、物理攻撃クリティカル時のダメージを小アップさせ、ＴＰを中回復する。=Boost own P.ATK power by a large amount and slightly increase the P.crit dmg. Also recover TP by a medium amount.
 
 コンビネーションハント=Combination Hunt
 コンビネーションハント+=Combination Hunt+

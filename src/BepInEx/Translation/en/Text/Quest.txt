@@ -18,7 +18,7 @@ r:"^現在、スキップチケットの消費枚数が\n(\d+)枚に設定され
 1体に戻す=Reset to 1
 スキップチケット枚数リセット確認=Skip Ticket Number Reset
 
----=Menu---
+---Menu---
 次へ=Next
 勝利数=Win
 編成完了=Done
@@ -74,7 +74,7 @@ r:"^\[3C404E\]ボスチケットを\[FFBB00,CE4F00\](\d+)\[-\]枚消費して、
 ---Abort---
 リタイア=Quit
 r:"^\[3C404E\]リタイアするとクエスト報酬を獲得できず、\nスタミナが\[FFBB00,CE4F00\](\d)\[-\]消費されます。\n\nよろしいですか？\[-\]$"=[3C404E]You will not receive any rewards if you quit,\nand you will lose [FFBB00,CE4F00]$1 [-]stamina.\n\nIs this OK?[-]
-
+[FF7C4E,D62146]レンタル内容はキャンセルされます。[-]=[FF7C4E,D62146]The rental content will be canceled. [-]
 ---Recharges stamina---
 回復回数指定=Heal count
 現在のスタミナ回復（１回あたり）の消費ジュエル=Current Heal price

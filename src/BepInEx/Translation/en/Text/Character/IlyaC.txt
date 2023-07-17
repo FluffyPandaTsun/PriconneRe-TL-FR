@@ -1,4 +1,4 @@
-【魔法】中衛で、眷属と永久の血盟を誓う月下の吸血鬼。ＵＢで眷属を２体喚び、味方への攻撃支援や行動速度上昇で強化し、眷属と共に見舞う猛攻で前途を阻む敵を討つ。=[Magic] A vampire under the moonlight who swears an eternal blood pact with her familiars as a defender. Summon two familiars with UB, enhance them with attack support and speed increase for allies, and defeat enemies who block the way with a fierce attack with familiars.
+【魔法】中衛で、眷属と永久の血盟を誓う月下の吸血鬼。ＵＢで眷属を２体喚び、味方への攻撃支援や行動速度上昇で強化し、眷属と共に見舞う猛攻で前途を阻む敵を討つ。=[Magic] A vampire under the moonlight, swearing an eternal blood oath to her thrall. She summons two familiars on her UB And uses attack buffs and speed buffs to support her allies Together, they visit upon their enemy, slaying them with fierce attacks.
 
 ヴァーミリオンベール=Vermilion Veil
 【召喚】目の前の敵１キャラに魔法大ダメージを与え、自分のＨＰを中回復させる。このスキルのダメージは眷属の数に応じて増加する。さらに、眷属が味方に２体いない場合、最大２体まで眷属を召喚する。=【Summon】Deals heavy M.DMG to the enemy in front and moderately recovers her own HP. The damage of this skill increases based on the number of familiars. Additionally, if she has less than two familiars on her side, she can summon up to two familiars.
@@ -11,7 +11,7 @@ r:"^敵単体に(\d+)の魔法ダメージ\n自分のＨＰを(\d+)回復\n範�
 r:"^敵単体に(\d+)の魔法ダメージ\n自分のＴＰを100回復$"=Cast time: 1.05s\n►Deals $1 M.DMG to a single enemy.\n►Recovers own TP by 100.
 
 エンゲージブルーム=Engage Bloom
-r:"^範囲内の味方の魔法攻撃力を(\d+)アップ\n範囲内の味方の魔法クリティカルを40アップ\n範囲内の味方の行動速度アップ$"=Cast time: 1.05s\n►Boosts M.ATK of allies within 150 range by $1 for 12s.\n►Boosts M.Crit rate of allies within 150 range by 40 for 12s.\n►Increases action speed of allies within 150 range to 155% for 12s.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ\n範囲内の味方の魔法クリティカルを40アップ\n範囲内の味方の行動速度アップ$"=Cast time: 1.05s\n►Boosts allies' M.ATK within 150 range by $1 for 12s.\n►Boosts M.Crit rate of allies within 150 range by 40 for 12s.\n►Boosts action speed of allies within 150 range to 155% for 12s.
 自分を中心とした範囲内の味方の魔法攻撃力と魔法クリティカルを中アップさせ、行動速度を大アップさせる。=Boosts the M.ATK and M.crit rate of allies within her range and greatly increases their action speed.
 
 

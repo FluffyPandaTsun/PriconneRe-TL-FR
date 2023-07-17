@@ -3,6 +3,7 @@
 
 【物理】中衛で、黒羽の力を使い空を制する嘆鎌の少女。バトル開始時に、敵の範囲攻撃を躱す【飛行】状態となり生成したシャドウと共に、眼前の敵を一薙ぎに斬り払う。=[Physical] A girl of the lamenting scythe who controls the sky with the power of the black feathers in the middle guard. At the start of the battle, she becomes [Flying] state that dodges the enemy's range attack and slashes through the enemy in front of her with the shadow she created.
 
+
 依依恋恋=Deeply in Love
 随喜渇仰=Reverence and Joy
 一炊之夢=Dream of a Single Meal
@@ -17,7 +18,7 @@
 このスキルのスキルレベルは「シャドウ・スプリット -嘆鎌-」と連動しています=This skill’s skill level is linked to Shadow Split -Scythe-
 
 
-シャドウ・スプリット -嘆鎌-=Shadow Split -Lamenting Scythe-
+シャドウ・スプリット -嘆鎌-Shadow Split -Lamenting Scythe-
 r:"^敵単体に(\d+)の物理ダメージ\nシャドウを(\d+)体生成する$"=►Deals $1 P.DMG to a single enemy.\n►Generates $2 Shadows.
 【召喚】目の前の敵１キャラに物理大ダメージを与える。このスキルのダメージは自分のシャドウの数に応じて増加する。さらにユニオンバーストを使用しない、自分のシャドウを２体生成する。=【Summon】 Deals heavy P.DMG to the enemy character in front. The damage of this skill increases based on the number of her shadows. Additionally, she generates two shadows without UB's skill.
 
