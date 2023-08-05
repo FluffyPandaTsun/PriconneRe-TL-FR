@@ -23,11 +23,11 @@ r:"^採取したキノコはアストライア茸ではなく、魔物の菌糸�
 ……私がずっとやっていたひとりぼっちのキャンプには、\nぼっちキャンプでしか味わえない楽しさが……=...My solo camping had its own fun that only solo camping could offer...
 ユカリさんとジュンさんとする３人のグループキャンプには、\nそれでしか味わえない楽しさが……=The group camping with Yukari-san and Jun-san had its own fun that only it could offer...
 
-r:"^(?:\[3C404EFF\])?ということは……(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?(.{2,10})さんが加わった４人のグループキャンプにも、(?:\[3C404EFF\])?\n今まで味わったことのない楽しさがあるんじゃないかって思うんです！$"=That means... Maybe there's a new kind of fun in group camping with $4-san joining us!
+r:"^ということは……\n(.{2,10})さんが加わった４人のグループキャンプにも、\n今まで味わったことのない楽しさがあるんじゃないかって思うんです！$"=That means... Maybe there's a new kind of fun in group camping with $1-san joining us!
 
 きっと、日常生活では感じられない気持ちよさや、\n普段だったら恥ずかしくて話せないことだって、\n語り合えたりするんじゃないかって……！=I’m sure we’ll be able to talk about how good it feels in our daily lives, and how embarrassing it would be to talk to each other under normal circumstances...!
 
-r:"^(?:\[3C404EFF\])?だから、(?:\[3C404EFF\])?(.{2,10})さん、どうでしょうか？(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?……わ、(?:\[3C404EFF\])?私たちと一緒にキャンプ……(?:\[3C404EFF\])?しましょう？$"=So, $3-san, what do you think?  ...W-Would you like to camp with us?
+r:"^だから、(.{2,10})さん、どうでしょうか？\n……わ、私たちと一緒にキャンプ……しましょう？$"=So, $1-san, what do you think?  ...W-Would you like to camp with us?
 
 よろこんで！=Gladly!
 ……っ！　ありがとうございます！\nあなたも一緒なら、きっと……いえ、絶対に楽しいキャンプになります！=...! Thank you! If you're with us, I'm sure... no, it will definitely be a fun camp!
@@ -56,7 +56,7 @@ r:"^(?:\[3C404EFF\])?だから、(?:\[3C404EFF\])?(.{2,10})さん、どうでし
 もちろん、私だけがこうしてのんびりとしていては意味がない。\n慰安を兼ねて、団員たちともキャンプを催してみたいな。=Of course, it doesn't make sense if I'm the only one relaxing like this. As a morale booster, I also want to have a camp with my group members.
 みんな、いい過ごし方をしてるね。=Everyone's having a good time.
 
-r:"^(?:\[3C404EFF\])?(.{2,10})さんも、(?:\[3C404EFF\])?\nあなただけの楽しいキャンプの過ごし方を見つけてくださいね？$"=$2-san, please find your own enjoyable way of camping too?
+r:"^(.{2,10})さんも、\nあなただけの楽しいキャンプの過ごし方を見つけてくださいね？$"=$1-san, please find your own enjoyable way of camping too?
 
 たき火にあたって自分を見つめ直すのもよし、\n普段話せないようなことを打ち明けるのもよし、\nなんでも自由に過ごしちゃってください！=It's fine to reflect on yourself by the fire, or to confide in things you can't normally talk about, or to do whatever you want!
 そのためにお手伝いできることなら、\n私は全力でがんばっちゃいますから！=If there's anything I can do to help you with that, I'll do my best!
@@ -65,13 +65,13 @@ r:"^(?:\[3C404EFF\])?(.{2,10})さんも、(?:\[3C404EFF\])?\nあなただけの�
 ユカリさんとジュンさんは、恐れ多くて友達とは呼べませんが、\nキャ、キャンプ仲間だと思っています。=I can't call Yukari-san and Jun-san friends because they're too awesome, but they're my... my camp buddies.
 私ひとりぼっちじゃ大したことはできないかもしれません……=I might not be able to do much by myself...
 
-r:"^(?:\[3C404EFF\])?でも、(?:\[3C404EFF\])?キャンプ仲間が一緒なら、(?:\[3C404EFF\])?\n(.{2,10})さんも楽しんでもらえるんじゃないかって。$"=But if I have camp buddies with me, maybe $4-san will enjoy it too.
+r:"^でも、キャンプ仲間が一緒なら、\n(.{2,10})さんも楽しんでもらえるんじゃないかって。$"=But if I have camp buddies with me, maybe $1-san will enjoy it too.
 
 キャンプ仲間……いい響きね。\n飲み仲間とはまた違う居心地のいい関係だわ。=Camp buddies... it sounds nice. It's a different kind of cozy relationship from drinking buddies.
 ああ、そうだね。\nお互いに肩肘張らずに向き合える仲だ。=Yeah, that's right. We can face each other without being stiff.
 えへへ、そう言ってもらえて安心しました。\n私も……キャンプ仲間ができてうれしいですっ！=Ehehe, I'm glad you said that. I'm also... happy to have camp buddies!
 
-r:"^(?:\[3C404EFF\])?(.{2,10})さんとは、(?:\[3C404EFF\])?ＢＢ団の同志であり、(?:\[3C404EFF\])?\nキャンプ仲間にもなりたいですっ！$"=I want to be comrades with $2-san in the BB group and camp buddies too!
+r:"^(.{2,10})さんとは、ＢＢ団の同志であり、\nキャンプ仲間にもなりたいですっ！$"=I want to be comrades with $1-san in the BB group and camp buddies too!
 
 うん、よろしく！=Yeah, nice to meet you!
 …………ねえ、いい話の最中に悪いんだけど……\nそろそろご飯の準備しない？=...Hey, sorry to interrupt a good conversation... but isn't it time to prepare dinner?
@@ -84,7 +84,7 @@ r:"^(?:\[3C404EFF\])?(.{2,10})さんとは、(?:\[3C404EFF\])?ＢＢ団の同志
 それもそうだね。少年も合流したことだし、改めて食事にしようか。\n今度はキノコ無しでね。=That makes sense. Now that the boy has joined us, let's have a meal again. This time without mushrooms.
 それじゃあキャンプ飯にしましょう！\nみなさんのために、腕を振るいますよ！=Then let's have camp food! I'll show you my skills for everyone!
 
-r:"^(?:\[3C404EFF\])?楽しい食事を済ませた(.{2,10})たちは、(?:\[3C404EFF\])?\n食後の歓談をしていた──$"=After enjoying a delicious meal, $2 and her friends were chatting after dinner...
+r:"^楽しい食事を済ませた(.{2,10})たちは、\n食後の歓談をしていた──$"=After enjoying a delicious meal, $1 and her friends were chatting after dinner...
 まずはこのおつまみを食べて=First of all, eat this snack
 それから、この麦しゅわを～=And then drink this Barley Soda~
 おおー！　なんとー！=Ohhh! What a....!
@@ -124,71 +124,71 @@ r:"^(?:\[3C404EFF\])?楽しい食事を済ませた(.{2,10})たちは、(?:\[3C4
 さあ、夜はこれからっ！=Now, the night is just beginning!
 まだまだ飲むわよ～～！！=We'll keep drinking~!!
 
-[3C404EFF]正気を取り戻したアオイたちは、[3C404EFF]\nグループキャンプを再開しようと準備をしていた──=Now that they've regained their senses, Aoi and the others are preparing to resume their group camp
 
-[3C404EFF]ううっ……[3C404EFF]\n[3C404EFF]私たちがキノコを食べている間に、[3C404EFF]たき火が消えちゃってました……=Ugh... The fire went out while we were eating mushrooms...
-[3C404EFF]大丈夫。[3C404EFF]薪なら私とジュンさんがたくさん準備してるから。[3C404EFF]\n気を取り直して、[3C404EFF]準備をしましょう。=It's okay. Jun-san and I have prepared a lot of firewood. Let's cheer up and get ready.
-[3C404EFF]ああ、[3C404EFF]その通りだ。[3C404EFF]休暇はまだまだある。[3C404EFF]\nまずはたき火からキャンプを再開して、[3C404EFF]心を落ち着かせようじゃないか。=Yeah, that's right. We still have a lot of vacation time. Let's start with the fire and calm down.
-[3C404EFF]ええっ！？　[3C404EFF]帰っちゃうんですか？[3C404EFF]\nどどどど、[3C404EFF]どうしてですか！？=Eh!? You're leaving? Why!?
-[3C404EFF]I see...[3C404EFF]持ってきた野営道具は、[3C404EFF]私たちの捜索が長引いた時のため……？=Maybe... You brought the camping equipment for in case search took longer than expected...?
-[3C404EFF]そっか……[3C404EFF]\n休暇を楽しむために、[3C404EFF]キャンプ場に来たわけじゃないもんね……=I see... You didn't come to the campsite to vacation...
-[3C404EFF]そういうことなら[3C404EFF]無理に引き止めることもできないか……=If that's the case, I guess I can't force her to stop...
+
+
+
+
+
+
+
+
 …………ま、待ってください！=...W-Wait a minute!
-[3C404EFF]…………ま、[3C404EFF]待ってください！=...W-Wait a minute!
-[3C404EFF]……私、[3C404EFF]今までキャンプと呼ばれることは、[3C404EFF]\nすっごく落ち込んだ時に[3C404EFF]一人でやっていました。=...Until now, I used to do camping alone when I was very depressed.
-[3C404EFF]落ちてる木を集めて[3C404EFF]テントや椅子を作ったり、[3C404EFF]\n[3C404EFF]食べたい物を食べたい時に楽しんだり、[3C404EFF]\n[3C404EFF]それから、[3C404EFF]夜は静かに星を眺めたり……=I would collect fallen trees and make tents and chairs, eat what I wanted when I wanted, and watch the stars quietly at night...
-[3C404EFF]私のキャンプは、[3C404EFF]そんなひとりぼっちで過ごすものでした……[3C404EFF]\n[3C404EFF]それはそれで、[3C404EFF]私は楽しいんですけどね。=My camping was like that, lonely and solitary... I enjoyed it though.
-[3C404EFF]でも、[3C404EFF]今回ユカリさんとジュンさんに誘ってもらったことで、[3C404EFF]\n[3C404EFF]誰かと一緒にキャンプをする楽しみを知りました！=But this time, Yukari-san and Jun-san invited me and I learned how fun it is to camp with someone!
-[3C404EFF]テントを並べて[3C404EFF]お互いに使う道具のことを話し合ったり、[3C404EFF]\nみんなで食べる料理を手分けしながら作ったり、[3C404EFF]\n[3C404EFF]それから、[3C404EFF]たき火を囲んで[3C404EFF]いろんなことを賑やかに語り合ったり……=We lined up our tents and talked about the tools we used, we divided up the cooking and made it together, and we talked about various things around the fire...
-[3C404EFF]まぁ料理は[3C404EFF]いろんな意味で大失敗しましたが……=Well, the cooking was a big failure in many ways...
-[3C404EFF]でも！　[3C404EFF]３人でやるキャンプは、[3C404EFF]とっても楽しかったんです！[3C404EFF]\nこんなこと、[3C404EFF]ひとりぼっちでやっていた時には、[3C404EFF]\n想像すらしていませんでした！=But! Camping with the three of us was so much fun! I never imagined such a thing when I was alone!
-[3C404EFF]……私がずっとやっていたひとりぼっちのキャンプには、[3C404EFF]\nぼっちキャンプでしか味わえない楽しさが……=...My solo camping had its own fun that only solo camping could offer...
-[3C404EFF]ユカリさんとジュンさんとする３人のグループキャンプには、[3C404EFF]\nそれでしか味わえない楽しさが……=The group camping with Yukari-san and Jun-san had its own fun that only it could offer...
 
-[3C404EFF]きっと、[3C404EFF]日常生活では感じられない気持ちよさや、[3C404EFF]\n[3C404EFF]普段だったら恥ずかしくて話せないことだって、[3C404EFF]\n語り合えたりするんじゃないかって……！=I’m sure we’ll be able to talk about how good it feels in our daily lives, and how embarrassing it would be to talk to each other under normal circumstances...!
 
-[3C404EFF]...Ngh![3C404EFF]ありがとうございます！[3C404EFF]\n[3C404EFF]あなたも一緒なら、[3C404EFF]きっと……[3C404EFF]いえ、[3C404EFF]絶対に楽しいキャンプになります！=...! Thank you! If you're with us, I'm sure... no, it will definitely be a fun camp!
-[3C404EFF]では、[3C404EFF]設営を手伝いますね！[3C404EFF]\nユカリさんたちもお願いします！=Then, I'll help you set up! Yukari-san and Jun-san too, please!
-[3C404EFF]ああ！\nええ！=Yeah!\nSure!
-[3C404EFF]……はい、[3C404EFF]みなさん、[3C404EFF]コーヒーをどうぞ。[3C404EFF]\n冷めないうちに召し上がってください。=...Here, everyone, have some coffee. Please enjoy it while it's hot.
-[3C404EFF]……うん、[3C404EFF]とってもおいしいよ。[3C404EFF]\n高い香りの中に、[3C404EFF]微かに甘味もあるんだね。=...Yeah, it's very delicious. There's a faint sweetness in the high aroma.
-[3C404EFF]...Ngh![3C404EFF]\n普段よく仕事中に飲んでる物とは、[3C404EFF]別物だわ！=...!\nThis is different from what I usually drink at work!
-[3C404EFF]ふふふっ、[3C404EFF]みなさんに喜んでもらえてうれしいです！[3C404EFF]\n[3C404EFF]丁寧に淹れたかいがありました！=Fufu, I'm glad you like it! It was worth brewing it carefully!
-[3C404EFF]アオイちゃん、[3C404EFF]この豆をうちのギルドにも分けてくれないかしら？[3C404EFF]\n[3C404EFF]アキノさんに言い値を出させるわ！=Aoi-chan, can you share these beans with our guild? I'll make Akino-san pay any price!
-[3C404EFF]そ、[3C404EFF]そんな！　[3C404EFF]いくらでもお譲りしますよ！[3C404EFF]\n[3C404EFF]リーダーさんやタマキさんにもお世話になってますから！=N-no! I'll give you as much as you want! I owe a lot to Leader-san and Tamaki-san!
-[3C404EFF]おいしく淹れるコツはというとですね……[3C404EFF]\n正しい手順を踏むのは当然として、[3C404EFF]\n[3C404EFF]心の中で、[3C404EFF]おいしくなれ……[3C404EFF]おいしくなれ……[3C404EFF]って唱えることです！=The trick to making it delicious is to follow the correct steps, of course, and to chant in your heart: "be delicious... be delicious..."
-[3C404EFF]豆と心を通じ合わせることによって、[3C404EFF]\n[3C404EFF]本来のおいしさを引き出すことができるんですよ！=By communicating with the beans, you can bring out their original flavor!
-[3C404EFF]ふふっ、[3C404EFF]面白そうだわ。[3C404EFF]\n[3C404EFF]ギルドのみんなで試してみるわね。=Fufu, that sounds interesting. I'll try it with the guild members.
-[3C404EFF]いや～、[3C404EFF]この味をまさか誰かと分かち合えるなんて、[3C404EFF]\n考えたこともありませんでした！=Man, I never thought I'd be able to share this flavor with anyone!
-[3C404EFF]はあ～……[3C404EFF]\n[3C404EFF]いいですね、[3C404EFF]グループキャンプって……=Ahh... it's nice, isn't it? Group camping...
-[3C404EFF]そうだなぁ……[3C404EFF]\n全くもって、[3C404EFF]その通りだ……=That's right... absolutely, that's right...
-[3C404EFF]ああ……[3C404EFF]\n有給消化中だからね……=Yeah... I'm on paid leave right now...
-[3C404EFF]今回、[3C404EFF]トモちゃんたちに休暇を取れと言われたんだ。[3C404EFF]\n私には必要ないんだが、[3C404EFF]気遣ってくれる部下の助言は無視できなくてね。=This time, Tomo-chan and the others told me to take a vacation. I don't need it, but I can't ignore the advice of my subordinates who care about me.
-[3C404EFF]初めは高地トレーニングをして過ごしていたが、[3C404EFF]\nユカリちゃんと出会って気付かされたんだ。[3C404EFF]休むことの重要さにね。=At first, I was spending my time doing high-altitude training, but then I met Yukari-chan and realized the importance of resting.
-[3C404EFF]私が休暇も取らず、[3C404EFF]常時気を張り詰めていたら、[3C404EFF]\n部下たちに緊張が伝わってしまうだろう。[3C404EFF]\nそうなっては、[3C404EFF]いざという時に動けないこともある……=If I don't take a vacation and keep myself tense all the time, it will make my subordinates nervous too. And then, they might not be able to act when it matters...
-[3C404EFF]私がメリハリのある勤務態度をとることで、[3C404EFF]\n団全体に[3C404EFF]いい効果をもたらすことができるだろう。=By taking a balanced work attitude, I can have a good effect on the whole group.
-[3C404EFF]今回のキャンプを教訓に、[3C404EFF]\n今後も[3C404EFF]無理のない範囲で[3C404EFF]休暇を取ることに決めたよ。=I decided to take a vacation within reasonable limits from now on, based on this camping experience.
-[3C404EFF]もちろん、[3C404EFF]私だけがこうしてのんびりとしていては意味がない。[3C404EFF]\n慰安を兼ねて、[3C404EFF]団員たちともキャンプを催してみたいな。=Of course, it doesn't make sense if I'm the only one relaxing like this. As a morale booster, I also want to have a camp with my group members.
 
-[3C404EFF]たき火にあたって自分を見つめ直すのもよし、[3C404EFF]\n[3C404EFF]普段話せないようなことを打ち明けるのもよし、[3C404EFF]\n[3C404EFF]なんでも自由に過ごしちゃってください！=It's fine to reflect on yourself by the fire, or to confide in things you can't normally talk about, or to do whatever you want!
-[3C404EFF]そのためにお手伝いできることなら、[3C404EFF]\n私は全力でがんばっちゃいますから！=If there's anything I can do to help you with that, I'll do my best!
-[3C404EFF]それに[3C404EFF]この前はランドソルで、[3C404EFF]失礼な態度をとってしまいました……[3C404EFF]\n[3C404EFF]ＢＢ団にあるまじき言動でした……=And last time at Landosol, I was rude to you... It was an unforgivable behavior for a BB Brigade...
-[3C404EFF]だから、[3C404EFF]そのお詫びも兼ねて、[3C404EFF]キャンプでおもてなしをしたいんです。=So, as an apology, I want to entertain you at this camp.
-[3C404EFF]ユカリさんとジュンさんは、[3C404EFF]恐れ多くて友達とは呼べませんが、[3C404EFF]\n[3C404EFF]キャ、[3C404EFF]キャンプ仲間だと思っています。=I can't call Yukari-san and Jun-san friends because they're too awesome, but they're my... my camp buddies.
-[3C404EFF]私ひとりぼっちじゃ[3C404EFF]大したことはできないかもしれません……=I might not be able to do much by myself...
 
-[3C404EFF]キャンプ仲間……[3C404EFF]いい響きね。[3C404EFF]\n[3C404EFF]飲み仲間とはまた違う[3C404EFF]居心地のいい関係だわ。=Camp buddies... it sounds nice. It's a different kind of cozy relationship from drinking buddies.
-[3C404EFF]ああ、[3C404EFF]そうだね。[3C404EFF]\nお互いに[3C404EFF]肩肘張らずに向き合える仲だ。=Yeah, that's right. We can face each other without being stiff.
-[3C404EFF]えへへ、[3C404EFF]そう言ってもらえて安心しました。[3C404EFF]\n[3C404EFF]私も……[3C404EFF]キャンプ仲間ができてうれしいですっ！=Ehehe, I'm glad you said that. I'm also... happy to have camp buddies!
 
-[3C404EFF]…………ねえ、[3C404EFF]いい話の最中に悪いんだけど……[3C404EFF]\n[3C404EFF]そろそろご飯の準備しない？=...Hey, sorry to interrupt a good conversation... but isn't it time to prepare dinner?
-[3C404EFF]魔物と戦ったり、[3C404EFF]設営しなおしたりで[3C404EFF]お腹空いてきちゃった……[3C404EFF]\n[3C404EFF]それに……[3C404EFF]コーヒーもいいけど、[3C404EFF]やっぱり麦しゅわも捨てがたいの……=I'm getting hungry from fighting monsters and setting up camp again... And... coffee is good, but I can't resist Barley Soda either...
-[3C404EFF]それに、[3C404EFF]こうして４人でキャンプしてようやく気付いたの。[3C404EFF]\n[3C404EFF]キャンプ飲みって、[3C404EFF]\nただただキャンプ場で麦しゅわを飲めばいいわけじゃなかったって。=And I realized something while camping with four people. Camping drinking isn't just about drinking Barley Soda at a campsite.
-[3C404EFF]景色や会話も楽しむ……[3C404EFF]\n[3C404EFF]そんなキャンプならではのおつまみがあってこそ、[3C404EFF]\n人生が変わるキャンプ飲みなんだわ。=You also enjoy the scenery and conversation... Only with such camp-specific snacks can you have a life-changing camping drink.
-[3C404EFF]だから、[3C404EFF]キャンプ仲間が３人もできた今なら、[3C404EFF]\nきっと最高の一杯が飲めると思うの。=So, now that I have three camp buddies, I think I can have the best drink ever.
-[3C404EFF]あなたたちキャンプ仲間のおかげよ。[3C404EFF]ありがとう。=It's thanks to you camp buddies. Thank you.
-[3C404EFF]そういうわけだから……[3C404EFF]ね？　[3C404EFF]ご飯にしましょ？[3C404EFF]\n[3C404EFF]みんなもお腹空いたでしょ？=That's why... okay? Let's have dinner? You're all hungry too, right?
-[3C404EFF]それもそうだね。[3C404EFF]少年も合流したことだし、[3C404EFF]改めて食事にしようか。[3C404EFF]\n今度はキノコ無しでね。=That makes sense. Now that the boy has joined us, let's have a meal again. This time without mushrooms.
-[3C404EFF]それじゃあキャンプ飯にしましょう！[3C404EFF]\nみなさんのために、[3C404EFF]腕を振るいますよ！=Then let's have camp food! I'll show you my skills for everyone!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
