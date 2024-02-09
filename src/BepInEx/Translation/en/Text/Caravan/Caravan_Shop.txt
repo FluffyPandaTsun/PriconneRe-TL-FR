@@ -1,13 +1,12 @@
 キャラバンショップ=Caravan Shop
 r:"^あと (\d{1,2})日$"=$1 days left
-シーズン2=Season 2
-シーズン1=Season 1
-シーズン2は開催されていません。=Season 2 is not open yet.
+r:"^シーズン(\d+)$"=Season $1
+r:"^シーズン(\d+)は開催されていません。$"=Season $1 is not open yet.
 キャラバンコイン=Caravan Coin
 トレジャーは売却できません。=Treasures cannot be sold.
 
-キャラバンコイン（シーズン1）=Caravan Coins (Season 1)
-トレジャーの清算で獲得できる特別\nな通貨。キャラバンショップの\n「シーズン1」タブで買い物ができ\nる。=A special currency that can be obtained through the appraisal of Treasures. It can be used for shopping in the "Season 1" tab of the Caravan Shop.
+r:"^キャラバンコイン（シーズン(\d+)）$"=Caravan Coins (Season $1)
+r:"^トレジャーの清算で獲得できる特別\nな通貨。キャラバンショップの\n「シーズン(\d+)」タブで買い物ができ\nる。$"=A special currency that can be obtained through the appraisal of Treasures. It can be used for shopping in the Season $1 tab of the Caravan Shop.
 
 ---about to buy---
 所持キャラバンコイン=Caravan Coins Held
@@ -23,3 +22,12 @@ r:"^あと (\d{1,2})日$"=$1 days left
 ショップへようこそ\nキャラバンコインはこちら\nで買い物に使えますよ=Welcome to the shop. Caravan Coins can be used for shopping here.
 こちらのショップで\n買い物をして、素敵な\n旅を楽しんでくださいね=Please enjoy shopping at this shop and have a wonderful journey.
 素敵な品が揃ってるので\nたーっくさん買っていって\nくださいねっ♪=There's a lot of great stuff here, so please enjoy shopping!♪
+
+
+ショップへようこそ\nキャラバンコインと品物を\n交換できるんで、よければ=Welcome to the shop! You can exchange Caravan Coins for items here, so feel free.
+いらっしゃいませ\nキャラバンコインを使って\nお買い物ができますよ=Welcome! You can use Caravan Coins to shop here.
+なんで店番なんか…\nま、やりますけど\n好きな品物をどうぞ=Why am I running the shop... Well, I'll do it. Please choose the items you like.
+ショップの掃除は完璧です\n姫さま直営のお店として\n当然のことですから=The shop is perfectly clean. It's a shop directly managed by the princess, so it's only natural.
+
+
+──いらっしゃいませ\n買い物しても、いいですよ\nキャラバンコインがあれば=──Welcome. You can buy anything here. As long as you have caravan coins

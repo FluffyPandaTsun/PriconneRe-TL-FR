@@ -2,6 +2,7 @@
 アン＆グレア=Anne&Grea
 ハツネ＆シオリ=Hatsune&Shiori
 アキノ＆サレン=Akino&Saren
+シズル＆リノ=Shizuru&Rino
 （怪盗）= (Phantom Thief)
 （聖学祭）= (School Festival)
 （パイレーツ）= (Pirate)
@@ -34,6 +35,7 @@
 （ウォーロック）= (Warlock)
 （アルケミスト）= (Alchemist)
 （フォールン）= (Fallen)
+（サラサリア）= (Salasaria)
 クリスティーナ=Christina
 ラビリスタ=Labyrista
 ペコリーヌ=Pecorine
@@ -121,8 +123,10 @@
 ラム=Ram
 レイ=Rei
 ネア=Nea
-プレシア=Presia
-リリ=Lily
+プレシア=Precia
+クリア=Quria
+share name with button guildhouse
+リリ=Riri
 ライラエル=Lyrael
 クルル=Kururu
 ヤマト=Yamato

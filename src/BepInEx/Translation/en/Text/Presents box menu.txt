@@ -12,18 +12,19 @@
 
 以下のプレゼントをまとめて受け取りますか？=Would you like to accept all of the following presents?
 プレゼント受け取り=Receive Present
-報酬はプレゼントに送られました。=Reward have been sent to the Present Box.
+報酬はプレゼントに送られました。=Reward has been sent to the Present Box.
 所持上限を超えたアイテムはプレゼントに送られました。=Items that exceed the possession limit have been sent as gifts.
 「信頼度エピソード」で獲得したアイテムです。=Item acquired from "Intimacy Episode"
-運営からのお詫びの品です。=It is an apology item from the operation.
+運営からのお詫びの品です。=Apologies from management.
+ミニゲームで獲得したアイテムです。=Item obtained from a minigame.
+プレゼントに送られたアイテムがあります。=Some items have been sent to the Present Box.
 
-プレゼントに送られたアイテムがあります。=There are items sent to the present.
 ガチャ更新によりキャラ交換Ptを変換したアイテムです。=Converted from character exchange points due to gacha update.
-
+sr:"^(.+)を購入して獲得したアイテムです。$"=Item obtained from a $1.
 ---Item Receive---
-sr:"^(\[[0-9A-Fa-f,]{6,13}\])?([\s\S]+?)(（.+）)?(の\n?(?:ピュア)?メモリーピース|の設計図)? ?(?:×|x)(?:\[-\])?(\[[0-9A-Fa-f,]{6,13}\])?(\d+)(\[-\])?(?:\[-\])?$"=$1$2$3$4 × $5$6$7$7
+sr:"^(\[[0-9A-Fa-f,]{6,13}\])?([\s\S]{2,22}?)(（.+）)?(の\n?(?:ピュア)?メモリーピース|の設計図)? ?(?:×|x)(?:\[-\])?(\[[0-9A-Fa-f,]{6,13}\])?(\d+)(\[-\])?(?:\[-\])?$"=$1$2$3$4 × $5$6$7$7
 
-
+以下の交換結果になりました。=The following exchange results are as follows:
 ---sort---
 フィルタ=Filter
 期限あり=Limited Time
@@ -49,7 +50,7 @@ sr:"^(\d+月)クランバトルランキング(\d+位)の報酬です。$"="Clan
 スタミナ\n受取対象外=Exclude\nStamina
 期限を過ぎていたため、一部のプレゼントは受け取れませんでした。=Some gifts were not received because the deadline had passed.
 所持上限を超えて獲得したスタミナです。=It is a stamina acquired beyond the upper limit.
-スタミナ受取対象外にチェックしているため受け取れません。=You cannot receive it, you exclude it. check your check Box.
+スタミナ受取対象外にチェックしているため受け取れません。=Stamina is currently excluded. Please uncheck "Exclude Stamina" to claim.
 ---Login Bonus---
 
 クリスマス=Christmas
@@ -74,6 +75,13 @@ sr:"^「(.+)キャンペーン」(\d+日)目で獲得したアイテムです。
 
 ---Premium---
 sr:"^\[3C404E\]([0-9]*[^0-9]+)(\d+)日目のアイテムセット\[-\] \[3C404E\]あと\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]日有効\[-\](?: \[3C404E\](\+\d+)日予約中\[-\])?$"=[3C404E]$1: Day $2 reward. [FFBB00,CE4F00]$3[-]$4[3C404E] day(s) remaining.[-]
-スタミナ上限に到達しました。\n獲得したスタミナをプレゼントに送ります。=Your Stamina has reached its maximum. You will receive the stamina in your present box.
+スタミナ上限に到達しました。\n獲得したスタミナをプレゼントに送ります。=Your Stamina has reached its maximum. Remaining Stamina will be sent to the Present Box.
 
 所持上限に達しているアイテムがあります。\n対象アイテムは受け取れませんでした。=Item limit reached.\nUnable to receive the designated item.
+
+無料対象キャラは無料分のみの強化になります。=Free characters will only be strengthened for free.
+所持上限を超えて獲得したダイスです。=Dice obtained above the posession limit.
+ダイス=Dice
+
+TANITAコラボ記念カスタムマイページ=Custom My Page to commemorate the Tanita collaboration
+TANITAコラボログイン=TANITA Collab log in

@@ -65,7 +65,7 @@ Re:ゼロから集まる異世界食卓=Re:ZERO -Sharing Lunch in Another World-
 激走！　ランドソルギルドレース=Ready, Set, Go! The Landosol Guild Race
 
 23
-魔法少女　二人はミスティ＆ピュアリー=Futariwa Mahoushoujo: We are Misty & Purely
+魔法少女　二人はミスティ＆ピュアリー=We Are Magical Girls: Misty & Purely
 
 24
 スターライトプリンセス　Re:M@STER！=Starlight Princess Re:M@STER!
@@ -80,7 +80,7 @@ Re:ゼロから集まる異世界食卓=Re:ZERO -Sharing Lunch in Another World-
 不思議の国のリノ　小さなアリスと希望の絵本=Rino in Wonderland: Little Alice and the Book of Hope
 
 28
-七夕剣客旅情譚　天に流れる夏の恋=Tanabata Kenkaku Journey Tan: Summer love flowing in heaven
+七夕剣客旅情譚　天に流れる夏の恋=Swordmaster's Tanabata Travel Journal: Summer Love Flowing in Heaven
 
 29
 ミサトサマーエール！　夢追う真夏のナイン=Misato Summer Ale! Dream-Chasing Summer Nine
@@ -101,14 +101,14 @@ Re:ゼロから集まる異世界食卓=Re:ZERO -Sharing Lunch in Another World-
 新春グルメプリンセス！　一投にかけた乙女たち=New Year Gourmet Princesses! Maidens Dedicated to One Shot
 
 35
-絆、つないで。こころ、結んで。=Bonds, connect. Tie your heart.
+絆、つないで。こころ、結んで。=Bonds Connected; Hearts Tied
 絆ダイアリー=Bond Diary
 
 36
-シンデレラレッスン　華やかなる日々はリンゴの味=Cinderella Lesson Gorgeous days are the Taste of Apple
+シンデレラレッスン　華やかなる日々はリンゴの味=Cinderella Lessons: Gorgeous Days Taste of Apples
 
 37
-鋼の聖女と聖なる学舎の異端児=Saint Steel and the St. Lycéenne's Delinquents
+鋼の聖女と聖なる学舎の異端児=The Steel Saint and the St. Lycéenne's Delinquents
 
 38
 イノリＳＯＳ！！　タイムトラベル・ドラゴンズ=Inori's SOS!! Time Travel Dragons
@@ -129,7 +129,7 @@ Re:ゼロから集まる異世界食卓=Re:ZERO -Sharing Lunch in Another World-
 イリーガルオーエドカルテDr.ミツキの診察室=Illegal Oedo Carte - Dr. Mitsuki's Clinic
 
 43
-ハロウィンセイバーズ・スクランブル！　もふもふ捕獲大作戦=Halloween Sabers Scramble! The Great Furry Capture Strategy
+ハロウィンセイバーズ・スクランブル！　もふもふ捕獲大作戦=Halloween Savers Scramble! Fluffy Capture Operation
 
 44
 魔法少女外伝　マジカル★ノワールズ！=Magical Girl Side Story - Magical Noir
@@ -164,8 +164,8 @@ Re:member　僕の願いが紡ぐ未来=Re: Member's future spun by my wish
 エンジョイ＆リフレッシュ！　でこぼこガールズ・キャンプ=Enjoy & Refresh! Bumpy Girls' Camp
 
 52
-トゥインクルサマーゲーム　夏海にきらめく三つの想い=Twinkle Summer games: Three Sparkling Thoughts on the Summer Sea
-トゥインクルサマーゲーム夏海にきらめく三つの想い=Twinkle Summer games: Three Sparkling Thoughts on the Summer Sea
+トゥインクルサマーゲーム　夏海にきらめく三つの想い=Twinkle Summer Games: Three Sparkling Thoughts on the Summer Sea
+トゥインクルサマーゲーム夏海にきらめく三つの想い=Twinkle Summer Games: Three Sparkling Thoughts on the Summer Sea
 
 53
 リトル・サマー・メモリーズ渚でみつけた小さな幸せ=Little Summer Memories: Finding Small Happiness on the Beach
@@ -177,9 +177,9 @@ Re:member　僕の願いが紡ぐ未来=Re: Member's future spun by my wish
 マホマホ・ミラクル・ジャーニー！　 旅する少女と最果ての大樹=Mahomaho Miracle Journey! The Traveling Girl and the Farthest Tree
 
 55
-ファボ！ラブ！大集合！至高の祭典と少女の秘めた推し事=Favo! Love! Grand Gathering! The Ultimate Festival and the Girls' Hidden Obsessions
-ファボ！ラブ！大集合！　至高の祭典と少女の秘めた推し事=Favo! Love! Grand Gathering! The Ultimate Festival and the Girls' Hidden Obsessions
-ファボ！ラブ！大集合！　 至高の祭典と少女の秘めた推し事=Favo! Love! Grand Gathering! The Ultimate Festival and the Girls' Hidden Obsessions
+ファボ！ラブ！大集合！至高の祭典と少女の秘めた推し事=Favo! Love! Grand Gathering! The Ultimate Festival and a Girl's Hidden Obsession
+ファボ！ラブ！大集合！　至高の祭典と少女の秘めた推し事=Favo! Love! Grand Gathering! The Ultimate Festival and a Girl's Hidden Obsession
+ファボ！ラブ！大集合！　 至高の祭典と少女の秘めた推し事=Favo! Love! Grand Gathering! The Ultimate Festival and a Girl's Hidden Obsession
 
 56
 トライバルスピリッツ掲げる剣と誇りの架け橋=Tribal Spirits: The Bridge of Pride and Raised Swords
@@ -189,16 +189,17 @@ Re:member　僕の願いが紡ぐ未来=Re: Member's future spun by my wish
 57
 ハッピー・ハプニング幸せの双子天使と聖夜の贈り物=Happy Happening: Happy Twin Angels and Holy Night Gifts
 ハッピー・ハプニング　幸せの双子天使と聖夜の贈り物=Happy Happening: Happy Twin Angels and Holy Night Gifts
+ハッピー・ハプニング　 幸せの双子天使と聖夜の贈り物=Happy Happening: Happy Twin Angels and Holy Night Gifts
 58
 湯けむり忘年奇譚初日の出に盃を=Steamy Year-End Strange Tale: Raising a Cup to the First Sunrise
 湯けむり忘年奇譚　初日の出に盃を=Steamy Year-End Strange Tale: Raising a Cup to the First Sunrise
 湯けむり忘年奇譚　 初日の出に盃を=Steamy Year-End Strange Tale: Raising a Cup to the First Sunrise
 
 59
-リベレイト・ジ・エデン　 いつか、また会う未来で=Liberate the Eden: Someday in the future we will meet again
-リベレイト・ジ・エデン　いつか、また会う未来で=Liberate the Eden: Someday in the future we will meet again
-リベレイト・ジ・エデン　いつか、また会う未来で=Liberate the Eden: Someday in the future we will meet again
-リベレイト・ジ・エデンいつか、また会う未来で=Liberate the Eden: Someday in the future we will meet again
+リベレイト・ジ・エデン　 いつか、また会う未来で=Liberate the Eden: Someday in the Future, We Will Meet Again
+リベレイト・ジ・エデン　いつか、また会う未来で=Liberate the Eden: Someday in the Future, We Will Meet Again
+リベレイト・ジ・エデン　いつか、また会う未来で=Liberate the Eden: Someday in the Future, We Will Meet Again
+リベレイト・ジ・エデンいつか、また会う未来で=Liberate the Eden: Someday in the Future, We Will Meet Again
 
 60
 猫と駄菓子の喫茶店　カフェ・ナッシュカッツェにようこそ=Welcome to Café Nashicatze: The Coffee Shop for Cats and Snacks
@@ -229,3 +230,23 @@ Dearsおかえりとただいまの約束=Dears: Promise of "Welcome back" and "
 戦慄幽奇海岸　～サマーリゾートスリラーズ～=Horror Ghost Coast - Summer Resort Thrillers
 戦慄幽奇海岸　～サマーリゾートスリラーズ～=Horror Ghost Coast - Summer Resort Thrillers
 戦慄幽奇海岸～サマーリゾートスリラーズ～=Horror Ghost Coast - Summer Resort Thrillers
+
+66
+ウィザーディング・アオハル・デイズ　 魔法学園と奇跡の鐘=Wizarding Youth Days: The Magic Academy and the Bell of Miracles
+ウィザーディング・アオハル・デイズ　魔法学園と奇跡の鐘=Wizarding Youth Days: The Magic Academy and the Bell of Miracles
+ウィザーディング・アオハル・デイズ　魔法学園と奇跡の鐘=Wizarding Youth Days: The Magic Academy and the Bell of Miracles
+ウィザーディング・アオハル・デイズ　魔法学園と奇跡の鐘=Wizarding Youth Days: The Magic Academy and the Bell of Miracles
+
+67
+ロマンシング・サラサリア　～砂漠の花嫁と不思議のランプ～ 次回予告=Romancing Salasaria: The Bride of the Desert and the Lamp of Wonders
+ロマンシング・サラサリア　 ～砂漠の花嫁と不思議のランプ～=Romancing Salasaria: The Bride of the Desert and the Lamp of Wonders
+
+68
+クリミナルルーキー　天使たちのパラドクス=Criminal Rookie: Paradox of the Angels
+クリミナル ルーキー　 天使たちのパラドクス=Criminal Rookie: Paradox of the Angels
+
+69
+クライ・ベイビー・クリスマス　誰が為の幸福なる日=Crybaby Christmas: A Blessed Day for Another's Sake
+
+70
+迎春ドリーマーズ！　新年、あけましてお隕石（メテオ）！？=Spring Greeting Dreamers! Happy New Meteor?!

@@ -15,6 +15,7 @@
 ハロウィンパーティ=Halloween party
 
 イベント期間中にモンスターを討伐した証。集めて討伐証交換ができる。=Proof of defeating monsters during the event period. You can collect them and exchange them for subjugation certificates.
+イベント期間中に入手できるチケット。消費してボスバトルに挑戦できる。=Tickets available during the event period. Spend to challenge the boss battle.
 
 プレイヤーLvを最大まで高めた者のみが獲得できる特別な通貨。マスターショップで買い物ができる。=A special currency that can only be earned by those who have raised the player Lv to the maximum.\nYou can shop at the Master Shop.
 この世界での衣食住に不可欠なアストルムの流通通貨。ギルドハウスのショップで買い物ができる。=Astrum's currency, which is indispensable for food, clothing and shelter in this world.\nYou can shop at the Guildhouse shop.
@@ -49,7 +50,7 @@ EX装備の強化に使用すると、強化Ptが1加算される。=When used t
 カスタムマイページのフレーム=Custom Home's frame
 マイページに設定できるフレーム画像。=Frame drawing that can be set on Home.
 オーマ地域振興ポスター『新春トゥンヌス釣上図柄』=New Year Tuna Fishing Poster for Ohma Regional Development
-主さま、カスタムマイページのフレームを獲得いたしましたよ。\nフレームを設定してマイページを飾ってみましょう。=Lord, we have won the custom My page frame. Set the frame and decorate your page.
+主さま、カスタムマイページのフレームを獲得いたしましたよ。\nフレームを設定してマイページを飾ってみましょう。=My Lord, we have won the custom My page frame. Set the frame and decorate your page.
 
 ---Dedicated Ring---
 sr:"^([べ-ヺー＆]+)(（.+）)?\s?専用リング$"=Dedicated $1$2's Ring

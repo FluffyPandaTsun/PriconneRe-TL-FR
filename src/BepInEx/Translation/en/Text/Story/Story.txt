@@ -1,4 +1,5 @@
 追加ストーリー情報=Sub Story Information
+エンド オブ プロローグ=End of Prologue
 [3C404E]未読の[FFBB00,CE4F00]メインストーリー[-]があります。\nストーリーを読んで報酬を獲得しましょう。[-]=[3C404E]Unread [FFBB00,CE4F00]Main Story[-].\nRead the story and earn a reward.[-]
 未読ストーリー=Unread Story
 再生する場合、ボイスデータをダウンロードします。=if you want character voices, then voice data will be downloaded.
@@ -8,7 +9,7 @@
 [FF7C4E,D62146]ボイスデータは、アプリ起動時に削除されます。[-]=[FF7C4E,D62146]Voice data is deleted when the app is launched.[-]
 
 [FF7C4E,D62146]再生する場合、ボイスデータをダウンロードします。[-]=[FF7C4E,D62146]if you want character voices, then voice data\nwill be downloaded.[-]
-
+連続で閲覧できるサブストーリーがあります。=There are substories that can be viewed continuously.
 追加データをダウンロードします。\nボイスを再生しますか?=Additional data will be downloaded.\nApprove?
 r:"^ボイスあり\n\(([.0-9]+) ([MG])B\)$"=Voice ON\n($1 $2B)
 r:"^ボイスなし\n\(([.0-9]+) ([MG])B\)$"=Voice OFF\n($1 $2B)
@@ -25,13 +26,12 @@ r:"^第?(\d+)部 第(\d+)章 第(\d+)話が\n解放可能になりました。$"
 r:"^第?(\d+)部 第(\d+)章 幕間が\n解放可能になりました。$"=Part $1 Ch $2 Epilogue\nStory been unlock.
 r:"^第(\d+)部 第(\d+)章$"=Part $1 Chapter $2
 r:"^第(\d+)章$"=Chapter $1
-r:"^第(\d+)部 第(\d+)章 第(\d+)話$"=Part $1 Chapter $2 Episode $3
+r:"^第?(\d+)部 第(\d+)章 第(\d+)話$"=Part $1 Chapter $2 Episode $3
 r:"^幕間・(.{1,5})$"=Interlude $1
 
 r:"^サブストーリー(.{1,4})$"=Substory $1
 r:"^第([0-9.]+)話$"=Episode $1
 sr:"^(.+)が\n?解放可能になりました。$"=$1\nhas been unlocked.
-前途多難の冒険レクチャー？=Adventure lecture with a lot of precipitation?
 メインクエスト2-1\n（NORMAL）クリア\nまたは期間限定\nイベント参加で解放=Unlock by clearing\nMain Quest\n2-1 (NORMAL)\nor participating in\na limited time event
 メインクエスト2-1\n（NORMAL）クリア\nまたは特別な\nイベント視聴で解放=Unlock by clearing\nMain Quest\n2-1 (NORMAL)\nor participating in\na limited time event
 
@@ -73,7 +73,7 @@ r:"^メインストーリーが\n(\d+)つ解放されました。$"=$1 Main Stor
 各ギルドのストーリーを見られます。\nギルドストーリーは、ギルドに所属するキャラを１人以上仲間にし、\nギルドメンバーの絆ランク合計を、一定以上にすると解放されます。=Experience the stories of each guild.\nNew episodes unlock as you recruit characters belonging to that guild and reach a certain bond level total with its members.
 各キャラの専用ストーリーを見られます。絆ランクアップで、新しいストーリーが解放されます。ストーリーの中には、見ることでステータスアップするものもあります。=Watch stories unique to each character.\nNew episodes will be unlocked as bond level rises.\nViewing some episodes will give stat boost bonuses.
 メインクエストの名場面を、振り返ることができます。それぞれのストーリー初回閲覧で、ジュエルがもらえます。=View various scenes from the Main Quest.\nJewels will be awarded the first time you view each episode.
-キャラ専用装備はみなさまの秘められた力を解放して、さらにスキルもパワーアップするようです。主さま、さっそく必要なアイテムを探しに行きましょう。=Unique Equipment unlocks each of our hidden potentials, making our skills even more powerful.\nLet us go search for necessary items at once, Aruji-sama.
+専用装備はみなさまの秘められた力を解放して、\nさらにスキルもパワーアップするようです。\n主さま、さっそく必要なアイテムを探しに行きましょう。=Unique Equipment unlocks each of our hidden potentials, making our skills even more powerful.\nLet us go search for necessary items at once, my Lord.
 ---Character---
 ま～わ=Ma-Wa
 た～は=Ta-Ha

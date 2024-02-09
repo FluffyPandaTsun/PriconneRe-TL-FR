@@ -1,7 +1,7 @@
 ------
 r:"^(\d+)マイル([×\d]{2})? 獲得！$"=$1$2 Miles acquired!
-獲得トレジャーはありません。=No Treasures obtained.
-獲得トレジャー=Obtained Treasures
+獲得トレジャーはありません。=No treasure(s) obtained.
+獲得トレジャー=Obtained Treasure(s)
 個=
 アイテム獲得数=Acquired Items 
 マイル=Miles
@@ -59,6 +59,7 @@ r:"^(\d+)ターン以内に到着$"=Arrive in $1 turns
 スタート=Start
 集めたリンゴはマイルと交換させていただきます。\n金リンゴはなんと、赤リンゴ5個分の価値がありますよ♪\nさらに宝箱をキャッチすると、トレジャーがGETできます！=The collected apples will be exchanged for Miles. And guess what, a golden apple is worth five red apples! Furthermore, if you catch a treasure chest, you'll get a Treasure!
 トゲトゲにぶつかると、少しの間動けなくなるので注意してください。\nマグネットをキャッチすると、範囲内のフルーツや宝箱を一定時間\n引き寄せることができますよ♪=Be careful not to collide with thorny obstacles, as it will temporarily immobilize you. If you catch a magnet, it will attract fruits and treasure chests within its range for a certain period of time♪
+トゲトゲにぶつかると、少しの間動けなくなるので注意です！\nマグネットをキャッチすると、範囲内のリンゴや宝箱を一定時間\n引き寄せることができますよ♪=Be careful not to collide with thorny obstacles, as it will temporarily immobilize you. If you catch a magnet, it will attract fruits and treasure chests within its range for a certain period of time♪
 リンゴや宝箱はリザルトでまとめて報酬に交換いたします！\nたくさんキャッチして、マイルやトレジャーをGETしましょう♪=Apples and treasure chests will be converted into rewards in the results! Catch a lot of them and get Miles and Treasures♪
 
 --Gacha machine--
@@ -78,3 +79,10 @@ r:"^(\d+)ターン以内に到着$"=Arrive in $1 turns
 ノーマルガチャを無料で引きます。\n\nよろしいですか？=Draw the Normal Gacha for free?
 
 sr:"^\[3C404E\](.+)を \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained\n[FFBB00,CE4F00]$2 × [-]$1![-]
+
+再開=Resume
+ミニゲームを中断しました。=The minigame has been suspended.
+もう一度中断した場合、リタイアとなります。=If you interrupt again,\nit will result in retirement.
+一時停止=Pause
+[FF7C4E,D62146]リタイアした場合、集めた報酬は獲得できません。\nまた、再挑戦はできません。[-]=[FF7C4E, D62146]If you retire, you'll not be able to obtain the rewards you have collected.\nAlso, you cannot retry.[-]
+ミニゲームをリタイアしますか？=Do you want to quit the minigame?

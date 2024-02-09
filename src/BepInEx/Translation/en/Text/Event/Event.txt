@@ -4,6 +4,10 @@
 時間=h
 分=m
 開演直前=Coming soon
+r:"^神殿への参道([0-9\-\(\)\w （）]*)$"=Road to the Temple $1
+r:"^ランドソル郊外([0-9\-\(\)\w （）]*)$"=Landosol Outskirts $1
+r:"^光の裂け目([0-9\-\(\)\w （）]*)$"=Fissure of Light $1
+
 r:"^開催期間 : ([0-9/]+)～([0-9/]+)$"=Event: $1 to $2
 r:"^([0-9/ :]+) ～ ([0-9/ :]+)まで$"=$1 to $2
 r:"^([0-9/ :]+)まで$"=until $1
@@ -68,7 +72,9 @@ r:"^\[FF7C4E,D62146\]([0-9]+)体目出現！\[-\]$"="[FF7C4E,D62146]$1 Boss has 
 r:"^【(\d+)回挑戦中】$"=[Challenge: $1]
 r:"^([0-9]+)回目の討伐証交換ラインナップ$"=Victory Medal Gacha Box No.$1
 挑戦途中のボスはスキップできません。=Bosses in the middle of the challenge cannot be skipped.
-EXHIBITION討伐数=EXHIBITION count
+EXHIBITION討伐数=Exhibition count
+EXHIBITION＋討伐数=Exhibition+ count
+獲得可能=Possible rewards
 スキップチケットとスタミナを消費してクエストを\n実行します。よろしいですか？=Use skip tickets and stamina\nto play this quest?
 消費スタミナ=T. Stamina Cost
 消費チケット=Ticket Cost
@@ -135,7 +141,7 @@ r:"^(\d+)枚消費$"=Exchange $1
 r:"^合計 (\d+)$"=Total $1
 r:"^残り (\d+)/(\d+)$"=$1/$2 Remaining
 r:"^(\d+)回目の報酬ラインナップをすべて獲得しました。$"=You have obtained all of the $1 reward lineup.
-次の報酬ラインナップに切り替えます。=Switch to the next reward lineup.
+次の報酬ラインナップに切り替えます。=Switch to the new reward lineup.
 
 討伐証交換で、リセット対象アイテムを入手すると、即時ラインナップのリセットが行えます。\n\nリセット対象アイテムを入手した後も、リセットせずに引き続き同じラインナップ内から交換することも可能です。\n\n6回目以降のラインナップリセットは、討伐証交換報酬のラインナップを交換しきった場合に限り、リセットを行えます。=Once you have obtained the lineup reset rewards from the Victory Medal Gacha, you can reset the lineup immediately.\n\nYou also have the option to continue using the same lineup without resetting.\n\nFrom lineup 6 onward, you can reset only after obtaining the entire Victory Medal lineup.
 討伐証交換で、リセット対象アイテムを入手すると、即時ラインナップのリセットが行えます。\n\nリセット対象アイテムを入手した後も、リセットせずに引き続き同じラインナップ内から交換することも可能です。\n\n5回目以降のラインナップリセットは、討伐証交換報酬のラインナップを交換しきった場合に限り、リセットを行えます。=Once you have obtained the lineup reset rewards from the Victory Medal Gacha, you can reset the lineup immediately.\n\nYou also have the option to continue using the same lineup without resetting.\n\nFrom lineup 5 onward, you can reset only after obtaining the entire Victory Medal lineup.
@@ -167,14 +173,14 @@ sr:"^\[3C404E\](.+?)との信頼度エピソード\n「\[FFBB00,CE4F00\](.+?)\[-
 sr:"^イベント「エピソード・オブ・パイレーツ　([\s\S]+)」のスペシャルエピソードが解放されました。$"="The special episode of the event "Episode of \n$1" has been unlocked."
 sr:"^(.+)(（.{2,10}）)?が(\n)?解放されました。$"=$1$2$3 has been Unlocked.
 
-
-
-
 イベント限定キャラ解放=Event Limited Character has been Unlocked
 条件を達成したためスキップチケットを使用することができるようになりました。=Because you have met the conditions\nYou can now use Skip Tickets.
 sr:"^(.+?)との信頼度(エピソード)?$"=$1's Intimacy $2
 信頼度エピソード解放=Intimacy Episode has been Unlocked
 閲覧する=Watch
+
+sr:"「([^」]+)」\nのスペシャルエピソードが解放されました。"=The special episode of\n$1\nhas been unlocked.
+
 
 ---NPC (Karin)---
 お疲れ様です！\nここでは、討伐証と報酬を\n交換することができます！=Otsukaresama! You can exchange Victory Medals for rewards here!
@@ -187,6 +193,7 @@ sr:"^(.+?)との信頼度(エピソード)?$"=$1's Intimacy $2
 強力なボス、VERY HARDが登場します。\nVERY HARDボスは１日に１体討伐が可能です。\n準備をしっかりして、気を引き締めて挑みましょう。=This event features a powerful Very Hard difficulty boss.\n it can only be defeated once each day.\n You will need to prepare well if you hope to conquer it.
 討伐証交換は、報酬ゲットのチャンスです。\n報酬の中には、イベントに登場するキャラ{{A}}もあります。\nたくさん集めてキャラを仲間にしましょう。=The Victory Medal Exchange is an opportunity to obtain rewards.\nAmong these rewards are Memory Shards for characters related to the Event. Try to collect plenty of them to unlock new party members!
 スペシャルバトルはバトルモードが３段階変化するバトルです。\nより豪華な報酬やミッション報酬をゲットしましょう。期間中１体しか討伐できないので編成を工夫して挑戦しましょう。=Special battle is a battle in which the battle mode changes in 3 mode. Get more luxurious rewards and mission rewards. Only once can be subdued during the period, so let's devise an organization and challenge.
+
 エキシビションモードは、SPECIALのボスと何度も戦えます。\nまた、バトルのログを保存して振り返ることができるので、\n独自の攻略法を見つけたり、様々な編成を試してみましょう。=Exhibition mode allows you to fight SPECIAL bosses many times. You can also save and look back at battle logs, so find your own strategy and experiment with different formations.
 イベントお疲れ様です！\n皆さんのご活躍ぶりには\nいつも感謝しています=Congratulations on the event! I am always grateful for your success!
 討伐証交換は、報酬ゲットのチャンスです。\n報酬の中には、イベントに登場するキャラのメモリーピースもあります。\nたくさん集めてキャラを仲間にしましょう。=Victory Medal Gacha is a chance to get rewards. Among the rewards, there is also a memory shards of the character that appears in the event. Collect a lot and make limited character a friend.

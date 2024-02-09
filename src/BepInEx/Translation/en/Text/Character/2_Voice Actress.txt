@@ -1,4 +1,5 @@
 田中みな実=Minami Tanaka
+前田佳織里=Kaori Maeda
 高橋李依=Rie Takahashi
 伊藤美来=Miku Ito
 立花理香=Rika Tachibana
@@ -76,5 +77,6 @@
 鬼頭明里=Akari Kito
 鈴木みのり=Minori Suzuki
 長谷川育美=Hasegawa Ikumi
+高尾奏音=Kanon Takao
 日笠陽子、福原綾香=Yoko Hikasa, Ayaka Fukuhara
 諸星すみれ、日高里菜、小倉唯=Sumire Moroboshi, Rina Hidaka, Yui Ogura
