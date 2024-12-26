@@ -7,6 +7,14 @@
 r:"^神殿への参道([0-9\-\(\)\w （）]*)$"=Road to the Temple $1
 r:"^ランドソル郊外([0-9\-\(\)\w （）]*)$"=Landosol Outskirts $1
 r:"^光の裂け目([0-9\-\(\)\w （）]*)$"=Fissure of Light $1
+r:"^エリザベスパーク([0-9\-\(\)\w （）]*)$"=Elizabeth Park $1
+r:"^エルピス島 開拓キャンプ一帯([0-9\-\(\)\w （）]*)$"=Elpis Island: Reclamation Camp Area $1
+r:"^ゴーストグレイヴ([0-9\-\(\)\w （）]*)$"=Ghost Glaive $1
+r:"^マホマホ王国避暑地？([0-9\-\(\)\w （）]*)$"=Mahomaho Kingdom summer resort? $1
+r:"^キッチンスタジアム([0-9\-\(\)\w （）]*)$"=Kitchen Stadium $1
+r:"^イルシオンの孤島([0-9\-\(\)\w （）]*)$"=Illusion Island $1
+r:"^マシーナ地方([0-9\-\(\)\w （）]*)$"=Masina Region $1
+r:"^タルグム地方([0-9\-\(\)\w （）]*)$"=Targum Region $1
 
 r:"^開催期間 : ([0-9/]+)～([0-9/]+)$"=Event: $1 to $2
 r:"^([0-9/ :]+) ～ ([0-9/ :]+)まで$"=$1 to $2
@@ -15,6 +23,7 @@ r:"^([0-9/ :]+)まで$"=until $1
 r:"^(\d+)日 (\d+)時間$"=$1d $2h
 r:"^(\d+)体撃破$"=$1 × Defeated
 r:"^スキップチケットとボスチケットを消費して\n(\d+)体ボスを撃破します。よろしいですか？$"=Defeat $1 bosses by consuming\n skip tickets and boss tickets.\nIs this OK??
+討伐証を集めて、豪華報酬をGET!=Gather Victory Medals and claim the Reward!
 
 [FFBB00,CE4F00]30[-][3C404E]枚で挑戦[-]=[FFBB00,CE4F00]30[-][3C404E]Tix[-]
 [FFBB00,CE4F00]20[-][3C404E]枚で挑戦[-]=[FFBB00,CE4F00]20[-][3C404E]Tix[-]
@@ -38,7 +47,7 @@ r:"^([0-9/: ]{11})に$"=$1
 r:"^開催日時:([0-9/: ]+)～([0-9/: ]+)$"=Period: $1 to $2
 r:"^期間限定([0-9/: ]+)～([0-9/: ]+)$"=Period$1 to $2
 
-現在挑戦しているエキシビション\nバトルをリタイアして、\n【MODE1】挑戦前の状態にしますか？\n=Currently challenging Exhibition Battle.\nDo you want to retire and return to the state before the challenge in MODE1?
+
 リタイア確認=Retire Confirmation
 イベント=Event
 討伐証=Medal
@@ -74,7 +83,9 @@ r:"^([0-9]+)回目の討伐証交換ラインナップ$"=Victory Medal Gacha Box
 挑戦途中のボスはスキップできません。=Bosses in the middle of the challenge cannot be skipped.
 EXHIBITION討伐数=Exhibition count
 EXHIBITION＋討伐数=Exhibition+ count
-獲得可能=Possible rewards
+EXHIBITION＋ バトルログ=EXHIBITION+Battle Log
+
+獲得可能=In Stock
 スキップチケットとスタミナを消費してクエストを\n実行します。よろしいですか？=Use skip tickets and stamina\nto play this quest?
 消費スタミナ=T. Stamina Cost
 消費チケット=Ticket Cost
@@ -105,8 +116,7 @@ r:"^([1-9])回目の報酬をリセット$"=Reward Reset $1
 魔法提督ラブリー★モニカ レッツゴー！マジカルカルテット！=Magical Admiral Lovely★Monika Let's Go! Magical Quartet!
 ---Login---
 イベントログインボーナス獲得=Event Login Bonus Received
-r:"^(\d+)日目のログインボーナスとして以下のアイテムを獲得しました。$"=Received items as Day $1 login bonus.
-r:"^(\d+)日目のログインボーナスとして以下のアイテムを受け取りました。$"=Received items as Day $1 login bonus.
+r:"^(\d+)日目のログインボーナスとして以下のアイテムを(?:獲得しま|受け取りま)した。$"=Received items as Day $1 login bonus.
 
 ---exhibition---
 バトルログがまだありません。=There is no battle log.
@@ -149,9 +159,9 @@ r:"^(\d+)回目の報酬ラインナップをすべて獲得しました。$"=Yo
 まとめて交換確認=Exchange at Once Confirmation 
 交換後のBOX状況=BOX Status
 リセットするBOX数=BOX Reset
-r:"^(\d+)枚の討伐証をまとめて交換しますか？$"=Do you want exchange\n\n$1 Victory Medals at Once?
+r:"^([0-9,]+)枚の討伐証をまとめて交換しますか？$"=Do you want exchange\n\n$1 Victory Medals at Once?
 
-r:"^討伐証(\d+)枚を消費して、以下のアイテムを獲得できます。$"=Exchange $1 Victory Medals and received the following items.
+r:"^討伐証([0-9,]+)枚を消費して、以下のアイテムを獲得できます。$"=Exchange $1 Victory Medals and received the following items.
 確定で獲得できる報酬はありません。=There are no Fixed rewards.
 まとめて交換詳細=Exchange at Once Details 
 リセットされないBOXの報酬は、未確定のためこの一覧に含まれません。=BOX rewards that are not reset are not included in this list as they are undecided.
@@ -169,7 +179,7 @@ sr:"^\[3C404E\]([^\[]+)\[-\]$"=[3C404E]$1[-]
 イベントを進めて、ボスに挑戦！\nボスNORMALを討伐すると、\n限定キャラ解放！！=Advance the event and challenge the boss! If you defeat the boss NORMAL, the limited character will be Unlock! !!
 アイテムが不足しています=Not enough items
 未読EPISODE=Unread Episode
-sr:"^\[3C404E\](.+?)との信頼度エピソード\n「\[FFBB00,CE4F00\](.+?)\[-\]」が\n解放されました。\[-\]$"="[3C404E]$1's Intimacy  Episode\n"[FFBB00,CE4F00]$2[-]"\nHas been unlocked.[-]"
+sr:"^(?:\[3C404E\])?(.+?)との信頼度エピソード\n「\[FFBB00,CE4F00\](.+?)\[-\]」が\n解放されました。(?:\[-\])?$"="[3C404E]$1's Intimacy  Episode\n"[FFBB00,CE4F00]$2[-]"\nHas been unlocked.[-]"
 sr:"^イベント「エピソード・オブ・パイレーツ　([\s\S]+)」のスペシャルエピソードが解放されました。$"="The special episode of the event "Episode of \n$1" has been unlocked."
 sr:"^(.+)(（.{2,10}）)?が(\n)?解放されました。$"=$1$2$3 has been Unlocked.
 

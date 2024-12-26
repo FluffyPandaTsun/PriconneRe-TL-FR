@@ -52,11 +52,11 @@ Emilia
 お誕生日なんだね、おめでとう\nこうやってお祝いできて\nすごーくうれしいな=You're celebrating your birthday, right? Congratulations! I'm so happy that we can celebrate together like this.
 
 ErikoS
-お誕生日おめでとうございます\nあなた様…特製の薬草茶で\n乾杯しましょう…そして薬草\n料理のフルコース…クスクス…=Happy birthday! \nLet's raise a toast with my special herbal tea... \nAnd a full course of herbal cuisine... Kus kus...
+お誕生日おめでとうございます\nあなた様…特製の薬草茶で\n乾杯しましょう…そして薬草\n料理のフルコース…クスクス…=Happy birthday! \nLet's raise a toast with my special herbal tea... \nAnd a full course of herbal cuisine... Tehehe...
 あなた様の誕生日…この日を\n共に迎えることができて私は\n幸せですわ…これからも毎年\n私とだけお祝いいたしましょう…=I am happy to be able to celebrate your birthday with you. \nLet's celebrate your birthday together every year from now on.
 ErikoV
 あなた様が生まれた日…つまり\n私たちの運命が始まった日ですわ\n祝杯をあげましょう\nさぁ、これをお飲みになって…=The day you were born... in other words, the day our fate began. Let us raise a toast. Now, please drink this.
-誕生日おめでとうございます\nふたりきりでお祝いする準備は\nできていますわ\nそのあとは…クスクス=Happy birthday. I'm ready to celebrate with just the two of us. After that... Kus kus
+誕生日おめでとうございます\nふたりきりでお祝いする準備は\nできていますわ\nそのあとは…クスクス=Happy birthday. I'm ready to celebrate with just the two of us. After that... Tehehe
 
 ManaSenri
 誕生日？　どうでもいいじゃない\nいつ世界に生まれたかじゃなくて\n何を成すかが大事なのだから=Birthday? It doesn't matter, does it? What's important is not when you were born into the world, but what you will accomplish.
@@ -90,7 +90,7 @@ KyaruP
 はいはい、誕生日おめでとう\nせっかくだしみんなで\nパーティーしましょうよ\n料理は魔物料理以外でね！=Alright, alright, happy birthday. Since we're all here, let's have a party! We'll cook something other than monster food!
 今日ってあんたの誕生日よね\nなんかしてほしいこととかある？\nあんたのこと、思いっきり\n甘やかしてあげるわ♪=Today's your birthday, isn't it? Is there anything you want me to do? I'll spoil you as much as I can♪
 
-KyokaS
+KyoukaS
 お誕生日おめでとうございます\nえ？　どうして水着なのかって？\nべ、別に理由はありませんけど\n嬉しく、ありませんでしたか…？=Happy birthday to you! Huh? Why am I wearing a swimsuit, you ask? W-well, there's no particular reason, but I thought it would make you happy... Is that not the case?
 海でお誕生日をお祝いするのって\n特別感があっていいですよね\n今回はあなたの番ですけど\n私の時もお願いしますねっ♪=Celebrating a birthday at the beach has a special feeling, doesn't it? It's your turn this time, but please celebrate mine too when it comes♪
 
@@ -123,16 +123,9 @@ ChloeST
 あんた今日、誕生日だよね\nああいや、さっきチエルに聞いて\nそだ、偶然ケーキ作ってきたから\nコレあげるわ。いや偶然だけど=Hey, it's your birthday today, right? \nOh, I just asked Chieru a while ago. \nOh, by the way, I happened to make a cake, so here you go. \nIt's just a coincidence, though.
 
 KokkoroCR
-今日は主さまがお生まれになった\nとてもおめでたい日ですね\n精霊たちとともに、心を込めて\nお祝いをさせてくださいまし♪=Today is the day when my Lord was born, it is a very auspicious day. \nPlease allow us spirits to celebrate with all our heart and soul.
-お誕生日おめでとうございます\nまた一つ大人になられましたね\n未来に向かって歩むその隣で\nこれからもわたくしはずっと…♪=Happy birthday! You've grown up again, haven't you? As I walk towards the future, I'll always be by your side...
+今日は主さまがお生まれになった\nとてもおめでたい日ですね\n精霊たちとともに、心を込めて\nお祝いをさせてくださいまし♪=Today is the day when my Lord was born, it is a very auspicious day. With the spirits, let us celebrate together with delight.
+お誕生日おめでとうございます\nまた一つ大人になられましたね\n未来に向かって歩むその隣で\nこれからもわたくしはずっと…♪=Happy Birthday!\nYou've grown another year older.\nAs you walk towards the future,\nI'll always be by your side...♪
 
 KokkoroP
 わたくしは今日という日を心から\nお待ちしておりました。主さまの\nお誕生日を、全身全霊をかけて\nお祝いいたしますね=I have been eagerly anticipating this day. I will celebrate your birthday with all my heart and soul, my Lord.
-お誕生日おめでとうございます\nなにか特別にしてほしいことは\nございますか？　遠慮せずに\nなんでもお申し付けくださいまし=Happy birthday! Is there anything special you would like us to do? Please don't hesitate to let us know.
-
-
-
-
-
-
-
+お誕生日おめでとうございます\nなにか特別にしてほしいことは\nございますか？　遠慮せずに\nなんでもお申し付けくださいまし=Happy Birthday! Is there anything special you would like me to do? Please don't hesitate to let me know what you desire.

@@ -10,6 +10,7 @@
 [FF7C4E,D62146]受け取れるアイテムがありません。[-]=[FF7C4E,D62146]There are no items.[-]
 [FF7C4E,D62146]受け取ったアイテムはありません。[-]=[FF7C4E,D62146]There are no items.[-]
 
+運営からの補てんの品です。=It's a compensation from the management.
 以下のプレゼントをまとめて受け取りますか？=Would you like to accept all of the following presents?
 プレゼント受け取り=Receive Present
 報酬はプレゼントに送られました。=Reward has been sent to the Present Box.
@@ -22,9 +23,12 @@
 ガチャ更新によりキャラ交換Ptを変換したアイテムです。=Converted from character exchange points due to gacha update.
 sr:"^(.+)を購入して獲得したアイテムです。$"=Item obtained from a $1.
 ---Item Receive---
-sr:"^(\[[0-9A-Fa-f,]{6,13}\])?([\s\S]{2,22}?)(（.+）)?(の\n?(?:ピュア)?メモリーピース|の設計図)? ?(?:×|x)(?:\[-\])?(\[[0-9A-Fa-f,]{6,13}\])?(\d+)(\[-\])?(?:\[-\])?$"=$1$2$3$4 × $5$6$7$7
+sr:"^(\[[0-9A-Fa-f,]{6,13}\])?([\s\S]{2,25}?)(（.+）)?(の\n?(?:ピュア)?メモリーピース|の設計図)? ?(?:×|x)(?:\[-\])?(\[[0-9A-Fa-f,]{6,13}\])?([0-9,]+)(\[-\])?(?:\[-\])?$"=$1$2$3$4 × $5$6$7$7
 
 以下の交換結果になりました。=The following exchange results are as follows:
+
+
+
 ---sort---
 フィルタ=Filter
 期限あり=Limited Time
@@ -45,7 +49,8 @@ sr:"^バトルアリーナ(\d+位)のランキング報酬です。$"="Battle Ar
 sr:"^プリンセスアリーナ(\d+位)のランキング報酬です。$"="Princess Arena $1 ranking reward."
 sr:"^(\d+月)クランバトルランキング(\d+位)の報酬です。$"="Clan Battle ($1) $2 ranking reward."
 みんなのカレンダー内で獲得したアイテムです。=This item was acquired in everyone's calendar.
-
+マスターショップ=Master Shop
+このアイテムはメインクエスト等では入手できません=This item cannot be obtained on the main quest or other quests
 
 スタミナ\n受取対象外=Exclude\nStamina
 期限を過ぎていたため、一部のプレゼントは受け取れませんでした。=Some gifts were not received because the deadline had passed.
@@ -74,7 +79,10 @@ sr:"^「(.+)キャンペーン」(\d+日)目で獲得したアイテムです。
 運営からのプレゼントです。=Gift from the management.
 
 ---Premium---
-sr:"^\[3C404E\]([0-9]*[^0-9]+)(\d+)日目のアイテムセット\[-\] \[3C404E\]あと\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]日有効\[-\](?: \[3C404E\](\+\d+)日予約中\[-\])?$"=[3C404E]$1: Day $2 reward. [FFBB00,CE4F00]$3[-]$4[3C404E] day(s) remaining.[-]
+sr:"^(?:\[3C404E\])?([0-9]*.+?)(\d+)日目のアイテムセット\[-\] \[3C404E\]あと\[-\]\[FFBB00,CE4F00\]([0-9,]+)\[-\]\[3C404E\]日有効(?:\[-\])?(?: \[3C404E\](\+\d+)日予約中(?:\[-\])?)?$"=[3C404E]$1: Day $2 reward. [FFBB00,CE4F00]$3[-]$4[3C404E] day(s) remaining.[-]
+
+sr:"^(?:\[3C404E\])?(.+)のアイテムです。(?:\[-\])?$"="Item acquired from "$1""
+
 スタミナ上限に到達しました。\n獲得したスタミナをプレゼントに送ります。=Your Stamina has reached its maximum. Remaining Stamina will be sent to the Present Box.
 
 所持上限に達しているアイテムがあります。\n対象アイテムは受け取れませんでした。=Item limit reached.\nUnable to receive the designated item.

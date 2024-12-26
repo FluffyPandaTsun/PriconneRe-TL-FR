@@ -1,4 +1,8 @@
 キャラ選択=Character Select
+じゃない私=No, I...
+マホマホ王国ショー=Mahomaho Kingdom Show
+美を統べる者=Ruler of beauty
+
 
 Aoi
 気合入れて募集=Doing Her Best
@@ -104,6 +108,7 @@ Kurumi
 
 Kyouka
 あやしい…=Suspicious...
+お花のようせいさん=Like a Flower Fairy
 
 Lima
 乙女の憧れ=A Pure Maiden's Dream
@@ -270,3 +275,7 @@ Yuki
 
 vampy
 さいきょーですし♪=The best-desushi♪
+
+負けられない=I Won't lose
+
+姉妹っぽいこと=Sister-Like Things

@@ -39,9 +39,7 @@
 キャンプは……ううん。\n山籠りは、やっぱり一人でしなきゃいけなかったんだ……=Camping... no. I mean, I should have done this alone...
 また一人で突っ走っちゃって、失敗してしまいました……=Once again, I rushed ahead by myself and failed...
 いつもいつも、こんなことを繰り返してばかり……\n女学院でも工場でも……団長さんに対しても……=I keep repeating the same mistakes... at the academy, at the factory... even with Captain...
-
-r:"^……でも、もうランドソルでの失敗を繰り返したくありません……\nこんなことばかりしていたら、\n(.{2,10})さんに合わせる顔が……！$"=...But I don't want to keep repeating my failures in Landosol... If I keep doing this, I won't be able to face $1-san...!
-
+……でも、もうランドソルでの失敗を繰り返したくありません……\nこんなことばかりしていたら、\n{playername}さんに合わせる顔が……！=...But I don't want to keep repeating my failures in Landosol... If I keep doing this, I won't be able to face {playername}-san...!
 なんとかして、この重い空気を変えてみせます……！=I'll find a way to change this heavy atmosphere...!
 独りよがりなぼっちの私とは、バイバイしてみせるって、\n誓ったばかりですから……！=I vowed to say goodbye to the self-centered loner me...!
 あ、あの～……ジュンさん、ユカリさん。\nそろそろお昼ですし、ご飯にしませんか？=Uh, um... Jun-san, Yukari-san. It's about lunchtime. How about having a meal?
@@ -53,20 +51,15 @@ r:"^……でも、もうランドソルでの失敗を繰り返したくあり�
 でも、森に生えてるキノコって……\nなんか、ねえ……？=But mushrooms that grow in the forest... It feels a bit...
 こ、これはっ……！？=Th-This is...!?
 そうよね。やっぱり毒キノコよね……=I see. It's probably a poisonous mushroom...
-
 毒キノコだなんてとんでもありません！\nこれは最高級キノコ……アストライア茸ですよ！=No, it's not a poisonous mushroom at all! This is a premium mushroom... Astraea mushroom!
-
 私たち【フォレスティエ】でもめったに見ることのできない品種です。\n焼いてよし、煮てよし、蒸してよし！　とってもおいしいそうですよ！=It's a variety that we rarely see even in our Forrestier guild. It's great grilled, boiled, or steamed! It's very delicious!
-
 そ、そうなの！？\nじゃあ、おつまみにぴったりじゃない！=I-Is that so!? Then it's perfect as a snack!
 おつまみ？=Snacks?
 えっと……ちょっと大人な食べ物のことかな……？\nき、気にしないでちょうたい。=Uh... It's a term for slightly more adult food... D-Don't worry about it.
-
 わ、分かりました……\nそれにしても、こんなすごいキノコが、\nぼっち空間に生えていただなんて……！=I-I understand... But still, it's amazing to find such a fantastic mushroom in my loner space...!
 お二人を落ち込ませてしまったお詫びに、\n最高のキノコ料理を振る舞いますね！　腕によりをかけますよ！=As an apology for making you two feel down, I'll treat you to the best mushroom dish! I'll put my skills to work!
 おお、それは楽しみだ。\n良ければ私たちも手伝わせてくれないか？=Oh, that sounds exciting. If it's alright with you, could we help too?
 ３人でこうしてキャンプをしているんだ。\n力を合わせようじゃないか。=The three of us are camping like this. Let's work together.
-
 ええ。私にも手伝わせて！\n料理はあんまり得意じゃないけど、最高の一杯のために頑張るわ！=Yes. Let me help too! I'm not very good at cooking, but I'll do my best for the best cup!
 はい！　ぜひお願いします！\nぼっちじゃないキャンプは初めてですが、私も精一杯やってみます！=Sure! Please, go ahead! This is my first time camping with others, not as a loner, but I'll do my best!
 ジュンさん、もう少し火を強めてください。\n薪をじゃんじゃん追加しちゃいましょう！=Jun-san, please increase the fire a bit more. Let's keep adding firewood!
@@ -77,9 +70,7 @@ r:"^……でも、もうランドソルでの失敗を繰り返したくあり�
 そ、そんなっ！\nリーダーさんと私なんか比べ物にはなりませんよっ！=N-Not at all! I can't compare myself to the leader!
 でも、少しでもそう言ってもらえると、ちょっとうれしいです……！\n恐れ多さのほうが圧倒的に勝ってはいますが！=But it makes me a little happy when you say that...! Although I'm overwhelmingly lacking in many aspects!
 二人には共通の知人がいるのだな。\nこれも巡り合わせの縁だね。=So, you have a mutual acquaintance. It's a small world, isn't it?
-
-r:"^共通の知人といえば……\nみんな、(.{2,10})くんと知り合いなんだよね？$"=Speaking of mutual acquaintances... You all know $1-kun, right?
-
+共通の知人といえば……\nみんな、{playername}くんと知り合いなんだよね？=Speaking of mutual acquaintances... You all know {playername}-kun, right?
 こうして私たちが集まるとは思っていなかったが、\n彼ともキャンプをしてみたかったな。=I didn't expect us to gather like this, but I wanted to go camping with him too.
 おおっ！　それはとっても面白そうですね！=Oh, that sounds really fun!
 ええ。きっと楽しいに違いないわ。=Yes, it's bound to be enjoyable.
@@ -111,9 +102,7 @@ r:"^共通の知人といえば……\nみんな、(.{2,10})くんと知り合�
 いえ、そんなことはありませんよ……！\n好きなことをして過ごすのってとっても大事ですから……！=No, not at all...! It's important to do things you love...!
 そ、そう……？\nそう言ってもらえて、すごく安心したわ……！=I-I see...? I'm really relieved to hear you say that...!
 でも、本当はちゃんとした大人にもならないといけないって思ってるの。=But deep down, I think I need to become a proper adult.
-
-r:"^麦しゅわでやらかして、\nいつも(.{2,10})くんには迷惑かけちゃってるし……$"=I've caused trouble for $1-kun because of my love for beer...
-
+麦しゅわでやらかして、\nいつも{playername}くんには迷惑かけちゃってるし……=I've caused trouble for {playername}-kun because of my love for beer...
 羽目を外さず、嗜む程度に抑えられるといいんだけど……\n麦しゅわを飲みに来ておいて、変な話よね。=I hope I can enjoy it responsibly without going overboard... It's strange to come for Barley Soda and talk like this.
 ユカリちゃんも、なりたい自分があったんだね。=Yukari-chan, you also have an ideal version of yourself, right?
 アオイちゃんも、そういう理想の姿はあるのかい？\n前途ある君のような若者の話も聞いてみたいな。=Aoi-chan, do you have a similar ideal? I'd like to hear more about the aspirations of a young person like you.
@@ -130,9 +119,7 @@ r:"^麦しゅわでやらかして、\nいつも(.{2,10})くんには迷惑か�
 わあ～、私が山で誰かと食事する時が来るなんて～！\n楽しみだな、楽しみだな～！=Wow~ The day has come when I have a meal with someone in the mountains! I'm so excited!
 そうだね。\nキャンプが得意なアオイちゃんが作ったんだ。\nきっとおいしいに違いないよ。=That's right. Aoi-chan, who is good at camping, made it. I'm sure it will be delicious without a doubt.
 そうよ！　きっと麦しゅわに合うに違いないわ！\n最高の一杯を目指すわよー！=That's right! I'm sure it'll go great with the wheat! Let's aim for the best!
-
-r:"^(.{2,10})は、\nアオイたちの後を追って、キャンプ場に到着した──$"=$1 followed Aoi and the others and arrived at the campsite──
-
+{playername}は、\nアオイたちの後を追って、キャンプ場に到着した──={playername} followed Aoi and the others and arrived at the campsite──
 にひひ……=Nihihi...
 ふっふっふっふっふっふ……=Fufufufufufufu...
 うひゃひゃ……！=Uhyahya...!
@@ -156,14 +143,11 @@ r:"^(.{2,10})は、\nアオイたちの後を追って、キャンプ場に到�
 やんや、やんやー！=Yay, yay! Yay!
 ふっふっふ……=Heheheh...
 うひゃひゃ……=Uhyahya...
-
 にへへ……\nこのキノコのおかげで、人気者に……♪=Hehe... Thanks to these mushrooms, I've become popular...♪
 うひゃひゃひゃ……\nできる大人のお姉さんになっちゃった……♪=Uhyahyahyah...  I've become a capable adult sister...♪
 ふっふっふっ……\nさあみんな、私についてこい。今日も楽しく働こう♪=Fufufufu... Come on, everyone, follow me. Let's work happily today too♪
 ……あれ？　なんともない……？=...Huh? Not affected...?
-
-r:"^なぜかキノコ料理を食べても平気だった(.{2,10})の前に、\nキャンプ場に隣接する森の奥から、怪しげな音が近づいてくるのだった。$"=For some reason, strange sounds approached $1 from deep within the forest adjacent to the campsite, despite eating mushroom dishes without any issues.
-
+なぜかキノコ料理を食べても平気だった{playername}の前に、\nキャンプ場に隣接する森の奥から、怪しげな音が近づいてくるのだった。=For some reason, strange sounds approached {playername} from deep within the forest adjacent to the campsite, despite eating mushroom dishes without any issues.
 一方のアオイたちは、キノコの毒による幻覚に囚われていた──=Meanwhile, Aoi and the others were caught in hallucinations caused by the poison of the mushrooms.
 アオイ様、ごきげんよう！\n今日もお目にかかれて光栄です！=Have a good day, Aoi-sama! It's an honor to see you today!
 おはよう、アオイくん！\n君に働いてもらえるなんて、とってもうれしいよ！=Good morning, Aoi-kun! I'm so happy to have you working for me!
@@ -203,165 +187,13 @@ r:"^なぜかキノコ料理を食べても平気だった(.{2,10})の前に、\
 うん、いい食べっぷりだね。その調子だよ……\nそれで、私は……=Great, you're eating well. Keep it up... As for me...
 ……理想の『私』になれました！=...I have become my ideal self!
 アオイは、キノコの毒が見せる幻覚に囚われてしまう。\nそして、その中で出会った理想の自分の幻影を、\n自分自身だと勘違いし始めるのだった──=Aoi was trapped in hallucinations caused by the poisonous mushrooms. And within that, he began to mistake the illusion of his ideal self as his real self.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ユカリとジュンにぼっちキャンプの過ごし方を教えたアオイは、\n二人の様子をたき火に当たりながら見守っていた──=Aoi, who had taught Yukari and Jun how to spend their time camping alone, watched the two of them from the bonfire
+麦しゅわのことで頭がいっぱいだったわ……\n最高の一杯のためには、まずキャンプするのが大前提なのにね……=MI was so preoccupied with Barley Soda... Even though camping is a prerequisite for the ultimate drink...
+……部下にそこまで心配させてしまうなんて、\n私はなんて上司なんだ……=I must be such a terrible boss to make my subordinates worry to that extent...
+キャンプかぁ……\nランドソルの人たちも、みんなつらいことを抱えているんですね……=Camping, huh... Seems like everyone in Landsor is carrying their own burdens...
+That's right ...\n気分を変えたいし、食事にしようか……=Yeah... I want to change the mood, so let's have a meal...
+Yeah.そうかもしれないな。\n普段は仕事柄、弱みを見せてはいけないが、\n今この時だけは、気を緩められそうだ。=Ah, I see. That might be true. Usually, because of my job, I can't show weakness, but at this moment, I can relax.
+私は……いつか100人の友達を作りたいと思っているんです。\nあの人と結成したＢＢ団でかなえられるように、日々がんばっています！=I... I... I want to make a hundred friends someday. I'm working hard every day to make sure I can make it through the BB Brigade I formed with him!
+ふっふっふっ……\nさあみんな、私についてこい。今日も楽しく働こう♪=fufufufu... Come on, everyone, follow me. Let's work happily today too♪
+はい！=Yes, sir!
+……ふふっ。なれるよ……？=......huhu.I can become one......

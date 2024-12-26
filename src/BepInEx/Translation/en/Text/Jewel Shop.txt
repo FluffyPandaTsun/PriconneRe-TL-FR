@@ -38,6 +38,8 @@ r:"^([2-9])回限定$"="Limited!\n$1 times only"
 コラボ記念 専用装備２グロウスフィアパック=Collab-Event UE 2 Growsphere Pack
 Anniversary グロウスフィアパック　=Anniversary Growsphere Pack
 Anniversary 専用装備グロウスフィアパック=Anniversary UE Growsphere Pack
+パックについて=About the Pack
+Anniversaryパックについて=About the anniversary pack
 探索挑戦回数 +3回=Grotto +3
 探索挑戦回数 +3回購入=Buy Grotto +3
 探索挑戦回数 +3回について=About Grotto +3 Attempts 
@@ -64,12 +66,23 @@ Anniversary 専用装備グロウスフィアパック=Anniversary UE Growsphere
 30日間探索挑戦回数+3回について=About 30 days Grotto +3 pack
 30日間探索挑戦回数+3回期間通知=30 days Grotto +3 pack Period Notification
 購入Lv制限あり=Purchase Lv Limit
+--- Anniv---
+
+r:"^([0-9.]+)周年 プリンセスナイト強化パック$"=$1th Anniversary Princess Knight Enhancement Package
+r:"^([0-9.]+)周年 SPキャラ交換ガチャセット$"=$1th Anniversary SP Character Exchange Gacha Set
+r:"^([0-9.]+)周年 ★6キャラ育成パック$"=$1th Anniversary★6 Character Raising Package
+r:"^([0-9.]+)周年 専用装備１グロウスフィアパック$"=$1th Anniversary Unique Equipment 1 Growsphere Package
+r:"^([0-9.]+)周年 ピュアメモリーピースパック$"=$1th Anniversary Pure Memory Shard Package
+r:"^([0-9.]+)周年 属性強化パック$"=$1th Anniversary Elemental Enhancement Package
+sr:"^([0-9.]+)周年 EX★4装備パック\((片手剣|槍|弓|本|両手剣|斧|盾|杖|短剣|拳)・(片手剣|槍|弓|本|両手剣|斧|盾|杖|短剣|拳)\)$"=$1th Anniversary EX★4 Equipment Package ($2 and $3)
+
+(片手剣|槍|弓|本|両手剣|斧|盾|杖|短剣|拳)
 
 sr:"^\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]を\n１セット購入しますか？\[-\]$"=[3C404E]Would you like to purchase 1 set of\n[FFBB00,CE4F00]$2[-] for [FFBB00,CE4F00]$1 pts[-]?[-]
 
 r:"^探索挑戦回数+(\d+)回の期間が追加となります。\n(\d+)日間スタミナ応援パックを購入しますか？?$"=Grotto attempts +$1 for the selected period.\nWould you like to purchase \nthe $2-Day Stamina Support Pack?
 
-sr:"^\[3C404E\]探索挑戦回数\+(\d+)回の期間が追加となります。\n\[-\]\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]を購入しますか？\[-\]$"=[3C404E]Grotto attempts +$1 for the selected period.\nWould you like to purchase \n[FFBB00,CE4F00]$3[-] for [FFBB00,CE4F00]$2 pts[-]?[-]
+sr:"^(?:\[3C404E\])?探索挑戦回数\+(\d+)回の期間が追加となります。\n\[-\]\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]を購入しますか？(?:\[-\])?$"=[3C404E]Grotto attempts +$1 for the selected period.\nWould you like to purchase \n[FFBB00,CE4F00]$3[-] for [FFBB00,CE4F00]$2 pts[-]?[-]
 
 r:"^\[3C404E\]探索挑戦回数\+(\d+)回の期間が追加となります。\n\[-\]\[FFBB00,CE4F00\](\d+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](\d+)日間スタミナ応援パック\[-\]\[3C404E\]を購入しますか？\[-\]$"=[3C404E]Grotto attempts +$1 for the selected period.\nWould you like to purchase the\n $3-Day Stamina Support Pack for [FFBB00,CE4F00]$2 pts[-]?[-]
 
@@ -80,13 +93,14 @@ r:"^(\[3C404E\]\[FFBB00,CE4F00\])(\d+)日(\[-\]\[-\])$"=$1$2 Days $3
 
 
 sr:"^(\d+)年(\d+月)(\d+)日まで$"=Until $2 $3, $1
-r:"^ジュエル (\d+)個$"=$1 Jewels
+r:"^ジュエル ([0-9,]+)個$"=$1 Jewels
 
 毎月更新 ジュエル 7500個=7,500 jewels (Monthly deal)
 3回限定 ジュエル 7500個=7,500 Jewels (Three-time deal)
 
 r:"^アイテム装備パック([Ⅰ-Ⅻ])?（(\d+)周年）が購入可能になりました！$"=Equipment Pack $1 ($2th Anniv)\nis now available!
 アイテム装備パックについて=About Item Equipment Packs
+sr:"^(.+)が購入可能になりました！$"=$1 is now available!
 
 sr:"^アイテム装備パック([Ⅰ-Ⅻ])?(（再販）)?$"=Equipment Pack $1 $2
 r:"^アイテム装備パック(.+)?（([\d]+)周年）$"="Equipment Pack $1 ($2th Anniv)"
@@ -100,10 +114,8 @@ r:"^販売期間([0-9: /]+)まで$"=Sales period until$1
 r:"^あと(\d+)日有効$"=$1 Day(s) Left
 r:"^あと(\d+)時間有効$"=$1 Hours Left
 
-r:"^探索挑戦回数+(\d+)回の期間が\n追加されました。$"=Grotto Attempt count +$1\nhas been added for a limited time.
+r:"^探索挑戦回数\+(\d+)回の期間が\n追加されました。$"=Grotto Attempt count +$1\nhas been added for a limited time.
 購入成功=Purchase Successful
-
-
 ---Age registration---
 入力する=input
 年齢確認=Age Confirmation
@@ -145,12 +157,17 @@ sr:"^(\d{4})年(\d+月)$"=$2 $1
 無償マナから先に消費され、=Free Mana will be used first.
 有償マナ内訳詳細=Paid Mana Breakdown Details
 有償マナを所持していません。=You do not have any Paid Mana.
+[FF7C4E,D62146]有償マナは購入順に消費されます。[-]=[FFF7C4E,D621466] The paid mana will be consumed in order of purchase. [-]
+
 ---NPC---
 ジュエルはよく考えて\n使うことね\n無駄遣い厳禁！=Think carefully\nwhen spending Jewels.\nDon't waste them!
+ジュエルを食べ物…\nいえ、貴重品と交換できます！=Here you can exchange jewels for fo- I mean for valuables!
+主さまのジュエルで\n貴重な品々を購入できます\nですが、無駄遣いは\n『めっ』でございますよ=My Lord, you can purchase valuable items with your jewels here. However, please be sure to not waste them.
+ジュエルがあれば\n貴重品と交換できるみたい\n大事に使いましょうね=It seems you can exchange jewels for valuable items here. Let's use them wisely.
 マナ購入で、「マナ」と「スキップチケット」が手に入ります。\nさらにオマケで「メモリーピース」「女神の秘石」「探索挑戦回数増加」\nが手に入るかもしれませんよ。=Buying Mana will give you both Mana and Skip Tickets.\nYou may also receive bonuses such as Memory Shards,\nDivine Amulets and additional Grotto attempts.
 
 決済手続=Payment Procedure
-r:"^\[3C404E\]\[3C404E\]DMMポイントを消費して、\n購入手続きを完了しますか？\n所持DMMポイント:(\d+)\n\[-\]\[FFBB00,CE4F00\]ここで購入したジュエルやマナは\nDMM版でご利用いただけます。\[-\]\[-\]$"=[3C404E]Do you want to use your DMM points to complete the purchase?\nYou currently have $1 DMM points.\n[FFBB00,CE4F00]The Jewels and Mana purchased here\ncan only be used on the DMM version[-].[-]
+r:"^(?:\[3C404E\])?\[3C404E\]DMMポイントを消費して、\n購入手続きを完了しますか？\n所持DMMポイント:(\d+)\n\[-\]\[FFBB00,CE4F00\]ここで購入したジュエルやマナは\nDMM版でご利用いただけます。\[-\](?:\[-\])?$"=[3C404E]Do you want to use your DMM points to complete the purchase?\nYou currently have $1 DMM points.\n[FFBB00,CE4F00]The Jewels and Mana purchased here\ncan only be used on the DMM version[-].[-]
 
 sr:"^\[3C404E\](.+)の\n期間があと\[-\]\[FF7C4E,D62146\](\d+)日\[-\]\[3C404E\]で終了します。\n購入ページへ移動しますか\?\[-\]$"=[3C404E]The period of the $1\nwill end in [-][FF7C4E,D62146]$2 day(s)[-].\nWould you like to go to the Purchase Page?[-]
 

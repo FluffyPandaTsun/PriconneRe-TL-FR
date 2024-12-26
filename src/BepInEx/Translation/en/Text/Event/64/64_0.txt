@@ -1,4 +1,4 @@
-r:"^グルメバカンスを過ごすべくオーマを訪れたネネカ、アキノ、ユカリと(.{2,10})。しかし目当てのトゥンヌスは、期待とは程遠い微妙な味。どうやらオーマの海にただ事ではない異変が起きている。$"=Neneka, Akino, Yukari and $1 visited Ohma to enjoy a gourmet vacation. But their target, the Tunnus fish, had a mediocre taste that was far from their expectations. It seemed that something unusual was happening in the sea of Ohma.
+グルメバカンスを過ごすべくオーマを訪れたネネカ、アキノ、ユカリと{playername}。しかし目当てのトゥンヌスは、期待とは程遠い微妙な味。どうやらオーマの海にただ事ではない異変が起きている。=Neneka, Akino, Yukari and {playername} visited Ohma to enjoy a gourmet vacation. But their target, the Tunnus fish, had a mediocre taste that was far from their expectations. It seemed that something unusual was happening in the sea of Ohma.
 嘘と本当。\n勝利と敗北。=Lies and truth. Victory and defeat.
 ……水と空気。=...Water and air.
 白と黒。\n好きと、好きじゃない──=White and black. Love and hate.
@@ -19,7 +19,6 @@ r:"^グルメバカンスを過ごすべくオーマを訪れたネネカ、ア�
 さぁ、オーマというオーベルジュを、楽しみ尽くしましょう！=Come on, let's enjoy this Ohma inn to the fullest!
 ぃやったーー！=Yaaaaay!
 ──すまないがそちらの方々。\n少し静かにしてはもらえないだろうか。=──I'm sorry, but could you please be quiet?
-ユカリ・アキノ=Yukari & Akino
 我が主は、騒々しいのがお嫌いなもので。=My master doesn't like noise.
 ……まったくここはいつ来ても……\n静かに過ごせるだろうという期待を、即刻裏切ってきますね。=...Really, every time I come here... they betray my expectation of being able to spend some quiet time.
 ──ネネカさん！=──Neneka-san!
@@ -57,7 +56,7 @@ r:"^グルメバカンスを過ごすべくオーマを訪れたネネカ、ア�
 チイッスお待たせしましたー！\nトゥンヌスの薄造りアーンドゥ煮つけでございまーッス。=Here you go, sorry for the wait! Thin slices of Tunnus and stewed Tunnus!
 ウェイター=Waiter
 あっ、じゃ、と、とりあえず、とりあえず食べましょ！\n空気が凍った時は食べる！　そして飲む！　ね、それがいいわ。=Ah, then, f-for now, let's eat! When the situation freezes, we eat! And drink! Right, that's good.
-r:"^で、ですわね！\nどうぞ、ネネカさん。\nほら、(.{2,10})さまも、従者様も……！$"=Y-yes! Here you go, Neneka-san. Look, $1-sama and the attendant too...!
+で、ですわね！\nどうぞ、ネネカさん。\nほら、{playername}さまも、従者様も……！=Y-yes! Here you go, Neneka-san. Look, {playername}-sama and the attendant too...!
 せーの！=Ready!
 いただきます。=Bon Appétit.
 一同=Everyone
@@ -97,88 +96,12 @@ r:"^で、ですわね！\nどうぞ、ネネカさん。\nほら、(.{2,10})さ
 こいつはな、ここの漁協長なんだわ。\nいー学校出たインテリのクセに、地元に舞い戻ってきた変わりモンよ。=He's Fisherman chief here. He's a weirdo who came back to his hometown after graduating from a good school.
 ……そいつらと知り合いなのか？=...Do you know these guys?
 ああ。この人たちは信用できる。\n洗いざらいぜんぶ吐いちまいな。\nオレたちの、のっぴきならねぇ「事情」をよ。=Yeah. These people are trustworthy. Tell them everything. Our unavoidable "situation".
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+嘘と本当。\n勝利と敗北。=Lies and truth.\nVictory and defeat.
+白と黒。\n好きと、好きじゃない──=White and black.\nLove and hate.
+にしても……ちょっと静かな気がしない？\nバカンスに来るにはメジャーじゃないってことなのかしら。\nオーマは冬が本番……みたいな？=But... don't you think it's a bit quiet? I guess it not a major destination for vacationing. Ohma is at its best in winter... maybe?
+……まったくここはいつ来ても……\n静かに過ごせるだろうという期待を、即刻裏切ってきますね。=...Really, every time I come here... they betray my expectation of being able to have some quiet time.
+わ、ネネカさん辛口ね。\nえっ、もしかして、こっちもイケる口？=Wow, Neneka-san you are so harsh. Huh, you can surely hold your drink, don't you?
+だからっ、話題の誘導が強引──\nネネカさん困っていらっしゃるじゃないの！=That's why, your topic guidance is too forceful--- You are troubled, Neneka-san, aren´t you?
+……か、風邪ですわね！=...Y-yes I-it's a cold, right!
+こ、これが……=Th-This is...
+Yeah.この人たちは信用できる。\n洗いざらいぜんぶ吐いちまいな。\nオレたちの、のっぴきならねぇ「事情」をよ。=Yeah. These people are trustworthy. Tell them everything. Our unavoidable "situation".

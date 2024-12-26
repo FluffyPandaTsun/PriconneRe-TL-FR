@@ -1,5 +1,4 @@
-ユニ・クロエ=Yuni & Chloe
-通りすがりの女生徒=Schoolgirl passing by
+
 起死回生のパンダとサクラ=Viral of Gap-moe
 クロエとチエルが運動競技で活躍し、しとやか組の得点はきよらか組に肉薄する。さらに模擬店勝負でクロエがけがをした生徒の代わりにメイド衣装に身を包み、ツンデレメイド喫茶を大成功させるのであった。=Chloe and Chieru excelled in the sports events, and the Pure team's score came close to catching up with the Refined team. Furthermore, in the mock store competition, Chloe, who had been injured, dressed up in a maid outfit and led the tsundere maid café to great success.
 なかよし部を自称する帰宅部一同は、\nふたたび校庭に戻って運動競技に精を出していた。=The self-proclaimed "Friendship" members of the homecoming club returned to the schoolyard to enthusiastically participate in the sports events.
@@ -82,7 +81,7 @@
 しかしクロエ君は事実、接客業も飲食業も慣れている。\n我々の中でもっとも適任だと思うのだが。=But Chloe-kun is actually experienced in customer service and the food industry. I think she's the most suitable among us.
 それはまあ、そーなんだろうけど……\nいや、てか、ぶっちゃけ働くの自体はべつにいんだけどー=Well, I guess that's true, but... well, actually, working is not the issue, but...
 いんだけど、じゃなくて、何なんこの服。\nフリルとかパフスリーブとか、うちのキャラじゃないじゃん。\n恥っず……あーも、やっぱ無理だわ、着替えてくる。=Not "but," it's just that, what's with these clothes? Frills and puff sleeves, they're not my style at all. It's embarrassing... Oh well, I can't do this, I'll go change.
-r:"^ええ～ッ！？\nなんでなんで！　こういうクロエ先輩も全然アリですって！\nね、ほら、(.{2,10})先輩もそう思うでしょ！？$"="Whaaat?! Why, why?! This kind of Chloe-senpai is totally fine too! See, look, $1-senpai also thinks so, right?"
+ええ～ッ！？\nなんでなんで！　こういうクロエ先輩も全然アリですって！\nね、ほら、{playername}先輩もそう思うでしょ！？=Whaaat?! Why, why?! This kind of Chloe-senpai is totally fine too! See, look, {playername}-senpai also thinks so, right?
 似合ってる。=It suits you.
 ないわ。\n殺し屋の目ぇした女にこんなんハマるわけないし、嘘じゃん。=Not a chance. There's no way someone like me, with killer eyes, would look good in something like this. It's a lie.
 え、でもこの先輩、\n嘘とかお世辞とか気の利いたこと言えるようなタマじゃないですよ。=But this senpai can't really tell lies or flatter people with clever words.
@@ -113,7 +112,7 @@ r:"^ええ～ッ！？\nなんでなんで！　こういうクロエ先輩も�
 それは初耳ですけれど。=That's news to me.
 そしてユニ博士の信奉者は、\n数こそ多くないものの熱量では他を圧倒すると言うな。=And Yuni-senpai's followers, although not numerous in number, are said to overpower others in their enthusiasm.
 それは寝耳に水ですけれど。=That's unexpected news to me.
-あら？　あちらのカフェ、大勢の方が並んでいらっしゃいますわ。\nきっと余程の美味しいメニューをいただけますのね。=Oh? There's a cafe over there, and many people are lined up. They must be offering some incredibly delicious menu items.
+あら？　あちらのカフェ、大勢の方が並んでいらっしゃいますわ。\nきっと余程の美味しいメニューをいただけますのね。=Oh? There's a café over there, and many people are lined up. They must be offering some incredibly delicious menu items.
 おおー！？\nそんなこと言ってる間に、\nよそから来たお客さんたちまで何事かと吸い寄せられてますよ！=Ohh!? While we were talking about that, even customers from other places have been drawn to see what's happening!
 行列効果というやつか。\nよし好機だ、我々は援護するぞ。\n彼ら彼女らの前で、すげーやべーこの店さいこーと囃したてるのだ。=It's the viral effect. Alright, this is our chance. Let's support them. Let's cheer them on, saying how amazing this place is, in front of them.
 通称サクラ。\nいいですね、やりましょう！\n咲かせてみせます、ちぇる桜！=The so-called Sakura. Sounds good, let's do it! We will make it viral, the Cherry Blossom of Chieru!

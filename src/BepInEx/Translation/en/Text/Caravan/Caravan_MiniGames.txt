@@ -1,5 +1,5 @@
 ------
-r:"^(\d+)マイル([×\d]{2})? 獲得！$"=$1$2 Miles acquired!
+r:"^([0-9,]+)マイル([×\d]{2})? 獲得！$"=$1$2 Miles acquired!
 獲得トレジャーはありません。=No treasure(s) obtained.
 獲得トレジャー=Obtained Treasure(s)
 個=
@@ -78,7 +78,7 @@ r:"^(\d+)ターン以内に到着$"=Arrive in $1 turns
 マイルを消費して\nプレミアムガチャを引きます。\nよろしいですか？=Spend Miles to draw the Premium Gacha?
 ノーマルガチャを無料で引きます。\n\nよろしいですか？=Draw the Normal Gacha for free?
 
-sr:"^\[3C404E\](.+)を \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained\n[FFBB00,CE4F00]$2 × [-]$1![-]
+sr:"^(?:\[3C404E\])?(.+)を \[-\]\[FFBB00,CE4F00\]([0-9,]+)\[-\]\[3C404E\]個獲得しました。(?:\[-\])?$"=[3C404E]Obtained\n[FFBB00,CE4F00]$2 × [-]$1![-]
 
 再開=Resume
 ミニゲームを中断しました。=The minigame has been suspended.
@@ -86,3 +86,8 @@ sr:"^\[3C404E\](.+)を \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しま
 一時停止=Pause
 [FF7C4E,D62146]リタイアした場合、集めた報酬は獲得できません。\nまた、再挑戦はできません。[-]=[FF7C4E, D62146]If you retire, you'll not be able to obtain the rewards you have collected.\nAlso, you cannot retry.[-]
 ミニゲームをリタイアしますか？=Do you want to quit the minigame?
+トゲトゲにぶつかると、少しの間動けなくなるので注意です！\nマグネットをキャッチすると、範囲内のフルーツや宝箱を一定時間\n引き寄せることができますよ♪=If you run into a thorn, you won't be able to move for a little while, so be careful! Catch a magnet and you can draw fruit and treasure chests within its range for a certain amount of time♪
+
+強力なハンマーに要注意です！攻撃地点からはフルーツや宝箱が\nドロップしますが、すぐに消えてしまうので急いでGETしましょう！\n「練習する」から何度でも実際のゲームの動きが確認できますよ♪=Be cautious of the powerful hammer! From the attack points, fruits and treasure chests will drop, but they disappear quickly, so let's hurry to collect them! You can practice and confirm the actual gameplay from "Practice" as many times as you like♪
+集めたフルーツはマイルと交換させていただきます\nSPECIALのフルーツは、NORMALの5個分の価値があります♪\nさらに宝箱をキャッチすると、トレジャーがGETできます！=The fruits you collect will be exchanged for miles. SPECIAL fruits are worth five times as much as NORMAL ones♪ Additionally, catching treasure chests will get you treasures!
+フルーツや宝箱はリザルトでまとめて報酬に交換いたします！\nたくさんキャッチして、マイルやトレジャーをGETしましょう♪=Fruits and treasure chests will be exchanged for rewards in bulk in the results! Let's catch plenty and get miles and treasures♪

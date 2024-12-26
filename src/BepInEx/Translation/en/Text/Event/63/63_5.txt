@@ -1,8 +1,6 @@
 夜を変える儀式=Ritual to Change the Night
 
-
-r:"^ブラドの策略により、拘束されるイリヤ。伝説の吸血鬼の記憶を呼び起す儀式で、イリヤの意識を塗りつぶそうと企むブラド。(.{2,10})とユキは儀式を阻止するため、イリヤのもとへ駆けつける。$"=Illya is restrained by Brad's ploy. Brad is plotting to blot out her consciousness with the ritual to summon the memories of the legendary vampire. $1 and Yuki rush to Illya's side to stop the ceremony.
-
+ブラドの策略により、拘束されるイリヤ。伝説の吸血鬼の記憶を呼び起す儀式で、イリヤの意識を塗りつぶそうと企むブラド。{playername}とユキは儀式を阻止するため、イリヤのもとへ駆けつける。=Illya is restrained by Brad's ploy. Brad is plotting to blot out her consciousness with the ritual to summon the memories of the legendary vampire. {playername} and Yuki rush to Illya's side to stop the ceremony.
 ……イリヤ様に付き従うことこそ、私の役目。=...It’s my duty to follow Lady Illya.
 ずっと見てたの？=Were you watching the whole time?
 やはりな。\nついてきておると思っておったぞ、ブラドよ。=I knew it. I knew you'd follow me, Brad.
@@ -20,7 +18,7 @@ r:"^ブラドの策略により、拘束されるイリヤ。伝説の吸血鬼�
 私の目的は、伝説の吸血鬼の復活でございます。=My goal is to revive the legendary vampire.
 なに一つ、私は偽りを申し上げておりません。\n私が目指すのは伝説の吸血鬼の復活、それ以外にございません。=No, I'm not lying. My goal is to revive the legendary vampire, nothing more.
 嘘をついてるって感じじゃない。\nけど、その瞳……危ないね。=I don't feel like you are lying.\nBut those eyes... It's dangerous.
-瞳っていうのは本来美しい輝きを放つものだけど、\nキミのそれは……危険な輝きを秘めてるよ。=Eyes are supposed to give off a beautiful glow,\nbut yours... have a dangerous glow.
+瞳っていうのは本来美しい輝きを放つものだけど、\nキミのそれは……危険な輝きを秘めてるよ。=Eyes are supposed to give off a beautiful glow,\nbut yours... have a dangerous glow. 
 危険……ええ、当然ですとも！\n伝説の吸血鬼の復活は、この世界において最大の危機にして、\n歴史に残る最上の出来事でなくてはなりません……！=Danger... Yes, of course! The resurrection of the legendary vampire must be the greatest crisis in this world and the greatest event in history...!
 『指先一つで天候を変え、足を踏み鳴らせば大地を割り、吐息を漏らせば\n大嵐を巻き起こし、眼差しを向けるだけで数万の生物の心を魅了する』\nそんなイリヤ様の復活だけが、我が目的でございます……！=‘Change the weather with a single fingertip, split the earth if you step on it, create a great storm if you let out a sigh, and captivate the hearts of tens of thousands of creatures just by looking at them.’ Lady Illya’s resurrection is my only goal...!
 そして！　お力のすべてを取り戻した後は、\nヒューマン族、獣人族、エルフ族のすべてをこの世界から滅ぼし、\n今度こそ！　かつてあなた様を封じた神々を討ちに行くのです！=And then! After we regain all of your power, we will destroy all of the humans, beastfolk, and elves from this world, and this time for sure! We will go slay the gods who once sealed you away!
@@ -75,7 +73,7 @@ r:"^ブラドの策略により、拘束されるイリヤ。伝説の吸血鬼�
 幸い、今のわらわは力が戻っておる。\n本気になれば、この程度の窮地は問題あるまい。=Fortunately, my power has returned. If I get serious, this level of predicament shouldn't be a problem.
 じゃが──なぜか、嫌な予感がする。\n力を使おうとするたびに……=But for some reason, I have a bad feeling about this. Every time I try to use my power...
 ──チカラガ、ヨミガエル──=──Resurrect, the Power──
-……っ！=...Ngh!
+……っ！=...!
 あの声が、段々と近くから聞こえてくるような……\n体の奥底に、沈んでくるような感覚……！\nこれは本当にわらわの記憶なのか……？　=I can hear that voice coming from closer and closer... It feels like it's sinking into the depths of my body...! Is this really my memory...?　
 さぁ、イリヤ様！\n私が集めた魔力を、お受け取りください……！=Now, Lady Illya! Please accept the magical energy I’ve gathered...!
 っ、やめるのじゃ！\nその力は……！=Stop it! That power...!
@@ -89,93 +87,17 @@ r:"^ブラドの策略により、拘束されるイリヤ。伝説の吸血鬼�
 あやつをも、敵に……？=Make him an enemy, too...?
 それだけは……=That's the one thing...
 いやじゃ……！=I don't want to...!
-
-
-
-
-
-
-
-
-
-
-
-
-r:"^キミさ……\nボクや(.{2,10})さんに目を留めたこと、ないでしょ？$"=You... You've never caught my eye or $1-san's, have you?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-r:"^小癪な……わらわと(.{2,10})を分断するとは。\n……人質のつもりか？　$"=How irritating... To think you'd split $1 and me apart... Are you trying to take me hostage?　
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+不自然？\nなにがでございますか？=Unnatural?\nWhat do you mean?
+キミさ……\nボクや{playername}さんに目を留めたこと、ないでしょ？=You... You've never caught my eye or {playername}-san's, have you?
+最後の台詞はともかく、\nユキのやつ……案外よく見とるんじゃな。=Putting that last line aside, Yuki... he's surprisingly perceptive.
+嘘をついてるって感じじゃない。\nけど、その瞳……危ないね。=I don't feel like you are lying.\n But those eyes... It's dangerous. 
+瞳っていうのは本来美しい輝きを放つものだけど、\nキミのそれは……危険な輝きを秘めてるよ。=Eyes are supposed to give off a beautiful glow, \nbut yours... have a dangerous glow. 
+さすがのご理解。\n……魔物たちよ、ここへ。=As expected of your understanding.\n...Demons, come here.
+丁重に、イリヤ様をお連れしろ。\nそっちのニンゲンは、牢にでも入れておけ。=Take Illya-sama with you.\nPut that Human in jail.
+小癪な……わらわと{playername}を分断するとは。\n……人質のつもりか？　=How irritating... To think you'd split {playername} and me apart... Are you trying to take me hostage?　
+──参りましょう、イリヤ様。=──Let's go, Lady Illya.
+ちょっとどころじゃないよ！\nボクの両手に鎖をつけるなんて──全然わかってない！=It's not just a little! You don't understand, putting chains in my hands and all! 
+内にも外にも、魔物どもが集まっておるようじゃ。\n眷属やユキは無事じゃろうか……=It seems monsters have gathered both inside and outside. I wonder if the Familiar and Yuki are safe...
 movie
 さぁ伝説の吸血鬼、イリヤ・オーンスタイン様=Now, the legendary vampire, Lady Illya Ornstein
 私めをあなた様の眷属にしてくださいませ……！=Please make me your Familiar!

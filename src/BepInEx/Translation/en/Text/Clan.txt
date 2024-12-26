@@ -2,7 +2,12 @@
 サポートキャラを設定\\nできます=Set up Rent-Chara
 対象クエスト一覧=Available Quest List:
 対象のクエストは以下のものとなります。=The Available Quests that can\nuse Rent-Chara are as follows.
-メインクエスト(NORMAL)\nメインクエスト(HARD)\nメインクエスト(VERYHARD)\nサブクエスト\n探索経験値クエスト\n探索マナクエスト\n聖跡調査\n神殿調査\nイベントクエスト(NORMAL)\nイベントクエスト(HARD)\nサイドストーリークエスト(NORMAL)\nサイドストーリークエスト(HARD)=Main Quest (NORMAL)\nMain Quest (HARD)\nMain Quest (VERYHARD)\nSub Quest\nGrotto EXP\nGrotto Mana\nSanctum Survey\nTemple Trek\nEvent Quest (NORMAL)\nEvent Quest (HARD)\nSide Story Quest (NORMAL)\nSide Story Quest (HARD)
+
+クエスト・イベント=Quest & Event
+メインクエスト(NORMAL)\nメインクエスト(HARD)\nメインクエスト(VERYHARD)\nサブクエスト\n探索経験値クエスト\n探索マナクエスト\n聖跡調査\n神殿調査\nイベントクエスト(NORMAL)\nイベントクエスト(HARD)\nイベントボスバトル(EXHIBITION＋)\nサイドストーリークエスト(NORMAL)\nサイドストーリークエスト(HARD)\n深域クエスト=Main Quest (NORMAL)\nMain Quest (HARD)\nMain Quest (VERYHARD)\nSub Quest\nGrotto EXP\nGrotto Mana\nSanctum Survey\nTemple Trek\nEvent Quest (NORMAL)\nEvent Quest (HARD)\nSide Story Quest (NORMAL)\nSide Story Quest (HARD)\nEvent boss battle (Exhibition+)\nDeep-level quest
+対象コンテンツ一覧=List of subject content
+対象のコンテンツは以下のものとなります。=The target content is as follows:
+
 
 r:"^\-(\d+)日-(\d+)時間-(\d+)分$"=-$1d-$2h-$3m
 r:"^トレーニングログ保存件数 ([0-9/]+)$"=Saved training logs: 6/30
@@ -34,8 +39,9 @@ r:"^\[3C404E\]\[3C404E\]クランメンバーに\[FFBB00,CE4F00\](\d+)\[-\]回�
 
 月間=Month
 [FF7C4E,D62146]いいねされたクランメンバーにはマナがおくられます。[-]=[FF7C4E,D62146]Liked clan members will receive Mana.[-]
+クランを脱退しました。=Left the clan.
 いいね完了=Like Complete
-
+除名=kick
 r:"^(.{1,10})がクランに加入しました。$"=$1 has joined the clan.
 r:"^(.{1,10})がリーダーになりました。$"=$1 has become a leader.
 r:"^(.{1,10})がサブリーダーになりました。$"=$1 has become a sub-leader.
@@ -66,13 +72,14 @@ r:"^次の装備リクエストは(\d+)分後に可能です。$"=You can make y
 寄付完了=Donation completion
 
 8時間経過したため、装備リクエストが終了しました。=You received the following equipment.\n8 hours have passed and the equipment request has ended.
-r:"^以下の装備をx(\d+)獲得しました。\n寄付上限に達したため、装備リクエストが終了しました。$"=Acquired the following equipment x$1.\nYou have reached the donation limit, equipment requests have ended.
+r:"^以下の装備をx(\d+)獲得しました。\n8時間経過したため、装備リクエストが終了しました。$"=Acquired the following equipment x$1.\nYou have reached the donation limit, equipment requests have ended.
+
 [FF7C4E,D62146]バトルを開始した時点で挑戦回数が消費され、\n編成キャラとそのEX装備に使用制限がかかります。[-]=[FF7C4E,D62146]Attempts are consumed when the battle starts,\nusage restrictions apply to characters\nand their EX equipment in the formation.[-]
 
 [FF7C4E,D62146]サポート以外のキャラのEX装備に使用制限がかかります。[-]=[FF7C4E,D62146]rent char and their EX equipment will be restricted.[-]
 [FF7C4E,D62146]バトルを開始した時点で上記のキャラと、[-]=[FF7C4E,D62146]Attempt will be used and the use of charas except[-]
 
-[3C404E][3C404E]クランを[-][FF7C4E,D62146]脱退[-][3C404E]します。\nよろしいですか？[-][-]=[3C404E]You will [FF7C4E,D62146]withdraw[-][ from the clan.\nIs that okay?
+[3C404E][3C404E]クランを[-][FF7C4E,D62146]脱退[-][3C404E]します。\nよろしいですか？[-][-]=[3C404E]You will [FF7C4E,D62146]withdraw[-] from the clan.\nIs that okay?
 [FF7C4E,D62146]脱退後24時間はクランに所属・結成ができません。[-]=[FF7C4E,D62146]You will not be able to join or\nform a clan for 24 hours after leaving.[-]
 
 残り挑戦回数が0回です。=The remaining attempt is 0.
@@ -163,7 +170,7 @@ r:"^\[3C404E\]オーバーキルが発生したため\nモンスターの実際�
 ---Windows popup---
 sr:"^(\d+月)クランバトル開始！！$"=CB-$1 has Started!
 r:"^期間 ([0-9/ :]+)～([0-9/ :]+)$"=Start $1\nEnd $2
-クランメンバーと協力して\n強力なモンスターを討伐しよう！=Become a slave of metas lest you be struck down by those you called allies.\nAll the banners you sparked on (lmfao) were for this very moment.\nGo forth Whales! Go forth Dolphins! Aim for the top and show us how quickly you can tap the screen!\nThe real battle has just begun!
+クランメンバーと協力して\n強力なモンスターを討伐しよう！=Work together with your clan members to take down powerful monsters!
 
 [FFBB00,CE4F00]解放期間:[-]=[FFBB00,CE4F00]Period:[-]
 sr:"^\[FF7C4E,D62146\]ボスの強さは、(\d+月)クランバトル（クランモード）と同じです。\[-\]$"=[FF7C4E,D62146]The boss's strength was same as the CB ($1).[-]
@@ -200,7 +207,6 @@ r:"^トレーニング (\d)段階目$"=Training Tier $1
 残り持越し回数=Left Over
 トレーニング=Trial Run
 r:"^(\d)段階目$"=Tier $1
-グラットン 5段階目=Gratton 5th stage
 sr:"^(.+) (\d)段階目$"=Tier $2 $1
 表示段階=Select Tier
 絞り込み=Search
@@ -368,7 +374,7 @@ r:"^\[3C404E\]このおすすめ編成は、\n持越し時間\[FFBB00,CE4F00\]([
 
 報酬は順位が確定し次第、プレゼントに送られます。=Rewards will be sent when rankings are finalized
 
-すでに解散しているクランです。=These clan already disbanded.
+すでに解散しているクランです。=This clan has disbanded
 位= 
 -位=-
 
@@ -376,7 +382,7 @@ sr:"^\[FF9393,E82F71\](\d+月)クラン内ランキング\n(.+) 全段階合計\
 sr:"^\[FF9393,E82F71\](\d+月)クラン内ランキング\n(.+) (\d)段階目\[-\]$"=[FF9393,E82F71]In-Clan Rankings ($1)\nWave $3 Score $2: 
 
  全段階合計[-]= Total Score: 
-r:"^ (\d+)段階目\[-\]$"= Wave $1 Score:
+r:"^ ([0-9,]+)段階目\[-\]$"= Wave $1 Score:
 20001位以降=20,001 and below
 
 総合順位報酬=Overall Rank Reward
@@ -408,6 +414,7 @@ sr:"^(.+)　Lv.(\d+)$"=$1 lv.$2
 r:"^(?:現在)?(\d+)(?:周|回)目(～)?$"=Lap $1$2
 sr:"^\[FF9393,E82F71\](\d+月)クラン内ランキング一覧\[-\]$"=[FF9393,E82F71]In-Clan Rankings ($1)[-]
 sr:"^(\d+月)全クランランキング$"=Global Ranking($1)
+[FF7C4E,D62146]ランキング情報がありません。[-]=[FF7C4E,D62146]No ranking information. [-]
 ---My Log---
 マイログ=My log
 r:"^模擬戦ログ保存件数([0-9/ ]+)$"=Number of mock battle logs saved: $1
@@ -468,10 +475,10 @@ sr:"^\(クラン内ランキング　(\d+位)\)$"=(in-clan Rank $1)
 ---(?!.*My)^.*$---
 
 まだ誰も挑戦していません=No attempts made yet.
-r:"^([^\n]{2,10})が$"="[00ff0099]$1[-] hit"
-sr:"^([べ-ヺー＆]+)に$"=$1 for
-r:"^\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]ダメージ\[-\]\[3C404E\]\[-\]$"=[FFBB00,CE4F00]$1[-][3C404E] Damage[-]
-r:"^\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]ダメージ\[-\]\[3C404E\]で撃破\[-\]$"=[FFBB00,CE4F00]$1[-][3C404E] Damage[-][FF7C4E,D62146](kill)[-]
+r:"^([^\n\\\.\,。\?\!…♪─]{2,10})が$"="[00ff00AA]$1[-] hit"
+sr:"^([べ-ヺー＆＝・]+)に$"=[0055FFAA]$1[-] for
+r:"^\[FFBB00\,CE4F00\]([0-9,]+)\[-\]\[3C404E\]ダメージ\[-\]\[3C404E\]\[-\]$"=[FFBB00,CE4F00]$1[-][3C404E] Damage[-]
+r:"^\[FFBB00\,CE4F00\]([0-9,]+)\[-\]\[3C404E\]ダメージ\[-\]\[3C404E\]で撃破\[-\]$"=[FFBB00,CE4F00]$1[-][3C404E] Damage[-][FF7C4E,D62146] (kill)[-]
 
 削除=Delete
 トレーニングマイログ削除確認=My Log Training Deletion Confirmation
@@ -482,3 +489,7 @@ r:"^\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]ダメージ\[-\]\[3C404E\]で撃破\[
 クランに所属すると、\nクランバトルに挑戦することができます。=If you join a clan,\nyou can participate in Clan Battles.
 クランに所属すると、=If you join to a Clan,
 クランバトルに挑戦することができます。=You can participate in Clan Battles.
+
+---が dialogue void---
+かわいそうだが=I feel sorry for you
+はっ、バカが=Hah, you morons

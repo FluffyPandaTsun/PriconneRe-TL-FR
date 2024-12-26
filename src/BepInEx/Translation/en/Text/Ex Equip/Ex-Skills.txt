@@ -14,7 +14,7 @@ r:"^バトル開始後(\d+)秒間自分に(\d+)％の物理ダメージ\nカッ�
 r:"^バトル開始後(\d+)秒間自分に(\d+)％の魔法ダメージ\nカット効果を付与する。$"=Applies magical damage cut to own by $2% for $1s after the start of battle.
 
 開始時継続ＨＰ回復付与=Starting HP Regen
-r:"^バトル開始後(\d+)秒間自分に残りＨＰ([0-9.]+)％の継続\nＨＰ回復状態を付与する。$"=Apply Continuation HP recovery state of $2% for $1s after the start of battle.
+r:"^バトル開始後(\d+)秒間自分に残りＨＰ([0-9.\.]+)％の継続\nＨＰ回復状態を付与する。$"=Apply Continuation HP recovery state of $2% for $1s after the start of battle.
 
 バトル中盤攻撃力大アップ=Attack Up (L) In Mid-Battle
 バトル開始後45秒経過時に自分の物理攻撃力を20％アップさせる。=If the remaining time is less than 45s: Boost own physical attack by 20%.
@@ -34,3 +34,41 @@ r:"^バトル開始後(\d+)秒間自分の魔法クリティカルを\n(\d+)％�
 開始時防御力中アップ=Starting Defense Up
 r:"^バトル開始後(\d+)秒間自分の物理防御力を(\d+)％アッ\nプさせる。$"=Boost own physical defense by $2% for $1s after the start of battle.
 r:"^バトル開始後(\d+)秒間自分の魔法防御力を(\d+)％アッ\nプさせる。$"=Boost own magic defense by $2% for $1s after the start of battle.
+
+
+バトル中盤クリティカル強化=Critical Boost In Mid-Battle
+魔蜘ノ凶槍=Magic Spider's Violent Spear
+バトルの残り時間が45秒を切ると味方全体の物理クリティカルと物理攻撃クリティカル時のダメージを３％アップさせる。=When there are less than 45 seconds left in battle, boosts P.CRIT RATE and P.CRIT DMG for all allies by 3%.
+
+バトル中盤クリティカル中アップ=Critical Up (L) In Mid-Battle
+
+バトルの残り時間が45秒を切ると自分の物理クリティカルを５%アップさせる。=If the remaining time is less than 45s: Boosts P.CRIT RATE by 5%.
+
+バトル中物理強化=Attack Up (M) In Battle
+バトル中物理攻防強化=Physical Up (M) In Battle
+バトル開始後90秒間自分の物理攻撃力と物理防御力を３％アップさせる。=Boost own P.ATK and P.DEF by 3% for 90s after the start of battle.
+
+バトル中魔法耐性強化=Resistance Up (M) In Battle
+バトル開始後90秒間自分の魔法防御力３％アップさせ、３％の魔法ダメージカット効果を付与する。=Boost own M.DEF by 3% for 90s after the start of battle, gives 3% M.DMG cut effect.
+
+バトル中ダメージ強化=Damage Up In Mid-Battle
+バトルの残り時間が45秒を切ると自分の物理クリティカルと物理攻撃クリティカル時のダメージを２０％アップさせる。=If the remaining time is less than 45s: Boosts P.CRIT RATE and P.CRIT DMG by 20%.
+
+
+開始時ダメージ強化=Enhanced Starting Damage
+
+バトル開始後90秒間自分の物理攻撃力と物理攻撃クリティカル時のダメージを３％アップさせる。=Boost own P.ATK and P.CRIT DMG by 3% for 90s after the start of battle.
+
+バトル中クリティカル強化=Critical hit boost during battle
+バトル開始後24秒間自分の物理攻撃力と物理攻撃クリティカル時のダメージを５％アップさせる。=Boost own P.ATK and P.CRIT DMG by 5% for 24s after the start of battle.
+バトル開始後90秒間自分の物理クリティカルと物理攻撃クリティカル時のダメージを３％アップさせる。=Boost own P.CRIT RATE and P.CRIT DMG by 3% for 90s after the start of battle.
+
+バトル中物理耐性強化=Defense Up (M) In Battle
+バトル開始後90秒間自分の物理防御力３％アップさせ、３％の物理ダメージカット効果を付与する。=Boost own P.DEF by 3% for 90s after the start of battle, gives 3% P.DMG cut effect.
+
+バトル開始後90秒間自分の魔法クリティカルと魔法攻撃クリティカル時のダメージを３％アップさせる。=Boost own M.CRIT RATE and M.CRIT DMG by 3% for 90s after the start of battle.
+
+バトル中魔法攻防強化=Magic Up (M) In Battle
+バトル開始後90秒間自分の魔法攻撃力と魔法防御力を３％アップさせる。=Boost own M.ATK and M.DEF by 3% for 90s after the start of battle.
+
+バトル開始後90秒間自分の物理攻撃力と物理クリティカルを３％アップさせる。=Boost own P.ATK and P.CRIT RATE by 3% for 90s after the start of battle.

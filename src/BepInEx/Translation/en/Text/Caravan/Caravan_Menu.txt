@@ -2,6 +2,8 @@
 ボーナス一覧=Bonus List
 経過ターン=Elapsed Turns
 
+シーズン最速到達ターン=Fastest season's turn
+シーズン最速到達記録=Fastest season record
 
 グルメチェイサー号=Gourmet Chaser
 バンディシャーク号=Bandyshark
@@ -11,14 +13,18 @@
 目標到着ボーナス=Target arrival bonus
 到着までにかかったターン数=Total Turns
 ライバルに勝利=Won
+r:"^(\d+)ターン経過$"=$1 Turn(s) passed
 r:"^(\d+)ターン休み$"=$1 Turn(s) Break
 練習する=Practice
 練習中=During practice
 ライバル=Rival
 ライバル勝利ボーナス=Rival victory bonus
+区間スキップ=Section Skip
+シーズン中、チェックポイント到達までにかかった\n最速ターン数に応じてボーナスが獲得できます！=During the season, you can earn bonuses based on the\nfastest number of turns it took you to reach a checkpoint!
 
 r:"^ダイスを(\d+)個入手した。$"=Obtained $1 dice.
-
+\nマイルを支払って\n「ちかみち」を開通させます。\nよろしいですか？=\nPay Miles to open the Shortcut.\nIs that all right?
+15ターン以内にチェックポイントに到達すると解放されます。=It will be unlocked if you reach the checkpoint within 15 turns.
 [FF7C4E,D62146]1[-][3C404E]ターン[-]=[FF7C4E,D62146]1[-][3C404E] Turn[-]
 r:"^\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]ターン\[-\]$"=[FF7C4E,D62146]$1[-][3C404E] Turns[-]
 チェックポイント=Checkpoint
@@ -75,7 +81,7 @@ r:"^レベル(\d)$"=Level $1
 到達までにかかったターン数=Turns Needed to Reach Checkpoint
 
 ---Sell Dishes---
-r:"^\[3B3F4D\](.+)を売却して\n?\[-\]\[FFBB00\,CE4F00\](\d+)\[-\]\[3B3F4D\]マイルを獲得しました。\[-\]$"=[3B3F4D]Sold $1\nand earned [FFBB00,CE4F00]$2[-] Miles[-]
+sr:"^(?:\[3B3F4D\])?(.+)を売却して\n?\[-\]\[FFBB00\,CE4F00\]([0-9,]+)\[-\]\[3B3F4D\]マイルを獲得しました。(?:\[-\])?$"=[3B3F4D]Sold $1\nand earned [FFBB00,CE4F00]$2[-] Miles[-]
 
 ---Lottery---
 福引券=Lottery Ticket
@@ -119,8 +125,8 @@ r:"^\[3B3F4D\](.+)を売却して\n?\[-\]\[FFBB00\,CE4F00\](\d+)\[-\]\[3B3F4D\]�
 料理を売却してマイルを得ることができます。=You can earn Miles by selling Dishes.
 売却確認=Confirm Sale
 売却完了=Sale Complete
-r:"^\[3B3F4D\]以下の料理を売却して\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]マイルを獲得しますか\?\[-\]$"=[3B3F4D]Sell the following Dish(es) for[-][FFBB00,CE4F00] $1[-][3B3F4D] Miles?[-]
-r:"^\[3B3F4D\]以下の料理を売却して\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]マイルを獲得しました。\[-\]$"=[3B3F4D]Sold the following Dish(es) for[-][FFBB00,CE4F00] $1[-][3B3F4D] Miles.[-]
+r:"^\[3B3F4D\]以下の料理を売却して\[-\]\[FFBB00,CE4F00\]([0-9,]+)\[-\]\[3B3F4D\]マイルを獲得しますか\?\[-\]$"=[3B3F4D]Sell the following Dish(es) for[-][FFBB00,CE4F00] $1[-][3B3F4D] Miles?[-]
+r:"^\[3B3F4D\]以下の料理を売却して\[-\]\[FFBB00,CE4F00\]([0-9,]+)\[-\]\[3B3F4D\]マイルを獲得しました。\[-\]$"=[3B3F4D]Sold the following Dish(es) for[-][FFBB00,CE4F00] $1[-][3B3F4D] Miles.[-]
 
 現在マイルショップが開いています。\nダイスまたは料理を使用した後は利用できません。\n\nよろしいですか？=The Mile Shop is currently open.\nIt will not be available\nafter using the Dice or a Dish.\nContinue?
 
@@ -146,24 +152,40 @@ r:"^料理所持数 ([0-9/]+)$"=Number of Dishes Owned: $1
 
 移動確認=Move confirmed
 このマスに移動しますか？=Move to this tile?
+立ち去る=Leaving
+「ちかみち」を開通させずに立ち去ります。\nよろしいですか？\n\n=You will leave without opening "Shortcut".\nAre you sure?
 
+立ち去るを選ぶとイベントが終了します。\n終了後に選択し直すことはできません。=If you choose to leave, the event will end.\nYou will not be able to choose again after the event ends.
 r:"^(\d)ターンの間ターン数のカウントをスキップする。$"=For $1 turn(s), turns do not count.
-料理が所持上限を超えています。\n所持数が8個以下になるように料理を売却してください。=You have exceeded the maximum amount of dishes you can possess.\nPlease sell dish(es) until there are 8 or less left.
+r:"^料理が所持上限を超えています。\n所持数が(\d+)個以下になるように料理を売却してください。$"=You have exceeded the maximum amount of dishes you can possess.\nPlease sell dish(es) until there are $1 or less left.
 
 料理所持数上限=Maximum Dishes Reached
 料理が所持上限に達しています。\n新たに料理を入手した場合、超過分の売却が必要です。\n\nこのままダイスを振ってもよろしいですか？=Your dish inventory is currently at its limit.\nIf you acquire new dishes, you will need to sell the excess ones.\nRoll the Dice anyway?
+購入に必要なマイルが不足しています。=Don't have enough miles to buy it.
+食べられる料理を所持していません。=Don't have any edible food.
 所持数がいっぱいです。売却する料理を選んでください。=Inventory full. Select Dish(es) to sell.
-r:"^\[3C404E\]料理所持数 \[-\]\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]/8\[-\]$"=[3C404E]Dishes Held:[-][FF7C4E,D62146] $1[-][3C404E]/8[-]
+r:"^\[3C404E\]料理所持数 \[-\]\[FF7C4E,D62146\]([0-9,]+)\[-\]\[3C404E\]/([0-9,]+)\[-\]$"=[3C404E]Dishes Held:[-][FF7C4E,D62146] $1[-][3C404E]/$2[-]
 
 現在マイルガチャが開いています。\nダイスまたは料理を使用した後は利用できません。\n\nよろしいですか？=The Mile Gacha is currently open.\nYou cannot use it after using your dice or eating food.\n\nIs this OK?
 
+バンディ・シスターズに差をつけて先に\nチェックポイントへ到達するとボーナスが獲得できます!=Get ahead of the Bandy Sisters\nand reach the checkpoint first to receive a bonus!
 ---New Season---
 
 r:"^\[FF7C4E,D62146\]このコインの使用期限は([0-9/ :]+)までです。\[-\]$"=[FF7C4E,D62146]This coin can be used until $1.[-]
-r:"^キャラバンコイン(?:（シーズン(\d)）)?ｘ(700)$"=Caravan Coin (Season $1)ｘ$2
+r:"^キャラバンコイン(?:（シーズン(\d)）)?ｘ(\d+)$"=Caravan Coin (Season $1)ｘ$2
+
+
+まとめて３個=Three at once
+
 シーズン切り替わり=New Caravan Season
 新シーズンが始まったため、\n所持していたトレジャーをコインに変換しました。=Since the new season has begun,\nall your treasure has been converted into coins.
-
+------
+所持ダイス=Dice
+r:"^ボーナスレベル(\d+)$"=Bonus level $1
+区間スキップを実行した場合、出現中の仲間効果、\nおよび発動中の料理効果、マス効果は消失します。\nまた、ライバル出現時は勝敗が無効となります。=If you perform a section skip, any active ally effects,\ndish effects, and tile effects will disappear. \nAdditionally, when a rival appears,\nthe outcome of the match will be nullified.  
+r:"^(?:\[3C404E\])?ダイスを\[FFBB00\,CE4F00\](\d+)個\[-\]使って区間スキップを実行しますか？(?:\[3C404E\])?(?:\[-\])?$"=[3C404E]Use [FFBB00,CE4F00]$1 dice[-] to perform a section skip?
+シーズン最速到達ターン数=Fastest Season Completion Turns
+区間スキップの実行にはダイスが15個必要です。=15 dice are required to execute section skip.
 ---Tutorial Kokkoro---
 皆さま、オニギリさまと共にグルメチェイサー号で冒険に出発\nいたしましょう。ダイスを振って出た目の数だけマップを進み、\nカリンさまの待つギルド管理協会出張所を目指してくださいまし。=Everyone, let's set off on an adventure aboard the Gourmet Chaser with Onigiri-sama. Roll the dice and move forward on the map, our goal is the Guild Management Association office, where Lady Karin is waiting for us.
 ギルド管理協会出張所では集めたトレジャーをキャラバンコインに換金し\nてくださいます。また、到達までのターン数が少ないほどボーナスを獲得\nできるようです。コインはショップでアイテムと交換いたしましょう。=At the Guild Management Association branch office, you can exchange the Treasures you collected for Caravan Coins. Also, the fewer turns it takes you to reach it, the bigger the bonus you will receive. Let's collect coins and trade them for items at the shop.
@@ -174,3 +196,8 @@ r:"^キャラバンコイン(?:（シーズン(\d)）)?ｘ(700)$"=Caravan Coin (
 
 1～14マス差で勝利=Win by one to fourteen tiles
 15マス差以上で勝利=Win by more than 15 tiles
+
+
+「ちかみちマス」でマイルを支払うと、チェックポイントまでの短縮\nルートが開かれるようです。「パーティマス」に止まった翌ターンは最大\n３品まで料理を召し上がれますよ。組み合わせが重要でございますね。=If you pay miles at the "Shortcut Tiles," a shortcut route to the checkpoint will be opened. After stopping at a "Party Tiles," you can enjoy up to three dishes on the next turn. The combination is important.
+ダイスを一度に３個振ることができる「まとめて３個」モードが\n新たに追加されました。お手持ちのダイスを用いて、効率的に冒険を\n進めることができるようでございます。ぜひご活用くださいまし。=A new mode, "Roll Three at Once," has been added, allowing you to roll three dice simultaneously. This will help you progress through your adventure more efficiently using your dice. Please make use of it.
+「まとめて３個」モードの使用中は、マス効果の発動頻度や出現する\nお仲間の制限など、ダイスを1個ずつ振って遊ぶときとは異なる点が\nあるようです。詳細は「ヘルプ」をご覧ください、主さま。=While using the "Roll Three at Once" mode, the frequency of Tiles effects and the appearance of companions may differ from when you roll one die at a time. For details, please check the "Help," my lord.

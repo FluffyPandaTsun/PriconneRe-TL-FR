@@ -10,7 +10,7 @@ r:"^(\d+)分前$"=$1m ago
 更新まで=Resets in
 対戦相手を\n選択してください。=Select\nan opponent.
 総戦力=Power
-プレイヤーLv=Player LV
+プレイヤーLv=Player Lv
 受取可能な報酬=Claimable
 タイム報酬=TimeReward
 クールタイム=Cooldown
@@ -58,9 +58,9 @@ r:"^パーティ(\d)にキャラが選択されていません。$"=No character
 フレンド以外のプレイヤーのキャラは、ステータスが\\n下方補正されている場合があります。=Characters from players not on your friend list\\nmay have their stats scaled down.
 別のパーティに編成中のキャラは選択できません。=Characters being used in another party cannot be selected.
 
-[3B3F4D]本日の挑戦回数の上限に達しています。\nジュエル×[-][FFBB00,CE4F00]50[-][3B3F4D]を使用して挑戦回数をリセットしますか？[-]=[3C404E]You have reached the maximum number of attempts for today.Do you want to reset the number of attempts using Jewels × [FFBB00,CE4F00]50[-]?[-]
+
 [3C404E]対戦相手のランキングが更新されました。[-]=[3C404E] The ranking of the opponent has been updated. [-]
-sr:"^\[3C404E\]対戦相手のランキングが(\d+位)に変更されました。\n対戦しますか？\[-\]$"=[3C404E]The opponent's ranking has been changed to $1 place. Do you want to play?[-]
+sr:"^(?:\[3C404E\])?対戦相手のランキングが(\d+位)に変更されました。\n対戦しますか？(?:\[-\])?$"=[3C404E]The opponent's ranking has been changed to $1 place. Do you want to play?[-]
 相手の編成確認=Opponent's Party
 リスト更新まで=Resets in
 
@@ -100,13 +100,15 @@ sr:"^(\d+位)～(\d+位)$"=$1 to $2
 r:"^\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]回の防衛に成功！報酬はプレゼントに送られました。\[-\]$"=[FFBB00,CE4F00]$1[-][3C404E]×successful defenses! Rewards have been sent.[-]
 
 現在、対戦可能な相手がいません=Currently, there are no opponents available.
-※一定時間経過後、リストが更新されると表示される場合があります=※ After a certain period of time,\nit may be displayed when the list is updated
+※一定時間経過後、リストが更新されると表示される場合があります=※After a certain period of time, it may be displayed when the list is updated
 バトルが行われていないため、閲覧できません。=Cannot be viewed because the battle has not taken place.
 
 [3C404E]リプレイを中断しますか？\nリプレイは対戦履歴から再度見る事ができます。[-]=[3C404E]Do you want to end the replay?\nYou can see the replay again\nfrom the match history.[-]
 
 sr:"^対戦相手のランキングが(\d+位)に変更されました。\n勝利してもランキングは変わりません。\n対戦しますか？$"=The opponent's ranking has been changed to $1 place. The ranking does not change even if you win.\nDo you want to play?
 
+
+グループシャッフル後、バトルアリーナに移動していないためアリーナコインが受け取れません。=After group shuffle, you will not be able to receive arena coins because you have not moved to the battle arena.
 ---NPC Help---
 対戦相手に勝利すると、対戦相手と順位が入れ替わります。\n対戦相手は、自分と同等の強さか、格上の相手が登場します。\nランキングを上げてアリーナコインやジュエルを獲得しましょう。=Defeat an opponent and you will take their place in the rankings. You will face opponents of similar or higher rank than your own. Work your way up the ranking, and win Arena Coins and Jewels!
 

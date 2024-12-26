@@ -1,5 +1,5 @@
 ランドソルへと一時帰還した【アルターメイデン】は、サレンディア救護院に宿泊。忌まわしき過去をサレンたちに受け入れてもらったことで前向きになった３人は、贖罪のため、街の人々の役に立とうと決める。=Alter maiden, who had temporarily returned to Landosol, was staying at the Sarendia Orphanage. The three of them had become positive after having their abominable past accepted by Saren and the others, so they decided to help the people of the city atone for their sins.
-ジオ・テオゴニアでの冒険と冒険の間──=In between adventures and quests in Geo Teogonia──
+ジオ・テオゴニアでの冒険と冒険の間──=In between adventures and quests in Gio Teogonia──
 溜まった用事を片付けるべく、\n一時的に帰還した【美食殿】の面々と共に、\n【アルターメイデン】もまた、ランドソルへと帰ってきていた。=To take care of accumulated tasks, Alter Maiden also temporarily returned along with the members of the Gourmet Guild to Landosol.
 ただいまでございます。=It's good to be back.
 ちょっとぶりですね、ランドソルに戻ってくるの。=It's been a while, hasn't it? Coming back to Landosol.
@@ -177,7 +177,7 @@
 大丈夫ですよ、プレシアさん。\n兄様と一緒であれば、いかなる事態も怖くなどありません。\n臆せず、共に参りましょう……！=Don't worry, Precia-san. As long as I'm with Nii-sama, there is nothing to be afraid of in any situation. Let's go together without hesitation...!
 ……はいっ！\n……んっ。=...Yes! \n...Hmm.
 お手伝いに訪れたのは【牧場（エリザベスパーク）】。しかし非力なリリたちに肉体労働はハードルが高く、ほとんど役に立てない。落ち込みながらも、マヒルやリンの励ましに勇気づけられるリリたちであった。=They came to help at the Elizabeth Park Ranch. However, physical labor is a high hurdle for weak Riri and they are hardly useful. Despite feeling down, Riri was encouraged by Mahiru and Rin's words.
-r:"^お手伝いをさせてもらうべく、\n(.{2,10})が【アルターメイデン】を連れて\nまずやってきたのは、【牧場（エリザベスパーク）】。$"="To lend a hand, $1 brought Alter Maiden and arrived at the Elizabeth Park Ranch."
+お手伝いをさせてもらうべく、\n{playername}が【アルターメイデン】を連れて\nまずやってきたのは、【牧場（エリザベスパーク）】。=To lend a hand, {playername} brought Alter Maiden and arrived at the Elizabeth Park Ranch.
 いや～お手伝いがしてぇとは。\n願ってもねぇ申し出だ、あんちゃん！=Oh, I never expected you to come offering help.\nThat's a hell of an offer, An-chan!
 見ての通り、牧場はいつだって人手不足だからな。\nさっそくほら。ミルク運びをお願いしたべ！=As you can see, the farm is always short-handed. \nNow, let's get to it.\nI'm counting on you to carry the milk!
 お役に立てそうでよかった！=I'm glad I could be of help!
@@ -252,7 +252,6 @@ r:"^お手伝いをさせてもらうべく、\n(.{2,10})が【アルターメ�
 マヒル様。恐縮ですが今の駄洒落を、\n再度ご披露いただくことは可能でしょうか？\nわたくしがいたらぬせいで、笑い損ねてしまいまして……=Miss Mahiru. I apologize for the inconvenience, but would it be possible for you to share that joke again? Unfortunately, I missed out on the laughter because I wasn't present...
 どっひゃ。ギャグをもっぺん言えってか？\nリリちゃんすまねぇ……\nさすがのオラにも、その勇気はねぇべ……=Oh my. Do you want me to say the joke again?\nI'm sorry, Riri... Even for someone like me,\nI don't have that kind of courage...
 ……二番煎じはご法度、と……\n駄洒落に明るくないとはいえ、\n重ね重ね、申し訳ありません……=...It's forbidden to make a second-rate imitation... \nAlthough I'm not good with jokes... \nI apologize once again for asking you to repeat yourself...
-リリ・マヒル=Riri & Mahiru
 ……\n結局、わたしたち……\nジタバタしてばっかりで、ほとんどお役に立てていないですね……=......\nIn the end, we...\nWe've been floundering around, hardly being of any use...
 ミルク運びも、牧草刈りも、駄洒落の受け取りすらも……=Even carrying milk, cutting pasture, and being told jokes...
 いや、最後のは９割９分オラが悪ぃから。\nあんま反省してくれんな……=No, the last one is 99% my fault.\nDon't reflect on it too much...
@@ -321,7 +320,6 @@ r:"^お手伝いをさせてもらうべく、\n(.{2,10})が【アルターメ�
 やっぱり、天使みたいにいいコたちだね。\n【アルターメイデン】、気に入ったよ♪=As expected, they're good girls like angels. \nAlter Maiden, I really like them. ♪
 本日は本当に、ありがとうございました……！=Today, I truly appreciate your kindness...!
 牧場の面々に感謝しつつも、\n己らの非力さを痛感した【アルターメイデン】なのであった。=While expressing gratitude to everyone on the ranch, \nthe Alter Maiden couldn't help but painfully realize their own powerlessness.
-マヒル・リン=Mahiru & Rin
 次に頼まれたのはカルミナのバックダンサー。大観衆を前に躊躇するリリたちだが、クリスティーナの叱咤激励でなんとかステージをこなす。完璧にできずとも、教えを請うことそれ自体が冒険者の仕事と学ぶ。=Next, we were asked to be back dancers for Carmina. Ririe and the others hesitated in front of the large audience, but with Christina's scolding and encouragement, they managed to perform on stage somehow. Even if they couldn't do it perfectly, asking for guidance itself is part of an adventurer's job and a way to learn.
 今日こそは。=Today is the day.
 牧場でお土産にもらった牛乳を手に、\n朝日に向かって立つ【アルターメイデン】。=Alter Maiden stood facing the morning sun, holding the milk they'd received as a souvenir from the ranch.
@@ -446,7 +444,6 @@ r:"^お手伝いをさせてもらうべく、\n(.{2,10})が【アルターメ�
 あるたーめいでん。\nぼうけんしゃ、より。\nほいくえん──=There was a time.\nAdventurers, come forth.\nNursery school──
 プ、プレシアちゃん！\nそれは言っちゃダメです～～！！=P-Precia! \nYou can't say that~!!
 よいしょっ……よいしょっ……\nところでこの穴は、何に使うんでしょうね？=Heave-ho... Heave-ho... \nBy the way, what is this hole used for, I wonder?
-リリ・プレシア=Riri & Precia
 わかりません。\nでもとにかく心を込めて掘れ、と、ミソギ様が。=I don't know. \nBut anyway, Miss Misogi said to dig with all your heart.
 【リトルリリカル】の皆様は、\n兄様の『先生』役をなされることもあるそうですから。=It seems that everyone from "Little Lyrical" sometimes takes on the role of being Nii-sama's "teacher".
 ということは、わたくしたちの師匠筋、『大先生』です。\nおっしゃることに、間違いはありません。\n心を込めて、掘りましょう！=That means our master is "The Great Teacher". \nWhat you say is correct. \nLet's dig with all our hearts!
@@ -495,7 +492,7 @@ r:"^お手伝いをさせてもらうべく、\n(.{2,10})が【アルターメ�
 とっても、素敵ですよね。=It's really lovely, isn't it?
 ……ん♪=...Mm♪
 そして翌日。\nランドソル滞在、最終日。=And the next day.\nThe final day of their stay in Landosol.
-r:"^学ぶことも冒険者の仕事ならば、と、\n(.{2,10})から勧められた【アルターメイデン】は、\nルーセント学院に体験入学をし、更なる学びを得ようとしていた。$"=""If learning is also part of an adventurer's job", said Alter Maiden, $1 recommended they enroll in Lucent Academy for a trial experience and to gain further knowledge. \n"
+学ぶことも冒険者の仕事ならば、と、\n{playername}から勧められた【アルターメイデン】は、\nルーセント学院に体験入学をし、更なる学びを得ようとしていた。="If learning is also part of an adventurer's job", said Alter Maiden, {playername} recommended they enroll in Lucent Academy for a trial experience and to gain further knowledge. \n
 ……こう。で、こうなる、というわけ。\nここまで、分かったかしら？=...Like this. And that's how it ends up. \nHave you understood so far?
 たんまたんま～！\n二ケタのかけ算とかさ、いきなりゴン難だって。\nわかりみ浅すぎだよ～！=Just kidding! Doing double-digit multiplication out of nowhere is super difficult, you know. \nYou're way too inexperienced to understand~!
 ほんとほんと！\nアタシたちがわかんないんじゃ、\n体験入学のコたちにわかるはずないでしょ。ねぇリリさん？=Really, really! If we don't understand, \nthere's no way the transfer students for the trial enrollment will understand, right? Right, Riri?
@@ -572,9 +569,6 @@ r:"^学ぶことも冒険者の仕事ならば、と、\n(.{2,10})から勧め�
 ──あはっ♪=──Ahaha♪
 ではでは！\nさっそく始めちゃいますね？=Well, well! \nShall we start right away?
 ミソラクエスト、その１。\nれっつ、ゴーゴーゴー★=Misora Quest, Part 1. \nLet's go, go, go ★
-イオたち=We, Io and the others.
-リリたち=Riri and the others
-リリ・ミサキ=Riri Misaki
 リリたちへのはなむけと称し突然クエストを始めるミソラ。彼女の仕掛けた時限爆弾の爆発が迫る中、クリスティーナの教えを思い出したリリたちは住民と本気でぶつかり、無事全員を避難させることに成功する。=As a dedication to Riri and the others, Misora suddenly starts a quest. While the explosion of the time bomb she set is imminent, Riri and the others, remembering Christina's teachings, earnestly confront the residents and successfully evacuate everyone safely.
 ランドソルの商店街に、\nミニサイズのぺんぽこりんをたーくさんセットしてきました。=In the shopping district of Landosol, \nI have set up lots of mini-sized Pempokorin.
 キレイなランドソルを取り戻せ！\n『ぴかぴか・おそうじクエスト』ー★=Reclaim the beautiful Landosol! \n "Sparkling Cleaning Quest" -★
@@ -620,14 +614,12 @@ r:"^学ぶことも冒険者の仕事ならば、と、\n(.{2,10})から勧め�
 ちょっと！　どこが実力にあったクエストよ！\nこんな数、そんな時間で、どう考えても無謀じゃない！\nアンタ最初から、クリアさせる気なんてないんじゃないの！？=Hey! what kind of a quest is this?! With this many enemies and such a short time, it's clearly reckless! You never intended to make this fair from the beginning, did you?!
 ──時間内に回収は、無理です。諦めましょう。=──It's impossible to collect within the time limit.\nLet's give up.
 ……リアさん！？=...Ria-san!?
-イオ・クリア=Io & Quria
 回収ではなく、住民の方たちを誘導して、\n商店街の外まで避難してもらうんです。\nそうしないと、とても爆発を避けられません。=Instead of collecting them, we will guide the residents and have them evacuate outside the shopping district. If we don't do that, they won't be able to avoid a massive explosion.
 なる。\nそれなら、できる。かも。=I see.\nIn that case, I can do it. Maybe.
 たしかに……！　避難してる間にぜんぶ爆発しちゃえば、\nぺんぽこりんは消えてなくなっちゃうもんね。\nおそうじかんりょーじゃん！　さっすがヒデサイギャルズ！=Certainly...! If everything explodes while we're evacuating, \nthen Pempokorin will disappear and be gone. \nIt's like cleaning, right? That's Hidesai's Gals for you!
 では、その方策でまいりましょう……！=Well then, let's proceed with that plan...!
 ふふっ。そんなにうまくいきますかね～……♪=Hehe. I wonder if it will go that smoothly~...♪
 なんだ？　このぬいぐるみ。あちこちにあるぞ。\n捨てられてんのかな？=What is this? This stuffed animal. It's everywhere.\nWere they thrown away?
-クリア・ミサキ=Quria & Misaki
 でも、微妙にかわいいわね……\nね、娘のお土産に持って帰りましょうよ！=But, it's subtly cute, isn't it... \nHey, let's bring it back as a souvenir for our daughter!
 あ、あの、申し訳ありませんが……\nそのぬいぐるみに、触れないでいただけますでしょうか……？\n爆発物なのです。=Um, um, I'm sorry... \nCould you please not touch that stuffed animal?\nIt's an explosive.
 爆発ぅ？　これが？　……まさかぁ。=Explosion? Is this...? ...No way.
@@ -784,7 +776,7 @@ r:"^学ぶことも冒険者の仕事ならば、と、\n(.{2,10})から勧め�
 よろこぶ……\nかお。=Happy... \nFace.
 そうです……っ。=That's right...!
 だいすき、な\nおとも……だち……っ。=I love you...\nFriend...
-………………に！=...Ngh!
+………………に！=...!
 よろこん、で……\nほしい……っっ！=I'm so happy, and...\nI want it...!
 ……はいっ！！=...Yes!!
 ──んんんんんんんん！！=──Mmmmmmmmmmm!!
@@ -969,9 +961,9 @@ r:"^学ぶことも冒険者の仕事ならば、と、\n(.{2,10})から勧め�
 やられ……ちゃい、まし……=I'm... done for... It's a bit... embarrassing...
 すごいですみなさん！=That was amazing, everyone!
 街を守りきりましたね☆=You've successfully protected the city, haven't you☆
-r:"^街を守ったリリたちは、住民やギルドメンバーから感謝の気持ちを受け取り、感激のあまり涙する。一方敗走したミソラは、(.{2,10})だけにそっと、今回の騒動の本当の目的を明かすのであった。$"="Riri and the others who had protected the city received gratitude from the residents and guild members, and they wept with emotion. Meanwhile, Misora, who had been routed, quietly revealed the true purpose of the current commotion to only $1."
+街を守ったリリたちは、住民やギルドメンバーから感謝の気持ちを受け取り、感激のあまり涙する。一方敗走したミソラは、{playername}だけにそっと、今回の騒動の本当の目的を明かすのであった。=Riri and the others who had protected the city received gratitude from the residents and guild members, and they wept with emotion. Meanwhile, Misora, who had been routed, quietly revealed the true purpose of the current commotion to only {playername}.
 ミソラを撃退した、数時間後──=Several hours after fighting off Misora...
-【アルターメイデン】の３人は、\nジオ・テオゴニアへの帰途へとついていた。=The three members of Alter Maiden were on their way back to Geo Teogonia.
+【アルターメイデン】の３人は、\nジオ・テオゴニアへの帰途へとついていた。=The three members of Alter Maiden were on their way back to Gio Teogonia.
 あ、あの……！=Ah, um...!
 止まってください！\n止まっ……あっ！=Please stop!\nStop...ah!
 ……ぶぅ。\nまた、だめ。=...Buuh. \nAgain, it's no good.
@@ -1000,7 +992,7 @@ r:"^街を守ったリリたちは、住民やギルドメンバーから感謝�
 キャル様……！\nコッコロ様に、ぺコリーヌ様……それに……=Miss Kyaru...!\nMiss Kokkoro, Lady Pecorine... and...
 よかった。追いついて。=I'm glad. I caught up.
 へへへ、ごめんなさいです。\n出発に遅れちゃって。=Hehehe, I'm sorry. \nI'm running late for departure.
-よーし！　これで全員揃いましたね？\nでは改めて。\nジオ・テオゴニアに～！　しゅっぱ～──=Alright! Is everyone here now? \nWell then, once again. \nTo Geo Teogonia~! Blast off~!
+よーし！　これで全員揃いましたね？\nでは改めて。\nジオ・テオゴニアに～！　しゅっぱ～──=Alright! Is everyone here now? \nWell then, once again. \nTo Gio Teogonia~! Blast off~!
 あ、あの！　ぺコリーヌ様……！=Ah, um! Lady Pecorine...!
 せっかく、ここまで追ってきていただいたにも関わらず……\nこのような得手勝手を申し上げることを、どうかお許しください。=I apologize for the inconvenience, even though you have followed me all the way here... \nPlease forgive me for speaking so selfishly.
 わたくしたちは今後、３人だけで冒険をしようと……決めました。=We have decided to embark on adventures with just the three of us from now on...
@@ -1009,7 +1001,7 @@ r:"^街を守ったリリたちは、住民やギルドメンバーから感謝�
 これ、ランドソルのみんなから……っいしょっとー！\nったく、クッソ重かったんだから。=This, from everyone in Landosol... Together! \nGeez, it was damn heavy.
 ドサドサドサーーッ！=Thud, thud, thud!
 きゃっ！\nお、重っ……！=Kyaa! \nO-It's heavy...!
-あーあー傾けちゃダメよ？　それ。お弁当らしいから。\nあとこっちは防寒具でしょ？　刀を研ぐ砥石に……\n野宿用品、それにナッシュカッツェのコーヒー豆──=Oh no, don't tilt it like that. It's a lunchbox, you know. And over here, it's cold weather gear, right? Like a whetstone for sharpening swords... Camping supplies, and Nashkatze coffee beans...
+あーあー傾けちゃダメよ？　それ。お弁当らしいから。\nあとこっちは防寒具でしょ？　刀を研ぐ砥石に……\n野宿用品、それにナッシュカッツェのコーヒー豆──=Oh no, don't tilt it like that. It's a lunchbox, you know. And over here, it's cold weather gear, right? Like a whetstone for sharpening swords... Camping supplies, and Naschkatze coffee beans...
 え、ええと……？=Um, um...?
 ランドソルのみんなから、お礼の品だそうです。\n街を守ってくれた【アルターメイデン】に、って。\nすごい数の冒険者グッズですねー☆=From everyone in Landosol, it seems to be a token of gratitude. To Alter Maiden, who protected the town, they said. It's an incredible number of adventurer goods, isn't it?☆
 お、お礼……？=Oh, thank you...?
@@ -1028,7 +1020,6 @@ r:"^街を守ったリリたちは、住民やギルドメンバーから感謝�
 テスト前に来て！　ベンキョー教えて～！\nんでテスト明けにカラオケ行こ～！=Come before the test! Teach me some study tips~\nAnd after the test, let's go karaoke~!
 ったくこいつら。\nあんたたちを使い倒す気、満々ね。=These guys, I tell you. \nThey're full of intentions to use and exploit you.
 「例え『お友達』でも、報酬はちゃんとお支払いします」\n……と。そう仰られていましたよ。="Even if they are 'friends', the reward will be paid properly."\n...That's what they said.
-ぺコリーヌ・キャル=Pecorine & Kyaru
 だいじょうぶ。\nうれしくて、\nないてる。=It's okay. \nI'm crying because I'm happy. \n
 ぶっぶ～♪　ぶぅ♪=Bubu~♪ Buu♪
 ……ま。すったもんだあったけどさ。\n結果、『冒険者としての経験』と、『友達』。\nなかなかに得難いものを、得たんじゃない？=...Well, there was a lot of struggle. \nIn the end, I gained "adventurer experience" and "friends". \nI'd say I obtained something quite valuable, didn't I?
@@ -1062,7 +1053,7 @@ r:"^街を守ったリリたちは、住民やギルドメンバーから感謝�
 えっ……\nあ、いや……あの……！=Huh...?\nAh, no... Um...!
 …………はい…………=...Yes...
 多くのことを学び、得、\nそして己の更なる未熟さを知って\nほんの少しだけ成長した冒険者【アルターメイデン】は──=The adventurers Alter maiden, who has learned many things, gained experience, and discovered their own further immaturity has grown just a little bit──
-r:"^(.{2,10})らと共に再び、\nジオ・テオゴニアへの冒険へと、歩みを進めるのであった。$"="Together with $1 and the others, once again, they continued their journey to Geo Teogonia Adventure."
+{playername}らと共に再び、\nジオ・テオゴニアへの冒険へと、歩みを進めるのであった。=Together with {playername} and the others, once again, they continued their journey to Gio Teogonia Adventure.
 ──遡ること、数時間前。\n【アルターメイデン】がミソラを撃退した、直後のこと。=──Going back a few hours ago. \nImmediately after Alter Maiden repelled Misora.
 ランドソルの城壁に腰掛け、ミソラは一人鼻歌を歌っていた。=Sitting on the walls of Landosol Castle, Misora was humming to herself.
 ここの夕陽は、相変わらずキレイですねー……=The sunset here is still so beautiful...
@@ -1147,5 +1138,3 @@ r:"^(.{2,10})らと共に再び、\nジオ・テオゴニアへの冒険へと�
 クリミナル ルーキー　 天使たちのパラドクス=Criminal Rookie: Angel Paradox
 お兄さんったら♪=Oh, Nii-sama♪
 お兄さんったら。ダメですよ？　\nいきなりご実家になんか連れていっちゃ。\nリリちゃんたら、カチコチに緊張しちゃってるじゃないですか……♪=Oh, Onii-sama. That's not good, you know? You can't take her to your parents' house all of a sudden. Riri, you're so tense and stiff, aren't you...♪
-クリア・プレシア=Quria & Precia
-

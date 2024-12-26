@@ -19,6 +19,9 @@ r:"^ボイスなし\n\(([.0-9]+) ([MG])B\)$"=Voice OFF\n($1 $2B)
 オートON=Auto-on
 停止=Stop
 全文表示=Script
+表示速度=Speed
+早送り=Fast-forward
+表示速度設定=Display speed setting
 ストーリー全文表示=Full Story Script Display
 このムービーをスキップしてもよろしいですか？=Are you sure you want to skip this movie?
 r:"^第?(\d+)章 第(\d+)話が\n解放可能になりました。$"=Ch $1 Ep $2\nStory has been unlocked.
@@ -52,6 +55,7 @@ r:"^メインストーリーが\n(\d+)つ解放されました。$"=$1 Main Stor
 エクストラ=Extra
 エクストラストーリー=Extra Story
 ちょっと特別な\n物語を見ることが\nできます=View stories that are just a wee-bit special.
+ルナの塔 次元断層=Luna's Tower: Dimensional Fault
 
 ギルド=Guild
 女の子たちの日常を\n見ることができます=See snippets of daily life for the girls.
@@ -88,6 +92,8 @@ r:"^第(\d+)話$"=Episode $1
 絆ランクアップ=Bond Rank Up
 ステータスアップ対象キャラクター=Target Characters
 該当キャラのストーリー初回閲覧で、\nステータスアップボーナスを獲得できます。=Get stat boost bonuses for characters\nby viewing their story for the first time.
+
+対象のストーリーがありません。=There is no story for her (yet).
 r:"^第(\d+)話ステータスアップボーナス$"=Episode $1 Stats boost Bonus
 ---Chara story---
 

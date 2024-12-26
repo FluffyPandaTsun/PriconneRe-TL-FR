@@ -27,7 +27,7 @@
 ようこそ、助手くん=Welcome, Assistant
 獣人の国『セントールス』へ！=To Centaur, the land of beastfolk!
 広さや人口はランドソルにちょっとばかり負けてるが、\n獣人の戦士たちは鍛え抜かれてる連中ばかりだしな。\n国と国とでガチでやりあったとしても、どう転ぶかわからないぜ。=The size and population are a little outmatched by Landosol's, but the beastfolk warriors are all well-trained people. Even if there's a real fight between nations, I don't know how it'll turn out.
-……とはいっても。\nすんまへんけど……王女はんは、一人で外に出んといてな。\nあんたはんの考えが覇瞳皇帝とは違うって、知ってる獣人も多いけど……=...Still, I'm sorry, but... Knight, don't go outside by yourself. There are a lot of beastfolk who know that your thoughts are different from that of Kaiser Insight...
+……とはいっても。\nすんまへんけど……王女はんは、一人で外に出んといてな。\nあんたはんの考えが覇瞳皇帝とは違うって、知ってる獣人も多いけど……=...Still, I'm sorry, but... Knight, don't go outside by yourself. There are a lot of beastfolk who know that your thoughts are different from that of Omniscient Kaiser...
 ントールス～広場～=Main Plaza
 セ=C
 はい。\nランドソルの貴族のひとたちの中には、\n獣人族に恨みを買うようなことをしてしまったひともいますからね。=Yes, I am aware of that. Some of the aristocrats in Landosol have done things that have caused resentment among the beastfolk.
@@ -41,7 +41,7 @@
 まだ手当ても途中やったんやけどねえ。\nランドソルに戻るまでのあいだに、\n行き倒れとかにならへんかったらええけど……=I was still in the middle of taking care of him. though. I hope he doesn't collapse or anything before we get back to Landosol...
 戻れたとしたって、安全とは言い切れないよ。\nランドソルに残っている【動物苑】の連絡員からの通信魔法では、\nあの街が今、とても混乱していると言っていたし。=Even if you could go back, you can't be sure it would be safe. The communication magic from the liaison officer from Elizabeth Park that is still in Landosol says that that city is in a lot of turmoil right now, and...
 混乱……\n……そう、ですよね……=Confusion... That's right...
-r:"^そもそも大怪我の王女さんや兵士の隊長が\n(.{2,10})たちと一緒に空間跳躍してくるなんて\nとんでもない緊急事態だもんな……$"="The princess and the captain of the soldiers, who were seriously injured in the first place, Teleporting with $1 and the others? That's a hell of an emergency..."
+そもそも大怪我の王女さんや兵士の隊長が\n{playername}たちと一緒に空間跳躍してくるなんて\nとんでもない緊急事態だもんな……=The princess and the captain of the soldiers, who were seriously injured in the first place, Teleporting with {playername} and the others? That's a hell of an emergency...
 わたしも、正直まだ……混乱しているみたいです。\nあんまりにも、いろんなことがありすぎて……=Honestly, I'm still... confused. So much has happened...
 まだ、体調が戻ってないのに悪いけど……\n何があったのか、聞かせてほしいさ。\nきっと、力になれると思うし？=I'm sorry you're not feeling well yet, but I'd love to hear what happened to you.... I'm sure I can help you.
 他人に説明をしてみるっていうのは、自分の頭の整理にもなるよ。\n探偵が、推理の仮説を助手に聞かせるみたいにね。=Trying to explain it to someone else is also a good way to sort out your own thoughts. Just like how detectives listen to hypotheses of deduction to their assistants.
@@ -53,7 +53,7 @@ r:"^そもそも大怪我の王女さんや兵士の隊長が\n(.{2,10})たち�
 何より、貴方がたの的確な処置に感謝を。\nご無沙汰しています、【自警団（カォン）】のギルドマスター=More than anything, thank you for your precise treatment. It's been a while, Vigilante (Kaon) guild master
 大事にならなかったみたいで、良かったわぁ。\n……久しぶりやし、ほんまはサレンはんの話とか、\n聞かせてもらいたいとこやけど。今は……=I'm glad it didn't turn into a big deal. ...It's been a while, so I'd really like to hear you talk about Saren-han. But right now...
 ……今は、それより先に。\n聞かせてくれよ……\nユイやあんたたちに、一体何が起きたのか。=...Anyway, let's hear it first. Tell me what happened to Yui and you guys.
-ペコリーヌさま……ジュンさまはもちろん、【自警団】の方々には、\n主さまとわたくしも以前、お世話になったことがあります。\n十分に、信頼に足る方々と考えます。=Lady Pecorine...and of course Jun, as well as the Vigilantes, have taken care of me and my Lord before. I believe they are trustworthy enough.
+ペコリーヌさま……ジュンさまはもちろん、【自警団】の方々には、\n主さまとわたくしも以前、お世話になったことがあります。\n十分に、信頼に足る方々と考えます。=Miss Pecorine...and of course Jun, as well as the Vigilantes, have taken care of me and My Lord before. I believe they are trustworthy enough.
 ここにいらっしゃるみなさまにであれば、\n打ち明けても宜しいかと存じます……\n『現実』のことを。=As long as it's with everyone here, I think I can open up to them... about 'reality'.
 ……そうですね。\nどう考えても、その辺がうやむやのまま説明するのは無理っぽいです。\nわたしたちを打ちのめした、あの人たちのことを話すためには。=...You're right. No matter how you look at it, it seems impossible to explain that. To tell you about the people who defeated us.
 『現実』……？=Reality'...?
@@ -87,7 +87,6 @@ r:"^そもそも大怪我の王女さんや兵士の隊長が\n(.{2,10})たち�
 うちのクマはん？\nええよ。=My bear? Yes.
 ……たとえば、だ。\nこのぬいぐるみに、アタシの魂が入って。\nぬいぐるみになって、自由に動かせる。そんな魔法があるとする。=...For example. My soul is inside this stuffed animal. It becomes a stuffed animal and can move freely. Let's say there's magic like that.
 このぬいぐるみが、アバターってやつだ。\n今、こうして話しているアタシたち全員。いや、この世界の人間の多くが\n自分をこの世界の住人だと思い込んじゃってる……アバターなんだ。=This stuffed animal is an avatar. All of us talking like this. No, a lot of the people in this world think we're residents of this world......we're avatars.
-カオリ・マコト・マホ=Kaori Makoto Maho
 ええええ～～っ！！？\nそれじゃ今の私たちって、ぬいぐるみの身体ってことさ！？=Whaaaaat?! Then that means we're stuffed animals right now!
 い、いきなりそないなこと、言われてもな……=Y-You can't say something like that all of a sudden...
 そうだ。\n……正確には、仮想の電子データだけどな……=That's right. ...To be precise, it's virtual electronic data...
@@ -109,10 +108,10 @@ r:"^そもそも大怪我の王女さんや兵士の隊長が\n(.{2,10})たち�
 ああ。\n世界を運営する装置って、ミネルヴァっていうAI……じゃなくて\nえっと、ホムンクルスみたいなやつのことだろうけど。=Yeah. By device that runs the world, you mean an AI called Minerva... I mean, a homunculus.
 【トゥインクルウィッシュ】と真那が戦ってる最中に、\nミネルヴァは真那に乗っ取られそうになってたはずだから。\nきっと、それでおかしくなっちゃったんだろうな。=Minerva was supposed to have been taken over by Mana while Mana was fighting the Twinkle Wish, so she must have gone crazy because of that.
 う、うぅぅーん……=H-Hmmm...
-ああっ、こんがらがってきちまった！\nつまり──ミネルヴァってスゲーやつがいて。\nそいつが覇瞳皇帝にやられかかって……=Aaah, this is getting complicated! In other words, there's a guy named Minerva. He's about to be killed by the Kaiser Insight...
+ああっ、こんがらがってきちまった！\nつまり──ミネルヴァってスゲーやつがいて。\nそいつが覇瞳皇帝にやられかかって……=Aaah, this is getting complicated! In other words, there's a guy named Minerva. He's about to be killed by the Omniscient Kaiser...
 どうにかしようとして、その場にいたユイと同じ身体を作った。\nそれがおまえらを倒した、エリスだってことか……？=Trying to do something about it, They made the same body as Yui, who was there. Does that mean Eris was the one who defeated you guys...?
 そうそう、そんな感じそんな感じ！=That's right, that's what it feels like!
-フム、しかし……その【トゥインクルウィッシュ】と\n覇瞳皇帝の戦いは、いつのものだろう。\nこの前のランドソルでの戦いではないよね。=Hmm, but... When was the battle between the Twinkle Wish and the Kaiser Insight? It wasn't the last time we fought in Landosol.
+フム、しかし……その【トゥインクルウィッシュ】と\n覇瞳皇帝の戦いは、いつのものだろう。\nこの前のランドソルでの戦いではないよね。=Hmm, but... When was the battle between the Twinkle Wish and the Omniscient Kaiser? It wasn't the last time we fought in Landosol.
 さっきノウェムさんは初対面の私に対して、まるで前に会ったことが\nあるような褒め方をしたけど。それってつまり……\n私や他のみんなが忘れてしまった、何か大きな出来事があったのかな。=Miss Novem just complimented me as if she'd met me before. Does that mean... something big happened that everyone else forgot about?
 いや。忘れたどころか、過去がすべて上書きされたとか。\n『認識の修正』とやらが行われる前と後の、『前』……\nそれがさっき言っていた、『おかしくなる前の世界』なのかな？=No. Not only did she forget, but the past had all been overwritten. Before and after this so-called “correction of perception” took place... Is that the “before” she mentioned earlier? Is that what she meant by “the world before it went crazy”?
 えっ！？　うわっ！\nたったこれっぽっちしか話してないのに\nそこまでわかっちゃうなんて──スゴいな探偵！=Huh?! Whoa! I've only told you this once, and you already know that much? Wow, detective!
@@ -192,7 +191,7 @@ r:"^そもそも大怪我の王女さんや兵士の隊長が\n(.{2,10})たち�
 ッ……！\nな、泣いてねーぞッ！？\nメソメソ泣くのなんざ水分のムダだっ！=...! I-I'm not crying! Crying is a waste of water!
 そうだ！　ゼーンやアゾールドやクソ魔獣どもがくたばろうが、\nオレが泣くワケねーだろーがッ！\n泣かねェ、泣かねェぞクソッ……=That's right! Even if Zane, Azold, and the other shitty monsters die, there's no way I'd cry! I won't cry, I'll cry, dammit...
 ……ぐすっ……\n…………=*sniffle*...
-ぷるぷるぷる……=*shake shake shake*...
+ぷるぷるぷる……=*wibble wobble*...
 あああクソッ！\nクソクソクソォッ！=Aaaaah, damn it! Damn it, dammit, dammiiit!
 カ、カリザくん……？\nどこに、行くのっ……？=K-Kariza...? Where are you going...?
 決まってンだろ！\nミソラも！　エリスとかいうクソッタレも！\nオレらをコケにしやがったクソども、残らずブチ殺してやるんだッ！=Isn't it obvious?! Misora.....! And that shitty Eris bitch! I'll kill every last one of the shitheads who made fun of us!
@@ -206,8 +205,8 @@ r:"^そもそも大怪我の王女さんや兵士の隊長が\n(.{2,10})たち�
 ……じゃーな。\nテメーはそこで、一生メソメソしてな！=...See ya. You'll be sobbing there for the rest of your life!
 ゼーンさん……\nアゾールドさん……=Zane... Azold...
 わたしは……わたしは、どうしたらいいの……？=What... What should I do...?
-r:"^一方──アゾールドの空間跳躍で\n獣人の国へとたどり着いた(.{2,10})たち。\n傷ついた彼らのため、マホたちによる懸命の治療が続いていた。$"="On the other hand----$1 and the others made it to the beastfolk's land by teleporting thanks to Azold. Since they were injured, Maho continued to treat them with all her might."
-r:"^(.{2,10})たちのために、回復魔法を使いっぱなしさ。\nちょっと休まなきゃ、マホのほうが倒れちゃうさ～$"="Maho's been using healing magic for $1 and the others. If she don't get some rest, she's gonna collapse~"
+一方──アゾールドの空間跳躍で\n獣人の国へとたどり着いた{playername}たち。\n傷ついた彼らのため、マホたちによる懸命の治療が続いていた。=On the other hand----{playername} and the others made it to the beastfolk's land by teleporting thanks to Azold. Since they were injured, Maho continued to treat them with all her might.
+{playername}たちのために、回復魔法を使いっぱなしさ。\nちょっと休まなきゃ、マホのほうが倒れちゃうさ～=Maho's been using healing magic for {playername} and the others. If she don't get some rest, she's gonna collapse~
 まだまだ平気やで、……って言いたいところやけど。\n……せやねぇ。=I'd like to say I'm still fine, but... Yeah.
 みんな、ひとまず危ないところは乗り越えられたし。\n魔力が戻るまで、ひとやすみさせてもらいましょ。=Everyone, we've made it through the danger for now. Let's take a break until our magic returns.
 ええ。\n……この先、回復魔法以外にも\n魔力を使う事態になるかもしれませんし、ね。=Yes. ...In the future, we might end up using magic other than healing magic.
@@ -230,8 +229,6 @@ r:"^(.{2,10})たちのために、回復魔法を使いっぱなしさ。\nち�
 わりーな。\nあたしら、ちょっと野暮用でよ……=Sorry. We have some business to attend to...
 しってる！\nケガしちゃったひとの、かんびょう中なんだよね？=I know! You're in the middle of a healing a patient's injury, aren't you?
 ぼくたちおみまいに、お花つんできたんだー！\nおへやに、かざってあげてー！=We brought flowers for you! Bring them up to their room!
-カスミ・マホ・マコト=Kasumi Maho Makoto
-獣人の少女=Beastfolk girl
 わっ、ありがとさ～！\nきっと、ケガした私らの友達も喜ぶよ～♪=Wow, thank you so much! I'm sure our friend will be happy when he gets these~♪
 獣人の少年=Beastfolk boy
 うんうん。\n花の香りと彩りは、気持ちを安らかにしてくれる。\n病は気からの故事に従うなら、何よりの薬だよ。=Yes, yes. The scent and color of the flowers make me feel at ease. Illness is the best medicine to follow the tradition of chi.
@@ -248,19 +245,19 @@ r:"^(.{2,10})たちのために、回復魔法を使いっぱなしさ。\nち�
 うん……普段はつい見逃してしまいがちだけど。\nよく観察してみると、この世界にはたまに不自然なところがあるんだ。\nわかりやすいところだと、そうだね……=Yeah... I usually let it slide, but now that I've observed it closely, there's something unnatural about this world. In an easy-to-understand way, yes...
 魔法の音響盤とか、携帯できる遊戯器とか。\n街の道具屋には、とても便利なマジックアイテムが売っているだろう？=Magic audio boards, portable playthings, and so on. The tool shops in the city sell really convenient magic items, don't they?
 ふつう道具っていうのは、時間をかけて徐々に便利になるものなんだ。\nなのにこの世界には、最初から答えがあったかのような洗練された道具が\nいくつも転がっている。まるで他の世界から持ち込まれたみたいにね。=Normally, tools become more and more convenient over time. But in this world, there are a number of sophisticated tools that seem to have existed from the start. It's like they were brought in from another world.
-ムイミ……ノウェムのやつは、こんな……\nあたしら全員が忘れさせられてるような話を『覚えてる』から、\n覇瞳皇帝や【ラビリンス】に狙われてたんだな……=Muimi... Novem's been targeted by Kaiser Insight, and Labyrinth because she “remembers” things that all of us have been forced to forget...
+ムイミ……ノウェムのやつは、こんな……\nあたしら全員が忘れさせられてるような話を『覚えてる』から、\n覇瞳皇帝や【ラビリンス】に狙われてたんだな……=Muimi... Novem's been targeted by Omniscient Kaiser, and Labyrinth because she “remembers” things that all of us have been forced to forget...
 実際には、他の世界どころか……\n『あたしらが元いた世界』だったってわけか。=In reality, it wasn't just another world... It was the world we came from.
 道具だけじゃない。『シャドウ』のこととか、気候、謎の遺跡……\nいつかこの世界のトリックを解き明かしたいと、そう思っていたけれど。\nまさかこんな形で、タネ明かしされてしまうなんてね。=It's not just tools. Shadows, climate, mysterious ruins... I always wanted to figure out the trick behind this world someday, but I never thought they'd reveal the trick to me like this.
 タネ明かし、言われてもなぁ。\nうちとしてはまだ、雲を掴むような話をされてる気分やわ。=I'm not sure if I'm being told the truth or not. I still feel like I'm being told a story that's like catching a cloud.
 でも……王子はんやペコリーヌはんたちも、\n『現実』ってのに行く方法はわからへんみたいやし。\nいったん、そっちは置いといて……=But...it looks like the prince, Pecorine, and the others don't know how to get to 'reality'. Let's put that aside for now...
-r:"^ああ。\nユイや(.{2,10})らが狙われてるってんなら、\nどんなヤツだろうが返り討ちにしてやるしかねぇ。$"="Yeah. If Yui, $1, and the others are being targeted, Then we have no choice but to take revenge on them, no matter who they are."
+ああ。\nユイや{playername}らが狙われてるってんなら、\nどんなヤツだろうが返り討ちにしてやるしかねぇ。=Yeah. If Yui, {playername}, and the others are being targeted, Then we have no choice but to take revenge on them, no matter who they are.
 でも相手は、あのクリスティーナを\n捕まえちゃうようなやつなんでしょ？\nどうするさ～？=But you're dealing with someone who's even taken control of Christina, right? What are you going to do?
-戦力的には、覇瞳皇帝以上の強敵と見なくては駄目だろうね。\nまともにぶつかったら、獣人の国もどれだけの被害が出るかわからない。=In terms of strength, we'll have to assume they're even stronger than Kaiser Insight. If we hit them head-on, there's no telling how much damage the Beastfolk Nation will suffer.
-覇瞳皇帝以上、か……ちょっと想像できねーな。\nそんなの、どうやって倒せばいいんだか。=More than the Kaiser Insight, huh...? I can't imagine that. How are we supposed to defeat that?
+戦力的には、覇瞳皇帝以上の強敵と見なくては駄目だろうね。\nまともにぶつかったら、獣人の国もどれだけの被害が出るかわからない。=In terms of strength, we'll have to assume they're even stronger than Omniscient Kaiser. If we hit them head-on, there's no telling how much damage the Beastfolk Nation will suffer.
+覇瞳皇帝以上、か……ちょっと想像できねーな。\nそんなの、どうやって倒せばいいんだか。=More than the Omniscient Kaiser, huh...? I can't imagine that. How are we supposed to defeat that?
 まともにぶつかるのがあかんかったら、\nまともにぶつからんで\n上手いこと解決する手ぇを探すしかないやろなぁ。=If we can't hit each other properly, we'll have to find another way to deal with them.
 ええ、その通りですマホさん。=Yes, that's right, maho.
 ペコリーヌさんたちの話が本当なら、\n『エリスの存在理由』と『エリス個人の意志』は矛盾しているみたいだ。\nできればそこから、解決する手が見つけられれば良いのだけど。=If what Pecorine and others say is true, then there seems to be a contradiction between "the reason for Eris's existence" and "Eris's personal will". I hope we can find a solution to this problem.
-r:"^矛盾……えーっと。\nエリスの狙いは(.{2,10})で……\nそれが『エリス個人の意志』だよね？$"="Contradictory... Let's see. Eris is after $1... That's Eris's personal will, isn't it?"
+矛盾……えーっと。\nエリスの狙いは{playername}で……\nそれが『エリス個人の意志』だよね？=Contradictory... Let's see. Eris is after {playername}... That's Eris's personal will, isn't it?
 せやね。でも、エリスは『世界を管理する存在』ゆうんでもあって。\n王子はんに手ぇ出してしもたら、世界が壊れてまう……んやっけ。\nえらいとんでもない話やわ……=That's right. But Eris is the 'manager of the world'. If she lays a hand on the prince, the world will be destroyed... Hmm. It's a terrible story...
 なら……\n『世界を管理する存在』が、世界を壊しかねないってことさ？\nそれって、確かに矛盾してるかも……？=In that case......the existence that manages the world could destroy the world, right? That might be contradictory......?
 恐らく、その矛盾がエリスにとっての泣き所なはずだ。\nミソラなる人物は、今回のエリスの行動は無理を押してのものだと\n言っていたそうだけど……=That contradiction was probably what made Eris cry. Apparently, Misora had said that Eris' actions this time were pushing her too hard...
@@ -268,7 +265,6 @@ r:"^矛盾……えーっと。\nエリスの狙いは(.{2,10})で……\nそれ
 とはいっても、いつ攻撃を再開してくるかわからない。\n助手くんたちの治療や、反撃作戦の考案……急いで進めないとね。=That said, we don't know when they'll start attacking again. We need to treat their wounds and come up with a counterattack plan... We have to hurry.
 応さ～！\nせやな。=That's right! You're right.
 にしても……『エリス』。\n──『世界を管理する存在』、か。=Still... 'Eris'. 'The one who manages the world,' huh?
-カオリ・マホ=Kaori Maho
 そんなとんでもないのが、\nユイの願いがきっかけで生まれちまっただなんて……=I can't believe that something so outrageous was born from Yui's wish...
 マコトさん。\nユイさんは……=Makoto-san. Yui-san...
 ……ああ。\n姫さんのおかげで、意識は戻ったけど……=...Yeah. Thanks to you, the princess has regained consciousness.
@@ -290,7 +286,7 @@ r:"^矛盾……えーっと。\nエリスの狙いは(.{2,10})で……\nそれ
 草野優衣ちゃん……何も知らないで、いい気なものね！\n虫唾が走るのよっ、あなたを見ていると……！=Kusano Yui-chan... You don't know anything, you're just being nice! I can't help but feel disgusted when I look at you...!
 たったひとりの命を救うために、悪魔に魂を売って！\n理想郷で平和に過ごしていた人々を地獄に叩きこみ、\n永遠の責め苦を味わわせている……！=Selling your soul to the devil to save just one life! The people who were living peacefully in an ideal world are being beaten into hell and condemned to eternal torment.
 何もかも全部オマエのせいだ！\nオマエがあんな願いを叶えたから！=It's all your fault! Because you made that wish!
-やっぱり……わたしのせい、なの？\nノウェムちゃんや、覇瞳皇帝さんが言っていたみたいに……=I knew it... It's my fault? Just like Novem-chan and the Kaiser Insight said...
+やっぱり……わたしのせい、なの？\nノウェムちゃんや、覇瞳皇帝さんが言っていたみたいに……=I knew it... It's my fault? Just like Novem-chan and the Omniscient Kaiser said...
 そんな……\nそれじゃ、わたし……\nわたしが、この世界を……みんなを……=That's......then, I......I'll......make this world......everyone......
 い、いやっ……！\n騎士クンっ……！　=N-No...! Kish-kun!　
 いやっ……！\nいやあぁっ……！！=No...! Nooo...!!
@@ -377,11 +373,11 @@ r:"^矛盾……えーっと。\nエリスの狙いは(.{2,10})で……\nそれ
 幾多の犠牲を払い、“神”の復活に手を貸して──\nあなたはその先、何を得ようというのでしょうね。=After all the sacrifices you've made, and helping the 'god' revive... I wonder what you'll gain from that.
 それこそ、ムイミな問いかけじゃない？\nだってもしそうだとしても、教えるはずないからねー=Isn't that a muimi question? Because even if it is, there's no way I'd tell you-
 っていうかさ、アンタのほうだって。\n『彼女』を元に戻してどうするか、言ってないじゃん？=Actually, you're the one who said it. You haven't told me what you're going to do with "her" when you returned her to normal, did you?
-そう──“神”になろうとしたこの玉座のかつての主。\n覇瞳皇帝もまた、権力者であること自体は\n副次的な余禄だったのでしょう。そう推察しています。=That's right--the former master of this throne, who tried to become a 'god'. Kaiser Insight being a powerful person in itself was probably an accessory extravagance. That is my guess.
+そう──“神”になろうとしたこの玉座のかつての主。\n覇瞳皇帝もまた、権力者であること自体は\n副次的な余禄だったのでしょう。そう推察しています。=That's right--the former master of this throne, who tried to become a 'god'. Omniscient Kaiser being a powerful person in itself was probably an accessory extravagance. That is my guess.
 フフ。\n大したことではありません。\n私も、地位や権力には興味はありませんから。=Hehe. It's no big deal. I'm not interested in status or power.
-覇瞳皇帝ねえ。\nそういえば、ランドソルの地下のどっかに幽閉されてるらしいけれど。=The Kaiser Insight, huh? Come to think of it, I heard she's imprisoned somewhere in the basement of Landosol.
+覇瞳皇帝ねえ。\nそういえば、ランドソルの地下のどっかに幽閉されてるらしいけれど。=The Omniscient Kaiser, huh? Come to think of it, I heard she's imprisoned somewhere in the basement of Landosol.
 もしかして、捜して掘り起こしたりするの？\n迷宮女王の結界とか、解くの面倒くさそうだけど。=Are we going to look for them and dig them up? It’d be a pain to solve Queen Labyrinth’s barrier or something.
-いいえ。\n覇瞳皇帝の持つ情報に興味があるのはミソラさんでしょうし。\nもし捜すなら彼女にお任せしますよ。=No. I'm sure Misora is the one who's interested in the information the Kaiser Insight has. If you're looking for her, I'll leave it to her.
+いいえ。\n覇瞳皇帝の持つ情報に興味があるのはミソラさんでしょうし。\nもし捜すなら彼女にお任せしますよ。=No. I'm sure Misora is the one who's interested in the information the Omniscient Kaiser has. If you're looking for her, I'll leave it to her.
 とはいえミソラさんもミソラさんでお忙しいようです。\nしばらくは、危険な札として伏せておくことになるでしょうね。=That said, Misora seems to be busy with something of her own as well. I'm sure she'll be keeping it a secret as well. I guess we will have to keep it down as a dangerous tag for a while.
 【レイジ・レギオン】というギルドは\n話し合いで行動を統一させていたようですが。\n我々はそれぞれのやり方で結果を出せば良いだけです。=It seems that the [Rage Legion] guild has unified their actions through discussion. All we have to do is produce results in our own ways.
 ふーん。\nその辺は連携したりしないんだ。=Hmm. So they don't cooperate in that regard.
@@ -411,23 +407,23 @@ r:"^矛盾……えーっと。\nエリスの狙いは(.{2,10})で……\nそれ
 ええ、ええ！\n待っていてくださいまし陛下！\n必ずや馳せ参じますわ、貴女の忠実なる僕であるわたくしが～っ！！=Yes, yes! Please wait for me, Your Majesty! I will definitely treat you, as your loyal servant~!!
 
 2部 第10章 第4話=Part 2 Chapter 10 Episode 4
-r:"^(.{2,10})たちと分かれ、王都へ向かうぺコリーヌたち。見送った後、カスミは仲間の中に内通者がいる可能性があるため経過を見ようと話す。そんな折、療養していたはずのユイが姿を消してしまう。$"="Pecorine and the others split off from $1 and headed to the capital. After seeing them off, Kasumi spoke to them to see how things were going, since there was a possibility there might be a traitor among their ranks. That was when Yui, who should have been recuperating, disappeared."
+{playername}たちと分かれ、王都へ向かうぺコリーヌたち。見送った後、カスミは仲間の中に内通者がいる可能性があるため経過を見ようと話す。そんな折、療養していたはずのユイが姿を消してしまう。=Pecorine and the others split off from {playername} and headed to the capital. After seeing them off, Kasumi spoke to them to see how things were going, since there was a possibility there might be a traitor among their ranks. That was when Yui, who should have been recuperating, disappeared.
 マホさん、それに【自警団（カォン）】のみなさん！\n手当てとごはん、ありがとうございました！=Maho, and everyone from Vigilante! Thank you for treating me and eating!
-r:"^(.{2,10})たちが\n獣人の国にたどり着いてから、二日後──$"="Two days after $1 and the others arrived in the land of beastfolk"
+{playername}たちが\n獣人の国にたどり着いてから、二日後──=Two days after {playername} and the others arrived in the land of beastfolk
 おいおい。\nランドソルに戻るって本気かよ。\nここにいりゃ、ちったぁ安全だろうに。=Hey, hey. Are you serious about going back to Landosol? You should be safe here.
 気持ちはありがたいんだけどね。\nでも相手は空間跳躍だって使えるんだし、\n正直、安全なところなんてどこにも無いと思うわ。=I appreciate the offer, but the enemy can also use spatial leap, and I honestly don't think there is any safe place to be.
 はい。なので、時間との勝負です。\n本当はもっときちんとご挨拶したり、\n食べ歩きとかもさせてもらいたいんですけど……=Yes. That's why it's a race against time. Honestly, I'd like to greet you more properly and walk around eating, but...
 えっと……戻らはるんはペコリーヌはん、キャルはん、シェフィはんと\n【王宮騎士団（NIGHTMARE）】のひとらなん？\n王子はんとコッコロはんは……=Let's see... You're going back to Pecorine, Kyaru, Sheffy, and the Knights of the Royal Palace? The prince and Kokkoro-san...
-わたくしたちは、もう少しこちらにお世話になります。\n主さまに、静養していただかなくてはなりませんし……=We will stay here a little longer. We need my Lord to rest and recuperate.....
+わたくしたちは、もう少しこちらにお世話になります。\n主さまに、静養していただかなくてはなりませんし……=We will stay here a little longer. We need My Lord to rest and recuperate.....
 ペコリーヌさんやみなさんと、\nいろいろ相談させてもらったんだけどね。\n全員が一丸となって動くのも、それはそれでリスクが高いと思う。=I've talked to Pecorine and everyone else about it. I think it would be risky for all of us to move in unison.
-r:"^本気で戦いになるのなら、\n(.{2,10})にも一緒に来てもらうべきなんだけど。\n今のところ、街にはエリスや魔物の姿はないそうだし……$"="If it's really going to be a battle, we should have $1 come with us, but Eris and the monsters aren't in town right now..."
+本気で戦いになるのなら、\n{playername}にも一緒に来てもらうべきなんだけど。\n今のところ、街にはエリスや魔物の姿はないそうだし……=If it's really going to be a battle, we should have {playername} come with us, but Eris and the monsters aren't in town right now...
 ああ。\n【動物苑】の連中と通信魔法で話した感じじゃ、騒ぎにはなってるが\n代わりの王様が名乗り出てきたとかは無いみたいだぜ。=Yeah. According to the communication magic I've been using with the guys at Elizabeth Park, there's a lot of commotion, but it doesn't sound like a replacement king has come forward.
 もし危険そうなら、我々が盾となって\n逃げていただくための時間を稼ぐ。\nどれだけ役に立てるかは、わからないが……=If it looks dangerous, we'll use it as a shield to buy time for them to escape. I don't know how useful it will be, but...
 っていうか、みんな身体は平気さ？\nまだ寝てたほうがいいんじゃ……=By the way, is everyone all right? Shouldn't they still be asleep...?
 まー正直、\nそうさせてもらいたい気持ちはやまやまなんだけど……=Well, to be honest, I do want to do that, but...
 ランドソルのプリンセスとして、\nいつまでも街をほったらかしにすることはできません。\n一刻も早く、戻らなくっちゃです。=As the princess of Landosol, I cannot leave the city unattended. I must return as soon as possible.
 うん。\n私も……そのままには、しておけないの。\nゼーンのこと……=Yeah. Me too... I can't leave things as they are. About Zane...
-r:"^コッコロさんと(.{2,10})は、ゆっくり傷を治して。\nこれからますます、大変なことになっちゃいそうだし。$"="Kokkoro-san and $1, take your time healing your wounds. Things are going to get even more serious from here on out."
+コッコロさんと{playername}は、ゆっくり傷を治して。\nこれからますます、大変なことになっちゃいそうだし。=Kokkoro-san and {playername}, take your time healing your wounds. Things are going to get even more serious from here on out.
 あたしはこいつら、放っておくわけにはいかないし。\n……陛下のことも気になるし……=I can't just leave these guys alone. I'm worried about Her Majesty, too...
 湖畔近くの大断崖を突っ切るルートが使えれば、大幅な短縮になる。\nキャルちゃんの飛行魔法、頼らせてもらうよ。=If we can use the route that cuts through the cliff near the lake, it'll be a lot shorter. I'll rely on Kyaru-chan's flight magic.
 ふんっ。\n荒っぽいから、覚悟しておきなさいよね！=Hmph. You'd better be prepared for it to be rough!
@@ -465,8 +461,8 @@ r:"^コッコロさんと(.{2,10})は、ゆっくり傷を治して。\nこれ�
 な、なぁ。\nもしかして、王女さんたちの見送りに\nユイたちを呼ばなかったのは……=H-Hey. Could it be that the reason I didn't call Yui and the others to see the princess off was...
 もちろん、【トゥインクルウィッシュ】の人たちの中に\n内通者がいる可能性もあるからだよ。\n間違いなく該当しないのは、ノウェムさんだけだし。=Of course, it's possible that there's a traitor among the Twiinkle wish people. And the only one who definitely does not fall into that category is Novem.
 ひとまずは。\nどの側に対して敵が動くか……様子見、だね。=For now, let's see which side the enemy moves against.
-r:"^……そっか。\nじゃあそのあいだは、\nまずは(.{2,10})らの回復に専念だな。$"="...I see. In that case, let's focus on recovering $1 and the others first."
-r:"^それじゃあ(.{2,10})っ？\nごはんにするさ？\nそれとも、私にするさ～？$"="Well then, $1? Do you want to eat? Or do you want me?"
+……そっか。\nじゃあそのあいだは、\nまずは{playername}らの回復に専念だな。=...I see. In that case, let's focus on recovering {playername} and the others first.
+それじゃあ{playername}っ？\nごはんにするさ？\nそれとも、私にするさ～？=Well then, {playername}? Do you want to eat? Or do you want me?
 ごはんにする。=I'll have dinner.
 私にする。=I'll do it.
 は～い♪\nそれなら私らの故郷のフルコース、たっくさん用意するさ～！=Okay♪ Then we'll prepare a full course meal from our hometown!
@@ -474,7 +470,7 @@ r:"^それじゃあ(.{2,10})っ？\nごはんにするさ？\nそれとも、私
 ああ！　王女さんたちにはあんまり食わせてやれなかったけど……\nランドソルの食事に戻りたくなくなるくらい、\nとびっきりのご馳走でもてなしてやるぜ！=Yeah! I didn't give the prince much to eat, but... I'll treat them to a feast so amazing that they won't want to go back to Landosol's food!
 は～い♪\nまっかせるさ～♪=Okay~♪ Leave it to me~♪
 ええっ！？\n「私にする」って、カオリさんっ……！？=Whaaat!? Kaori-san said she'd do it to me...!?
-r:"^私の踊りで、(.{2,10})を元気にしてあげるさ～！\nたっくさん踊っちゃうよ～！\nあっ、それとも(.{2,10})も一緒に踊るさ～？$"="I'll cheer up $1 with my dance! I'm going to dance a lot! Oh, or will you dance with me, $1?"
+私の踊りで、{playername}を元気にしてあげるさ～！\nたっくさん踊っちゃうよ～！\nあっ、それとも{playername}も一緒に踊るさ～？=I'll cheer up {playername} with my dance! I'm going to dance a lot! Oh, or will you dance with me, {playername}?
 ったく。\n怪我人踊らせてどーすんだっての……=Geez. What's the point of making injured people dance...?
 ふふっ、せやねぇ。\nはよ元気になってもろて、それで……=Hehe, you're right. He's getting better soon, so...
 ……うちの両親に、挨拶してもらわな。\nこんな機会、めったにあらへんし……=...You'll have to meet my parents. You don't get many chances like this...
@@ -500,7 +496,7 @@ r:"^私の踊りで、(.{2,10})を元気にしてあげるさ～！\nたっく�
 みんな、すまないが力を貸してほしい！\n手分けして、ユイを捜してくれないかっ？=I'm sorry, but I need your help! Could you split up and search for Yui?
 
 2部 第10章 第5話=Part 2 Chapter 10 Episode 5
-r:"^ユイを捜すマホたちのもとにオクトーが現れ、(.{2,10})を狙う。マホたちはその場を引き受け、カスミとコッコロたちはユイの捜索を続けることに。一方、ユイは街の外である人物と遭遇していた。$"="As Maho and the others searched for Yui, Octo appeared and aimed for $1. Maho took the spot, while Kasumi and Kokkoro continued their search. Meanwhile, Yui encountered someone outside the city."
+ユイを捜すマホたちのもとにオクトーが現れ、{playername}を狙う。マホたちはその場を引き受け、カスミとコッコロたちはユイの捜索を続けることに。一方、ユイは街の外である人物と遭遇していた。=As Maho and the others searched for Yui, Octo appeared and aimed for {playername}. Maho took the spot, while Kasumi and Kokkoro continued their search. Meanwhile, Yui encountered someone outside the city.
 コッコロちゃん！\nそっちはどう！？\nユイちゃんいたっ？=Kokkoro! How's it going over there? Yui-chan, are you there?
 いえ、いらっしゃいません……\n各部屋をくまなく捜し、声をかけたのですが。=No, she's not here... I searched every room and called out to her.
 となれば……\nやはり、お屋敷から出られてしまっていると考えるべきかと。=In that case... I suppose I should assume that she has left the mansion after all.
@@ -526,7 +522,7 @@ r:"^ユイを捜すマホたちのもとにオクトーが現れ、(.{2,10})を�
 姫さん！\nノンキなこと言ってんな！\nオクトー先輩は……！=Princess! Don't be so carefree! Octo is...!
 えっと……おおきに？\nで、ええんやろか……=Um...thank you? So, let's see...
 ああ！\n貴様、敵に寝返っておいて……\nよくも我々の前に顔を出せたものだな！=Ah! You switched sides with the enemy... How dare you show your face!
-えー？\nそれっておかしくない？\n寝返るも何も、最初から味方じゃなかったんだしー=Eh? Isn’t that strange? Switching sides? mean, I didn't even switch sides in the first place.
+えー？\nそれっておかしくない？\n寝返るも何も、最初から味方じゃなかったんだしー=Huh? Isn’t that strange? Switching sides? mean, I didn't even switch sides in the first place.
 おーいみんなー！\n街の門番してるやつがさっき、\n外に出ていくユイのことを見たって──=Hey, everyone! The guard at the city gate said he saw Yui leaving earlier!
 ノウェムさまっ……=Lady Novem...
 って！！\nオクトーッッ！！？=Wait!! Octooo!!?
@@ -537,18 +533,18 @@ r:"^ユイを捜すマホたちのもとにオクトーが現れ、(.{2,10})を�
 ミネルヴァさんを……！？=Minerva...?!
 うん。\nあんなスゴい存在、誰だって欲しいよねー=Yeah. Anyone would want something that amazing
 あっ。聞かれる前に言っておくけどさ。\nミネルヴァが今どうしているかなんて、教えてあげないよ。\nでも……=Oh, before you ask, I'll tell you. I won't tell you what Minerva's doing right now. But...
-r:"^ミネルヴァをゲットするには。\nどうも(.{2,10})のことが必要になるっぽいんだよねー$"="In order to get Minerva, it seems we'll need $1"
-では……\nこうして再び参られたのも、主さまを狙って……！？=So... the reason you're here again is because of my Lord...!?
+ミネルヴァをゲットするには。\nどうも{playername}のことが必要になるっぽいんだよねー=In order to get Minerva, it seems we'll need {playername}
+では……\nこうして再び参られたのも、主さまを狙って……！？=So... the reason you're here again is because of My Lord...!?
 そっ。ボクとしては、面倒はゴメンなんだけど……\nでもこないだは、捕まえた彼をボクが逃がしちゃって。\n責任ってやつを取らなくちゃいけない感じでさー=That's right. I'm sorry for the trouble, but... the other day, I let him go when I caught him. I felt like I had to take responsibility.
 あの豚さん、ほんと余計なことしてくれたよねー\nあれさえなければきっと、今頃ぜんぶ片付いてたのにさ。=That pig really did something unnecessary, didn't it? If it hadn't been for that, I'm sure everything would've been taken care of by now.
 オクトーっ……！！\nオマエ、本気で言ってるのか！？\nミネルヴァを自分のものに、だなんて……真那と一緒じゃないか！=Octo...!! Are you serious?! To think you'd make Minerva your own... You're just like Mana!
-なんのことかなー？\n覇瞳皇帝は別に、そんなことしようとしてなかったけどなー=I wonder what she's talking about? Kaiser Insight wasn't really trying to do that.
+なんのことかなー？\n覇瞳皇帝は別に、そんなことしようとしてなかったけどなー=I wonder what she's talking about? Omniscient Kaiser wasn't really trying to do that.
 ああもうっ！\nいい加減、忘れたフリするのやめろって……！=Aaah, geez! Stop pretending to forget already...!
-r:"^オクトー先輩がここに来る……？　妙だな……\n本当に(.{2,10})を狙っているのか。\nそれとも情報の共有をしていないのか……？　$"="Octo is here...? That's strange... Is he really after $1? Or is he not sharing information...?　"
+オクトー先輩がここに来る……？　妙だな……\n本当に{playername}を狙っているのか。\nそれとも情報の共有をしていないのか……？　=Octo is here...? That's strange... Is he really after {playername}? Or is he not sharing information...?　
 ああもう……オクトー先輩は、考えが読みにくい！\nろくに知ってる相手じゃないはずなのに……\nこれも、『現実』の記憶っていうものなのか……？　=Oh geez... Octo-senpai, you're so hard to read! You're not someone I know very well... Is this another part of 'reality's memories...?　
-r:"^ま、そんなわけだからさー\n(.{2,10})のこと、渡してよ。\nそれとも自分から来る？　悪いようにはしないよー？$"="Well, that's why you have to give me $1.\Οh, or do you want to come yourself? I won't do anything bad, okay?"
+ま、そんなわけだからさー\n{playername}のこと、渡してよ。\nそれとも自分から来る？　悪いようにはしないよー？=Well, that's why you have to give me {playername}.\Οh, or do you want to come yourself? I won't do anything bad, okay?
 そないなこと、させまへん！=I won't let you do that!
-r:"^そ～さっ！\n私たちどころか、この国の全員が\n(.{2,10})たちの味方さ！$"="That's right! Not just us, but everyone in this country is on the side of $1 and the others!"
+そ～さっ！\n私たちどころか、この国の全員が\n{playername}たちの味方さ！=That's right! Not just us, but everyone in this country is on the side of {playername} and the others!
 いくらあんただからって、\n一人であたしたち全員を相手にできると思ってるのかよ！？=Do you really think you can take on all of us by yourself?!
 そりゃあ、もちろん……思ってないよー？=Well, of course... I don't think so.
 ま、魔物の声っ！？=A-A monster's voice?!
@@ -565,8 +561,8 @@ r:"^そ～さっ！\n私たちどころか、この国の全員が\n(.{2,10})た
 待ったって、王子はん！\nコッコロはん！=Wait, Prince Charming! Kokkoro-san!
 マホさまっ？=Lady Maho?
 下駄を預けてもろた客分はんに、万一あったら\n末代までの恥やさかい。\nここは、うちらに任せたって。=It'd be shame for generations to come if something happened to the guest who was left in my care. you should leave this to us.
-r:"^ああ！\nオクトー先輩の狙いは(.{2,10})なんだろ！？\nなら、わざわざ相手してやるこたぁねぇ！$"="Aaah! You're after $1, aren't you, Octo?! Then there's no need to go out of your way to take him on!"
-r:"^ここは私らが引き受けるさ～！\n(.{2,10})たちには、指一本触れさせないよ～！$"="We'll take care of this! We won't let you lay a finger on $1 and the others!"
+ああ！\nオクトー先輩の狙いは{playername}なんだろ！？\nなら、わざわざ相手してやるこたぁねぇ！=Aaah! You're after {playername}, aren't you, Octo?! Then there's no need to go out of your way to take him on!
+ここは私らが引き受けるさ～！\n{playername}たちには、指一本触れさせないよ～！=We'll take care of this! We won't let you lay a finger on {playername} and the others!
 そうだね。オクトー先輩のことだから、\nどんな切り札を持っているかもわからない。\nここは逃げるにしかずだよ、助手くん。=That's right. Knowing Octo, we don't even know what kind of trump card he's got. We can't just run away, Mr. Assistant.
 だが、キミたちばかり危険に晒すわけには……=But I can't just expose you to danger...
 へーきへーき！\nこんなの危険のうちにも入らないさ～！=I'm fine! This is not even close to dangerous!
@@ -592,7 +588,7 @@ r:"^ここは私らが引き受けるさ～！\n(.{2,10})たちには、指一�
 マホさんたち、ありがとう……！=Maho, thank you...!
 この借りは、必ず返させてもらうよ……！=I'll definitely pay you back for this...!
 ……だ……=...D...
-……誰……？　=......who......?　
+……誰……？　=...Who...?　
 誰か……わたしを、呼んでる……の……？　=Is someone...calling me...?　
 みんな、教えてくれない……\n本当のことを……=Everyone won't tell me... the truth...
 そっちにいけば……本当のことを、教えてくれるの……？　=If I go that way... will you tell me the truth...?　
@@ -625,11 +621,11 @@ r:"^ここは私らが引き受けるさ～！\n(.{2,10})たちには、指一�
 なーんか判るんだよね=You know what I mean right?
 
 2部 第10章 第6話=Part 2 Chapter 10 Episode 6
-r:"^オクトーとの戦いに苦戦するムイミ。マホたちは街を守るため、彼女に加勢する。一方、カスミの先導でユイの捜索を続ける(.{2,10})たちのもとに、突如アカリたちからの通信魔法が入るのだった。$"="Muimi struggled to fight Octo. Maho and the others supported her to protect the city. On the other hand, as $1 and the other girls continued to search for Yui under Kasumi's lead, they were suddenly greeted by communication magic from Akari and her friends."
+オクトーとの戦いに苦戦するムイミ。マホたちは街を守るため、彼女に加勢する。一方、カスミの先導でユイの捜索を続ける{playername}たちのもとに、突如アカリたちからの通信魔法が入るのだった。=Muimi struggled to fight Octo. Maho and the others supported her to protect the city. On the other hand, as {playername} and the other girls continued to search for Yui under Kasumi's lead, they were suddenly greeted by communication magic from Akari and her friends.
 ほらほら。\nやっと拾ったそのでっかい剣、使わないのー？\nまあー使えないよね、隙だらけになるもんねー=Come on, come on. You're not going to use that huge sword you finally picked up? Well, you can't use it, can you? You'll leave yourself wide open.
 っ！\nくぅっ──！！=...! Ugh...!!
 よっ、とー=Yo
-r:"^(.{2,10})を狙い、オクトー率いる魔物の群れが\n獣人の国・セントールスへと襲撃をかけてきた。\n【自警団（カォン）】とムイミは、仲間たちを守るため立ちはだかる。$"="Aiming for $1, a swarm of monsters led by Octo attacked Centorus, the land of the beastfolk. The Vigilantes (Kaon) and Muimi stood in their way to protect their comrades."
+{playername}を狙い、オクトー率いる魔物の群れが\n獣人の国・セントールスへと襲撃をかけてきた。\n【自警団（カォン）】とムイミは、仲間たちを守るため立ちはだかる。=Aiming for {playername}, a swarm of monsters led by Octo attacked Centorus, the land of the beastfolk. The Vigilantes (Kaon) and Muimi stood in their way to protect their comrades.
 ……くそっ！=...Dammit!
 あーもうっ、ぜんぜん攻め込めない！\nアタシの動きのクセが、手の内が、全部読まれちゃってるんだ……！　=Aaah, geez, I can't attack at all! He's reading my moves, my hands, everything...!　
 ……くくっ。=...Heh heh.
@@ -655,7 +651,7 @@ r:"^(.{2,10})を狙い、オクトー率いる魔物の群れが\n獣人の国�
 包囲戦術に、各個撃破！？\nこの人数差でやられると、防ぐだけで精いっぱいさ～！=Siege tactics and individual attacks?! If we're outnumbered like this, it's all we can do to defend against them!
 チッ！\n流石オクトー先輩、やることがこすっからいぜ！=Tch! As expected of Octo-senpai, you're so good at what you do!
 やだなー\nクレバーって言ってくれないと。=Oh, come on, I need you to call me Clever.
-r:"^……っていうか、キミたちが邪魔するせいで\n(.{2,10})には現在進行形で逃げられてるし。\nせめて何か他のことで、ポイント稼がなくちゃだよねー$"="...Or rather, $1 is currently running away from me because you guys keep getting in the way. I should at least earn points for something else!"
+……っていうか、キミたちが邪魔するせいで\n{playername}には現在進行形で逃げられてるし。\nせめて何か他のことで、ポイント稼がなくちゃだよねー=...Or rather, {playername} is currently running away from me because you guys keep getting in the way. I should at least earn points for something else!
 ポイント稼ぎっ？=Earning points?
 そ。\nほら、たとえばー=Yeah. Like, for example...
 魔物たちを使って、\n獣人の国をズタズタにしちゃうとか？\n結構喜ばれると思うんだよねー=Maybe I’ll use the monsters to tear the beastfolk’s land to shreds? I think that would make them pretty happy~
@@ -677,7 +673,7 @@ r:"^……っていうか、キミたちが邪魔するせいで\n(.{2,10})に�
 そーそー！\n群れには群れの戦いがあるさー！=That's right! There's a battle between the herds!
 ああ……悪い！\nアタシと一緒に戦ってくれ、【自警団（カォン）】ッ！=Yeah... Sorry! Fight with me, Vigilante!
 「うん！」\n「あぁ！」\n「任せといてな！」="Okay!」「Yeah!」 「Leave it to me!"
-r:"^一方、姿を消したユイを追いかける\n(.{2,10})、コッコロ、レイ、ヒヨリはカスミの先導で、\n獣人の国の首都・セントールスを脱出しようとしていた。$"="On the other hand, $1, Kokkoro, Rei, and Hiyori were following Kasumi’s lead to escape Centaurus, the capital of the Beastfolk Nation"
+一方、姿を消したユイを追いかける\n{playername}、コッコロ、レイ、ヒヨリはカスミの先導で、\n獣人の国の首都・セントールスを脱出しようとしていた。=On the other hand, {playername}, Kokkoro, Rei, and Hiyori were following Kasumi’s lead to escape Centaurus, the capital of the Beastfolk Nation
 たああーっ！=Taaaaah!
 ……よし。\n我々を追ってきた魔物は、これで全て片付いたか……=...All right. So that's all the monsters that came after us...
 ……街の方には、まだ魔物がたくさんいるけれど。\nとにかく、脱出には成功できたみたいだね……=...There are still a lot of monsters in the city. Anyway, it looks like we managed to escape...
@@ -694,9 +690,9 @@ r:"^一方、姿を消したユイを追いかける\n(.{2,10})、コッコロ�
 ユイさまもかなりのご健脚ですし、\nどこまで進んでしまっているのでしょうか……=Yuy-sama is also in pretty good health, and I wonder how far she's gone.
 ……ユイ、ちゃん……=Yui...chan...
 ユイちゃんを、助けるためには……=In order to save Yui-chan...
-エリスさんを、やっつけなくちゃいけない……のかな。\n覇瞳皇帝さんのときみたいに……=I have to take out Eris... I guess. Just like we did with Kaiser Insight...
+エリスさんを、やっつけなくちゃいけない……のかな。\n覇瞳皇帝さんのときみたいに……=I have to take out Eris... I guess. Just like we did with Omniscient Kaiser...
 ヒヨリさま……=Lady Hiyori...
-r:"^……エリスが(.{2,10})やユイのことを狙い、\nそして世界を破壊しかねないというなら。\nいずれは戦うことになるだろうけれど……でも……$"="...If Eris is after $1, Yui, and the rest of the world, then I'm sure we'll end up fighting eventually... But..."
+……エリスが{playername}やユイのことを狙い、\nそして世界を破壊しかねないというなら。\nいずれは戦うことになるだろうけれど……でも……=...If Eris is after {playername}, Yui, and the rest of the world, then I'm sure we'll end up fighting eventually... But...
 でも……仮にエリスを打倒できたとしても。\nそれは、本当の意味でユイを助けることには……\nならないだろうね……=But... even if I could defeat Eris, that wouldn't... save Yui in the truest sense...
 ……う……、うん……=...Y-Yeah...
 この世界を、『再構築』の行われる前に戻すことができれば。\n現実へと、みなさまをお導きすることができれば……\nユイさまが自責の念に囚われることも、なくなるかもしれませんが……=If we can return this world to the way it was before the 'reconstruction' took place, if we can guide everyone back to reality... then maybe Yui-sama won't be gripped by self-reproach anymore...
@@ -727,7 +723,7 @@ r:"^……エリスが(.{2,10})やユイのことを狙い、\nそして世界�
 
 2部 第10章 第7話=Part 2 Chapter 10 Episode 7
 街の外でさまよっていたユイの前に姿を現すミソラ。ユイはミソラとの会話の中で、徐々に『再構築』前の記憶を取り戻していく。ミソラは戸惑うユイに追い打ちをかけるように、さらなる残酷な真実を告げる。=Misora appeared in front of Yui, who was wandering outside the city. As she conversed with Misora, Yui gradually regained her memories from before the “reconstruction.” Misora delivered an even crueler truth, as if to follow up on Yui’s confusion.
-r:"^(.{2,10})が【悪魔偽王国軍（ディアボロス）】から\n通信魔法を受けた、ちょうどその頃。\n何者かの声によって導かれ、獣人の街から抜け出したユイは……$"="It was right around the time that $1 received communication magic from the [Diabolos]. Guided by someone's voice, Yui slipped out of the beastman city..."
+{playername}が【悪魔偽王国軍（ディアボロス）】から\n通信魔法を受けた、ちょうどその頃。\n何者かの声によって導かれ、獣人の街から抜け出したユイは……=It was right around the time that {playername} received communication magic from the [Diabolos]. Guided by someone's voice, Yui slipped out of the beastman city...
 ……あ、あなた……は……=...Y-You...are...
 こんにちは、ユイさん★\n来てくれて、うれしいです♪=Hello, Yui-san! ★ I'm so happy you came! ♪
 ミ……ミソラ、ちゃん……？=M... Misora...chan...?
@@ -747,7 +743,7 @@ r:"^(.{2,10})が【悪魔偽王国軍（ディアボロス）】から\n通信�
 それはもちろん♪\nユイさんを、捕まえちゃうためですよ★=That is, of course, in order to catch Yui.★
 この前もちょっと言いましたけど。\n捕まえて、閉じ込めちゃうしかないんですよねー。だって……\nユイさんを殺しちゃうと、イロイロやりなおしになっちゃいますからね。=Like I said before, we have no choice but to capture you and lock you up. After all...if we kill Yui, we'll have to redo everything.
 ……本当は。\nわたし的には、それも結構アリかなー？\nってカンジなんですけど……=...Honestly. Personally, I think that's pretty good, too
-……でも。また騎士さんたちが覇瞳皇帝さんに勝てるまで待つのは\nノーサンキューだそうなので♪\nエリスさま的に★=...Also i heard waiting for Kish-kun to get strong enough to beat Kaiser Insight again is a "no thank you"♪ thats how Lady Eris put it★
+……でも。また騎士さんたちが覇瞳皇帝さんに勝てるまで待つのは\nノーサンキューだそうなので♪\nエリスさま的に★=...Also i heard waiting for Kish-kun to get strong enough to beat Omniscient Kaiser again is a "no thank you"♪ thats how Lady Eris put it★
 ……エ……リスっ……=...E.. ris...
 ……っ、……ぅぅっ……！=......! ......uuu......!
 あれっ？\nユイさんったら。\nエリスさまのお名前だけで、そんな真っ青になっちゃってー=Huh? Oh, Yui-san. You've gone so pale just from the name, Lady Eris!
@@ -783,13 +779,13 @@ r:"^(.{2,10})が【悪魔偽王国軍（ディアボロス）】から\n通信�
 みんなと、アストルムで、一緒に……\nずっと一緒にいたい……=I want to be with everyone, in Astrum, together... forever...
 うんうん★\nイイ感じですよ～ユイさん♪=Yep, yep! ★ It feels so good, Yui-san! ♪
 でも、もう一声です♪\nミネルヴァに伝えた、もうひとつの──ユイさんの『真の願い』は。\nそれだけじゃなかったんですよね？=But one more thing♪ The other thing I told Minerva... Yui-san's true wish. That wasn't all, was it?
-──覇瞳皇帝さんのせいで、世界が壊れそうになったあのとき。\nソルの塔の庭で。\nオトモダチの命も、好きなひとの命も、奪われそうになりながら……=Back when the world was on the verge of breaking because of the Kaiser Insight. In the garden of The Tower of Sol. With the lives of your friends and the people you love about to be taken away......
+──覇瞳皇帝さんのせいで、世界が壊れそうになったあのとき。\nソルの塔の庭で。\nオトモダチの命も、好きなひとの命も、奪われそうになりながら……=Back when the world was on the verge of breaking because of the Omniscient Kaiser. In the garden of The Tower of Sol. With the lives of your friends and the people you love about to be taken away......
 草野優衣さん。\nあなたは──何を願ったんですか？=Yui Kusano. What did you wish for?
 ……わたしは。\nわたしは……=I... I...
 『わたしは、騎士クンとずっと一緒にいたい！\nでも騎士クンが傷つく姿は、もう見たくないの！』=I want to be with you forever, Kish-kun! But I don’t want to see you get hurt anymore!
 『騎士クンが……あなたが幸せじゃない世界なんていらない！\nそんなのは、わたしの願いじゃない！』=...'I don't want a world where the kish-kun is..... not happy with me! that's not what I want!"...
 ああ……そうだ。\n思い出した……=Ah... That's right. I remember now...
-あのとき。\nソルの塔の庭で。\n覇瞳皇帝さんに、意識を奪われそうになりながら。=Back then, in the garden of The Tower of Sol, almost losing consciousness to Kaiser Insight.
+あのとき。\nソルの塔の庭で。\n覇瞳皇帝さんに、意識を奪われそうになりながら。=Back then, in the garden of The Tower of Sol, almost losing consciousness to Omniscient Kaiser.
 わたしが、ミネルヴァに願ったのは……=What I wished for from Minerva...
 ……あれって……もう、騎士さんへの告白ですよね？\nふふっ。\n素敵です……♪=...That's... a confession to Kish-kun, isn't it? Hehe. It's wonderful...♪
 ユイさんが願ったとおり。\n『今の』アストルムでは、\nみんなずーっと一緒にいられるようになりました。=Just as Yui-san wished. In the “present” Astrum, everyone could be together forever.
@@ -852,7 +848,6 @@ r:"^(.{2,10})が【悪魔偽王国軍（ディアボロス）】から\n通信�
 ケバブサンドね。\nひとつ、いただくわ。=A kebab sandwich. I'll take one.
 うーん♪　獣人族の国の肉料理って、\nソースや香辛料が工夫されててすっごく美味しいんですよね～☆\nほらキャルちゃんも♪=Hmm♪ Meat dishes from the Nation of the Beastfolk are really good with sauce and spices in mind~☆ Come on, Kyaru~♪
 ちょっ！？\n自分で食べられるから、ヒトの口にねじ込むんじゃないわよ！\nソースがこぼれるでしょーがぁっ！=Hey!? You can eat it yourself, so don't shove it into someone's mouth! You'll spill the sauce!
-ペコリーヌ・シェフィ=Pecorine Sheffy
 ジュンさん？\n食べないのかしら？=Jun? Aren't you going to eat?
 いやその、私は……=No, umm, I...
 えっと。\n常在戦場……ってことかしら？=Let's see. A battlefield... I guess?
@@ -894,7 +889,6 @@ r:"^(.{2,10})が【悪魔偽王国軍（ディアボロス）】から\n通信�
 はいジュンさん、街の方はお願いします！\nそれじゃあわたしたちは、王宮に向かいましょう！=Yes, Jun-san, please take care of the city! Well then, let's head to the royal palace!
 ……あーあ。\nあっちこっち穴だらけのヒビだらけじゃない。\n修理費だけで、どれだけかかるのかしら……=...Aww, man. It's full of holes and cracks all over. I wonder how much it'll cost just to repair it...
 でも、あの兵隊さんたちの言っていたとおり。\n王宮前の広場も、誰もいない……わね。=But it's just like those soldiers said. The plaza in front of the royal palace is empty...right?
-シェフィ・キャル=Shefy Kyaru
 静かすぎて、不気味なくらいですね。\nいつもならこの時間でももう少し、人の気配があるのに……=It's so quiet, it's almost creepy. Normally, there'd be a little more people around at this hour...
 そーね。\nそこら中に、万能人形の破片が転がってるくらいで……\nん……=That's right. There are just pieces of the all-purpose doll's lying all over the place... Mm...
 ねぇ、シェフィ。\nこの剣の欠片……=Hey, Sheffy. This sword fragment...
@@ -935,7 +929,7 @@ r:"^(.{2,10})が【悪魔偽王国軍（ディアボロス）】から\n通信�
 くっ、バケモノめ～っ……！=Ugh, you monster!
 みんな、うちの後ろに！\nまとめて回復したるさかい！=Everyone, behind me! Let's all get back together!
 マコト！\nまだ立てるね！？=Makoto! Can you still stand?!
-r:"^ああっ！\nけど、くそっ……あの魔物、とんでもねぇぜ！\nせめて(.{2,10})からの強化がありゃ……！$"="Aaah! Yeah but, damn it... Those monsters are crazy huge! If only we could at least gain some strengthen from $1...!"
+ああっ！\nけど、くそっ……あの魔物、とんでもねぇぜ！\nせめて{playername}からの強化がありゃ……！=Aaah! Yeah but, damn it... Those monsters are crazy huge! If only we could at least gain some strengthen from {playername}...!
 泣き言なんてらしくないさ！\n黙って見てたら、私らの故郷がメチャクチャさ～！=This isn't the time for whining! If we just sit here and watch, our hometown will be ruined!
 だな！\nああいうデカブツをヤるときは──=That's right! When you do a big guy like that...
 足元からだね！\nマコトは左足を攻めるさ！\n私は右から！=Let's go for its feet! Makoto you attack the left leg! and I'll attack the right!
@@ -946,7 +940,7 @@ r:"^ああっ！\nけど、くそっ……あの魔物、とんでもねぇぜ�
 あっそうだ！\nオマエのことだから、ホントはミネルヴァを助けたいとか\nそんなカンジなんだな！？=Oh, that's right! Knowing you,  you really want to save Minerva or something like that, don't you?!
 うわああっとぉっ！？=Whaaaaat?!
 はいブッブー♪\nそれじゃあムチをプレゼントー=Yes, boo boo♪...Here's a present a whip!
-r:"^そのわりに……言ってることもやってることも足りてないんだよなぁ。\n(.{2,10})たちと仲良しこよししてるうちに\nキミのほうこそ忘れちゃってるんじゃないのー？$"="And yet... I don't have enough to say or do. I bet you're the one who forgot while you were getting along with $1 and the others."
+そのわりに……言ってることもやってることも足りてないんだよなぁ。\n{playername}たちと仲良しこよししてるうちに\nキミのほうこそ忘れちゃってるんじゃないのー？=And yet... I don't have enough to say or do. I bet you're the one who forgot while you were getting along with {playername} and the others.
 悪いやつ、かー\nずいぶんこだわるんだねー、キミ。=Bad guys, huh? You're really obsessed with them, aren't you?
 へっ！？\nな、何をだよっ！？=Huh?! Wh-What are you talking about?!
 そりゃあ、もう。=Well, geez.
@@ -979,7 +973,6 @@ r:"^そのわりに……言ってることもやってることも足りてな�
 っと。\nなんでもなーい。\nそれじゃあ使徒くん？　トドメ、やっちゃって──=Oh, it's nothing. Well then, Apostle? Finish them off!
 ──ルートオブバインドっ！=Root of Binding!
 カスミ！！=Kasumi!!
-マコト・カオリ=Makoto Kaori
 最高のタイミングやわぁ、カスミはん～っ♪=Perfect timing, Kasumi-han~♪
 あはっ♪　マホさんに褒められちゃった──\nじゃなくって！\n今のうちだよ、ノウェムさんっ！=Aha♪ Maho complimented me! Now's my chance, Miss Novem!
 サンキュー！\nいくぞ、デッカイの！！=Thanks! Let's go, it's huge!!
@@ -1014,7 +1007,7 @@ r:"^そのわりに……言ってることもやってることも足りてな�
 どういう……こと、なの……？=What...does that mean...?
 騎士クンが……\n『前の』騎士クンが、もう……\nどこにも、いない……って……=The knight... Kish-kun from before... is no longer... anywhere...
 ふふ★\nそれはですね。=Hehe ★ Well, you see...
-簡単なコトです。『再構築』の前の騎士さんはですね？\n覇瞳皇帝との戦いで【トゥインクルウィッシュ】のみなさんを庇って、\n死んじゃったそうなんです。=It's simple. The knight before 'Reconstruction', right? He died protecting everyone in Twinkle Wish in the battle against the Kaiser Insight.
+簡単なコトです。『再構築』の前の騎士さんはですね？\n覇瞳皇帝との戦いで【トゥインクルウィッシュ】のみなさんを庇って、\n死んじゃったそうなんです。=It's simple. The knight before 'Reconstruction', right? He died protecting everyone in Twinkle Wish in the battle against the Omniscient Kaiser.
 んー、死んじゃったっていうか、\n『致命傷を負ったあとに、再構築に巻き込まれて精神と魂が消滅』、\nが正しいっぽいんですけど。=Hmm, I guess it's more accurate to say that after a fatal wound, you get caught up in the reconstruction and your spirit and soul are annihilated.
 そのあと、世界を管理するAIが\n騎士さんの元データをかき集めて、修復したわけなんですね。=After that, the AI that managed the world gathered up Kish-kun's original data and repaired it, huh?
 しゅう、ふく……=Shuu, fuku...
@@ -1056,7 +1049,7 @@ r:"^そのわりに……言ってることもやってることも足りてな�
 むしろ、その逆といえるでしょうね。=In fact, you could say it's the opposite.
 それだけ聞かせてもらえたら、十分よ！\nあなた、許さないから……！=That's all I need to know! I won't forgive you...!
 ちょっ……シェフィちゃん、気持ちはわかりますけど……！=Hey... I know how you feel, Sheffy...!
-r:"^(.{2,10})抜きで、太刀打ちできるかわかんないわよ！\n逃げること前提で考えなさい……！$"="I don't know if I'll be able to beat him without $1! We should think about running away...!"
+{playername}抜きで、太刀打ちできるかわかんないわよ！\n逃げること前提で考えなさい……！=I don't know if I'll be able to beat him without {playername}! We should think about running away...!
 っ……！\nでも……\nあの男も、ゼーンの……兄さんの仇の一人なのにっ！=...! But... That man is also one of Zane's... Nii-san's enemies!
 ゼーンさん、ですか。\n彼は──=Mr. Zane, huh? He's...
 よォ！\n邪魔するぜテメーらッ！=Yo! Sorry to bother you guys!
@@ -1181,7 +1174,7 @@ r:"^(.{2,10})抜きで、太刀打ちできるかわかんないわよ！\n逃�
 でも……王子はんたちは、どないしたん？=But...what happened to the prince and the others?
 うん。街から出たあとに、\n【悪魔偽王国軍（ディアボロス）】のひとたちが\n助手くんのために加勢に来てくれてね。=Yeah. After we left the city, the members of the [Diabolos] came to help you, Assistant.
 彼女たちにユイさんの探索を任せて、\n私は加勢に戻ったというわけさ。\nマコトさんやカオリさんも、彼女たちのことは知っているだろう？=I left Yui-san's search to the girls and returned to my side. Makoto-san and Kaori-san know about them, don't they?
-ああ！\nイリヤって吸血鬼の姐さんは、覇瞳皇帝を手こずらせるくらいの女傑だ。\n頼りになるはずだぜ。=Aaah! Illya, This vampire girl named Ilya is such a woman that she could make even Kaiser Insight have a tough time She's a woman you can count on.
+ああ！\nイリヤって吸血鬼の姐さんは、覇瞳皇帝を手こずらせるくらいの女傑だ。\n頼りになるはずだぜ。=Aaah! Illya, This vampire girl named Ilya is such a woman that she could make even Omniscient Kaiser have a tough time She's a woman you can count on.
 ……王子はんら、無事にユイはんを見つけられるとええけど……=...I hope the prince finds Yui-san safely...
 でも私らもケガ人の手当てや、街の修理に、\n次の襲撃への備えとか……やることいっぱいさ～=But we also tend to the injured, repair the city, and prepare for the next attack... There's so much to do~
 そうだね。\nそれに……=That's right. And...

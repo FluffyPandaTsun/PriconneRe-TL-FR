@@ -3,7 +3,6 @@
 ぼっちの初心に立ち返ったアオイは、\nランドソルでの友達作りの方法に悩んでいた──=Now that she's back to her original self, Aoi's worried about how to make friends in Landosol──
 ……う～ん、ぼっち精神は癒せましたけど……\nこれからどうやってランドソルで友達を作っていけばいいんだろう……？=Hmm... While my loner spirit has been healed... I wonder how I should go about making friends at Landsoul from now on...
 変に都会派ぶらない方がいいはず……\nということは、やっぱり田舎感丸出しで接したほうがいいのかな……？=I shouldn't act like a city fanatic... So maybe it's better to embrace my country charm...?
-
 その方が、ありのままの私らしいですよね。=That way, I can be true to myself.
 それに、友達はできないかもしれませんが、\n人を不快にさせて、嫌われるっていうことにはならないはず！=Besides, even if I can't make friends, I shouldn't make people uncomfortable or disliked!
 よぉーし！\n自然派エルフっぽさがもっと出るまで、山籠りを続けますよー！=Alright! I'll continue my mountain hermitage until my natural elf-like qualities shine even more!
@@ -30,7 +29,6 @@
 前にバイト先のおもちゃ工場で知り合ったって言ってた子だと思うの。\nそこでうちのギルドメンバーが、バイトリーダーを務めたり、\nたい焼きの社食販売をしていた時の……=I think she's the one that our guild members mentioned meeting before when they worked at the toy factory or sold taiyaki at the employee cafeteria...
 えっ……？\nもしかして、ミフユリーダーさんとタマキさんのことですか！？=Eh...? Are you talking about Mifuyu Leader-san and Tamaki-san?!
 うん、そうよ。\nやっぱりアオイちゃんね！=Yes, that's right. It's definitely Aoi-chan!
-
 私はユカリ。\nミフユさんたちと同じ【メルクリウス財団】のメンバーよ。よろしくね！=I'm Yukari. I'm a member of the same Mercurius Foundation as Mifuyu-san and the others. Nice to meet you!
 は、はい……！\nその節はどうもお世話になりました……！=Y-Yes...! Thank you for everything you've done for me...!
 まさか、こんなところでミフユさんたちの知り合いと会うなんて……\nそれに、子供の前だし、しっかりしないと……！\nちょっと酔いが覚めてきてて、よかったわ……！=I never expected to meet someone who knows Mifuyu-san and the others in a place like this... And in front of a child, I have to compose myself... I'm starting to sober up, thankfully...!
@@ -72,9 +70,7 @@
 分かりました！　やらせていただきます！\nお二人の足を引っ張らないように、精一杯キャンプします！=Understood! I'll do my best not to hold you two back and fully enjoy camping!
 それじゃあ、明日の朝に迎えにくるよ。\n夜も遅いから、今からの移動は大変だろうからね。=Then I'll come pick you up tomorrow morning. It's late at night, so it would be tough to travel now.
 はい！　首を長くして、お待ちしております！\nそれでは、また明日！　おやすみなさい！=Yes! I'll eagerly await your arrival! Well then, see you tomorrow! Good night!
-
-r:"^(.{2,10})は、\nアオイたちがいると思われるキャンプ場を目指していた。$"=$1 was heading towards a campsite where Aoi and the others were believed to be.
-
+{playername}は、\nアオイたちがいると思われるキャンプ場を目指していた。={playername} was heading towards a campsite where Aoi and the others were believed to be.
 おや、こんにちは。\nこの先にあるキャンプ場に行かれるんですか？=Oh, hello. Are you heading to the campsite ahead?
 キャンパー=Camper
 急いで向かっています。=I'm in a hurry.
@@ -92,7 +88,6 @@ r:"^(.{2,10})は、\nアオイたちがいると思われるキャンプ場を�
 素晴らしい。必要最低限の道具だけを持ち込み、\n現地で集めた木材でテントなどを作る……\n確か、ブッシュクラフトというスタイルだったかな。=Wonderful. I brought only the bare essentials and made things like tents from the wood I collected on-site... I think it's called bushcraft.
 へえ～\nさすが、エルフの森が産んだ天然のキャンパーね。=Wow, you truly are a natural camper born from the Elf Forest.
 私はいろいろ不安で道具を買いあさったのが恥ずかしくなっちゃう……\nナイフ一つで、なんでも作れちゃうなんてすごいわ！=I feel a bit embarrassed because I bought so many things out of anxiety... It's amazing that you can make anything with just a knife!
-
 いえいえ！　自慢じゃありませんが、手先は器用なんです。\n小さいころから友達作りの練習台なんかを作ったりしてましたから。=No, no, no! it's not something to brag about, but I'm good with my hands. I used to make things like practice dummies for making friends when I was little.
 だから買いそろえるよりも、その場その場で作ったほうが早いし、\nそれにお金もかからないので……\nそんな懐事情によるところが大きいですね！=So, it's faster to make things on the spot rather than buying them, and it doesn't cost any money... That's a big factor due to my financial situation!
 アオイちゃん。\nいつも一人でキャンプをしていると言っていたが、\nどんなふうに過ごしているんだい？=Aoi-chan, you said you always camp alone, but how do you spend your time?
@@ -122,134 +117,14 @@ r:"^(.{2,10})は、\nアオイたちがいると思われるキャンプ場を�
 はい。この子を、自分自身だと思ってみてください。\nそして、心に思い浮かべた自分と対話をするんです。=Yes. Treat this toy as if it were yourself. Then, engage in a dialogue with the image of yourself in your mind.
 傷ついた心を癒したり、空回りする自分にストップをかけて、\nありのままの自分を思い出してみてください。=Heal your wounded heart, put a stop to your aimless thoughts, and remember your true self.
 そうすれば、ストレスもなにもない素の状態……\nすなわち極限のリラックス状態になれるんです。=By doing so, you can achieve a state of authenticity without any stress... in other words, the ultimate state of relaxation.
-
 そうだね。メンタルトレーニングも大事な鍛錬だ。\n手を抜くことなく、やってみよう。=You're right. Mental training is also an important practice. Let's give it a try without slacking off.
 あまり負荷をかけないように慎重にお願いしますね。\nベテランぼっちの私が、長年かけて編み出したリラックス方法ですから。=Please be careful not to strain yourselves too much. This relaxation method I developed over the years as a seasoned solo camper.
 ユカリとジュンは、それぞれの目的のために、\nアオイの指導の元、自らと向き合い始めるのだった──=Yukari and Jun began to face each other for their own goals, under Aoi's guidance
 では、始めてみてくださいっ！=Now, give it a try!
 な、なんだか大変そうね……\nでも、最高の一杯のためよ！　自分と向き合ってみるわ！=It seems quite challenging... but it's for the sake of the ultimate drink! I'll face myself!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ぼっちの初心に立ち返ったアオイは、\nランドソルでの友達作りの方法に悩んでいた──=Now that she's back to her original self, Aoi's worried about how to make friends in Landosol
+eh?そうやってテントを建てて、たき火をして……\nどっからどう見ても、キャンプじゃない。=Huh? Setting up tents and campfires... it doesn't look like camping at all, no matter how you look at it.
+Ohh...!\n私、自然系ぼっち派エルフに見えますか！？=Oh...! Do I look like a nature-loving loner elf!?
+Yes, sir!　首を長くして、お待ちしております！\nそれでは、また明日！　おやすみなさい！=Yes! I'll eagerly await your arrival! Well then, see you tomorrow! Good night!
+Yes.この子を、自分自身だと思ってみてください。\nそして、心に思い浮かべた自分と対話をするんです。=Yes. Treat this toy as if it were yourself. Then, engage in a dialogue with the image of yourself in your mind.
+あまり負荷をかけないように慎重にお願いしますね。\nベテランぼっちの私が、長年かけて編み出したリラックス方法ですから。=Please be careful not to put too much strain on it. As a veteran loner, it's a way of relaxing that I've spent years working on.

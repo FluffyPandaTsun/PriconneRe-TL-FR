@@ -1,4 +1,24 @@
+ジオ・ゲヘナの植物採取=Gio Gehenna plant harvesting
+次のターン、\nカテゴリーの料理をそれぞれ1品ずつ\n食べることができる。=During the next turn, you can eat one dish in each category.
+「移動系」= 
+「補助系」= 
+「特殊系」= 
+
+
+ミソラの\n気まぐれ味噌ラーメン★=Misora's Whimsical Miso Ramen★
+ミソラが作ったラーメン。適当に言った好きな物をランファが憶えていたために、材料を用意され仕方なく作ったものだが味はイイコト級の一品。美味しそうに食べられるのは嫌いではない様子。=A bowl of ramen made by Misora. Lanfa remembered something Misora mentioned liking offhandedly and prepared the ingredients, leaving Misora with no choice but to cook it. Despite that, the dish turned out to be top-notch. She doesn’t seem to mind when people enjoy eating it so enthusiastically.  
+【料理】移動時に料理マスをスキップできる=[Dish] Allows skipping food tiles while moving.
+
+3ターンの間、すべての「マイルマス」をランク\n3の「トレジャーマス」に変化させる。=For 3 turns, all "Mile Tiles" are transformed into rank 3 "Treasure Tiles."
+
+【仲間】出たダイスの目が奇数だった場合、1マス分多く進める=[Ally] If the rolled dice shows an odd number, you can move 1 extra tile.
+
+
+\nミニゲームをスキップしますか？\nプレイ報酬の代わりにマイルが獲得できます。=Would you like to skip the mini-game?\nInstead of play rewards, you will receive miles.
 ---Dish names---
+
+
+
 ---Red---
 ペコリーヌの満腹ツインおにぎり=Pecorine's Satisfying Twin Onigiri
 コッコロのゆるりと休憩サラダ=Kokkoro's Laid-back Relaxing Salad
@@ -14,38 +34,57 @@
 アオイの疾走サンドイッチ=Aoi's Sprinting Sandwich
 クウカの緊縛触手活け造り=Kuuka's Binding Live Octopus
 クレジッタの開運お菓子盛り合わせ=Creditta's Lucky Sweet Platter
+
+アキノのゲヘニアンチキンプレート=Akino's Gehennian Chicken Platter
+ユイの栄養満点まごころ弁当=Yui's Nutritious Heartfelt Bento
+リンのナッツ入りぐうたらあんパン=Rin's Lazy Anpan with Nuts
+シェフィの氷晶煌めく手作りアイス=Sheffy's Handmade Glittering Ice Crystal Ice Cream
+次に振るダイスの目が「1・2」のみになる\n代わりに、その場で福引券を3枚獲得する。=Instead of only having 1 and 2 eyes on the die you swing next, you get 3 lottery tickets on the spot.
+
 ---Yellow----
 アヤネとクルミの青空ピクニックセット=Ayane and Kurumi's Blue Sky Picnic Set
 カヤとイノリの食欲倍増ケバブサンド=Kaya and Inori's Appetite-Doubling Kebab Sandwich
 タマキの金運招くレインボーたい焼き=Tamaki's Rainbow Wealth Fortune Taiyaki
-ランファの世話焼き三昧肉じゃが=Ranpha's Grilled Meat and Potato
+ランファの世話焼き三昧肉じゃが=Ranpha's Meat and Potato Stew
 ---Green---
 クリアの彩り華やかバラエティ弁当=Quria's Colorful Variety Lunch Box
-
-
 ワカナの節約腹八分目カレー=Wakana's Properly Portioned Curry
+アンナの煉獄蕃茄煮混沌卵=Anna's Infernal Tomato Stew with Chaotic Eggs
+
 ---Dish effects---
 ---Red---
 次に振るダイスが2個に増える。出目の合計の数だけ進める。=You will roll 2 dice next turn and move as many tiles as their sum.
 次に振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 1 next turn. The turn counter will not increase.
+次に振るダイスの目が必ず「2」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 2 next turn. The turn counter will not increase.
+次に振るダイスの目が必ず「3」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 3 next turn. The turn counter will not increase.
 次に振るダイスの目が必ず「2」になる。=You will roll a guaranteed 2 next turn.
 次に振るダイスの目が必ず「3」になる。=You will roll a guaranteed 3 next turn.
 次に振るダイスの目が必ず「5」になる。=You will roll a guaranteed 5 next turn.
 次に振るダイスの目が必ず「6」になる。=You will roll a guaranteed 6 next turn.
 次に振るダイスの目が必ず「7」になる。=You will roll a guaranteed 8 next turn.
 次に振るダイスの目が必ず「8」になる。=You will roll a guaranteed 8 next turn.
-ダイスを3回振るまでの間、ダイスの目が必ず「4」になる。=You will roll a guaranteed 4 for the next 3 turns.
+次に振るダイスの目が必ず「9」になる。=You will roll a guaranteed 9 next turn.
+r:"^ダイスを(\d)回振るまでの間、ダイスの目が必ず「(\d)」になる。$"=You will roll a guaranteed $2 for the next $1 turns.
 
+
+アネモネの花爛漫ステーキサラダ=Anemone's Flower Steak Salad
+次に振るダイスの目が「1・2」のみになる代わりに、その場で福引券を3枚獲得する。=If the next dice roll shows only "1" or "2", you will instantly receive three lottery tickets.
 次に振るダイスの目が「4・5・6」のみになる。=You will roll a 4, 5 or 6 next turn.
 次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。=You will roll a guaranteed 3 next turn. Then, a guaranteed 6 the turn after.
 [3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「8」に、その次に振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]You will roll a guaranteed 8 next turn. Then, a guaranteed 1 the turn after.[-]
 [3C404E][FF7C4E,D62146]【上書き不可】[-]次のターン「移動系カテゴリーの料理」が食べられない代わりに、その場で2000マイルを獲得する。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-] In exchange for not being able to eat [Mobile Type Food] next turn, earn 2,000 miles on the spot. [-]
-
+[3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「6」に、その次に振るダイスの目を必ず「3」にする。[-]=[3C404E] [FF7C4E,D621466]【Non-overwrite】[-]The next roll of the dice must be a "6", and the roll after that must be a "3".
 次に振るダイスの目を必ず「2」に、その次に振るダイスの目を必ず「7」にする。=You will roll a guaranteed 2 next turn. Then, a guaranteed 7 the turn after.
 次に振るダイスの目が「1・2・3」のみになる。\nさらに、次のターン数のカウントをスキップす\nる。=You will roll a 1, 2 or 3 next turn.\nThe turn counter will not increase.
 マイルマスをスキップして移動できる。効果は2ターンの間継続する。=You can move by skipping the Mile Tiles. Effect lasts for 2 turns.
-次にダイスを振った際、1マス多く進…=You can move 1 extra Tile next turn.
 次にダイスを振った際、1マス多く進める。=You can move 1 extra Tile next turn.
+次にダイスを振った際、2マス多く進める。=You can move 2 extra Tile next turn.
+次にダイスを振った際、3マス多く進める。=You can move 3 extra Tile next turn.
+次にダイスを振った際、4マス多く進める。=You can move 4 extra Tile next turn.
+次にダイスを振った際、5マス多く進める。=You can move 5 extra Tile next turn.
+次にダイスを振った際、6マス多く進める。=You can move 6 extra Tile next turn.
+次にダイスを振った際、7マス多く進める。=You can move 7 extra Tile next turn.
+次にダイスを振った際、8マス多く進める。=You can move 8 extra Tile next turn.
 ---Yellow---
 マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計2回止まるまで継続する。=The RANK of all "Mile Tiles", "Treasure Tiles" and "Shop Tiles" will increase by 1. This effect will last until you stop at a relevant tile mentioned earlier for a total of 2 times. 
 次にマイルマスに止まった際の獲得マイルが200%アップする。=You will get 200% more Miles on the next Mile Tile you stop at.
@@ -53,50 +92,47 @@
 ランダムなイベントを発生させる。=You will get a random event next turn.
 
 現在、移動系カテゴリの料理は食べられません。=Can't eat a Movement dish right now.
-
 ---Effects---
+【料理】=[Cooking] 
+【イベント】=[Event] 
+【仲間】=[Friend] 
+
 発動中の効果一覧=List of Active Effects
 ダイス 残り3回=3 More Rolls
 ダイス 残り2回=2 More Rolls
 ダイス 残り1回=1 More Roll
 次に開いたマイルショップで全商品が20%以上割引される。=The next time the Mile Shop opens, all items will be discounted by at least 20%.
-【イベント】ミニゲームの獲得マイルが100%アップする=[Event] Boost Minigame Miles acquisition by 100%.
-【イベント】マイルマスの獲得マイルが100%アップする=[Event] Boost Miles gained from Mile Tiles by 100%.
-【イベント】マイルショップの全商品が20%以上割引される=[Event] All items in the Mile Shop will be discounted by at least 20%.
-【料理】ミニゲームの獲得マイルが100%アップする=[Cooking] Boost Minigame Miles acquisition by 100%.
-【料理】マイルマスの獲得マイルが200%アップする=[Cooking] Boost Miles gained from Mile Tiles by 200%.
-【料理】マイルマスの獲得マイルが100%アップする=[Cooking] Boost Miles gained from Mile Tiles by 100%.
-【料理】マイルショップの全商品が20%以上割引される=[Cooking] All items in the Mile Shop will be discounted by at least 20%.
-【料理】ダイスが2個に増える=[Cooking] Rolls 2 dice on the next roll.
+sr:"^(【料理】|【イベント】|【仲間】|)ミニゲームの獲得マイルが(\d+)%アップする。?$"=$1Boost Minigame Miles acquisition by $2%.
+sr:"^(【料理】|【イベント】|【仲間】|)マイルマスの獲得マイルが(\d+)%アップする。?$"=$1Boost Miles gained from Mile Tiles by $2%.
+sr:"^(【料理】|【イベント】|【仲間】|)マイルショップの全商品が(\d+)%以上割引される。?$"=$1All items in the Mile Shop will be discounted by at least $2%.
+sr:"^(【料理】|【イベント】|【仲間】|)ダイスが(\d)個に増える。?$"=$1Rolls $2 dice on the next roll.
+sr:"^(【料理】|【イベント】|【仲間】|)ダイスの目が必ず「(\d)」になる。?$"=$1You will roll a guaranteed $2 next turn.
+sr:"^(【料理】|【イベント】|【仲間】|)ダイスの目が1回目は必ず「(\d)」に、2回目は必ず「(\d)」になる。?$"=$1You will roll a guaranteed $2 next turn. Then, a guaranteed $3 the turn after.
+sr:"^(【料理】|【イベント】|【仲間】|)ダイスの目が「(\d)・(\d)・(\d)」のみになる。?$"=$1You will roll a $2, $3 or $4 next turn.
+sr:"^(【料理】|【イベント】|【仲間】|)次回移動時に(\d)マス分多く進める。?$"=$1You can move $2 extra Tile next turn.
+sr:"^(【料理】|【イベント】|【仲間】|)福引券を(\d)枚入手する。?$"=$1Acquire $2 lottery ticket
+福引券を1枚獲得する。=Acquire 1 lottery ticket.
+福引券を2枚獲得する。=Acquire 2 lottery ticket.
+2ターンの間ターン数のカウントを\nスキッ\rプする。=Skips turn count for 2 turns.
+r:"^(\d)/(\d)食事済$"=$1/$2 Meals
+これ以上料理を食べられません。=Can't eat any more food.
+
 【料理】次のターン数のカウントをスキップする=[Cooking] The turn counter will not increase.
 【料理】「マイルマス」「トレジャーマス」「ショップマス」のRANKが1つ上がる=[Cooking] Mile Tile, Treasure Tile, and Shop Tile RANK increased by 1.
-
-【料理】ダイスの目が必ず「1」になる=[Cooking] You will roll a guaranteed 1 next turn.
-【料理】ダイスの目が必ず「2」になる=[Cooking] You will roll a guaranteed 2 next turn.
-【料理】ダイスの目が必ず「3」になる=[Cooking] You will roll a guaranteed 3 next turn.
-【料理】ダイスの目が必ず「4」になる=[Cooking] You will roll a guaranteed 4 next turn.
-【料理】ダイスの目が必ず「5」になる=[Cooking] You will roll a guaranteed 5 next turn.
-【料理】ダイスの目が必ず「6」になる=[Cooking] You will roll a guaranteed 6 next turn.
-【料理】ダイスの目が必ず「7」になる=[Cooking] You will roll a guaranteed 7 next turn.
-【料理】ダイスの目が必ず「8」になる=[Cooking] You will roll a guaranteed 8 next turn.
-【料理】ダイスの目が1回目は必ず「8」に、2回目は必ず「1」になる=[Cooking] You will roll a guaranteed 8 next turn. Then, a guaranteed 1 the turn after.
-【料理】ダイスの目が1回目は必ず「2」に、2回目は必ず「7」になる=[Cooking] You will roll a guaranteed 2 next turn. Then, a guaranteed 7 the turn after.
-【料理】ダイスの目が1回目は必ず「3」に、2回目は必ず「6」になる=[Cooking] You will roll a guaranteed 3 next turn. Then, a guaranteed 6 the turn after.
-【料理】ダイスの目が「4・5・6」のみになる=[Cooking] You will roll a 4, 5 or 6 next turn.
-【料理】ダイスの目が\n「1・2・3」のみになる=[Cooking] You will roll a 1, 2 or 3 next turn.
-【料理】移動時にマイルマスをスキップできる。=[Cooking] Skip Mile Tiles when moving.
-【料理】次回移動時に1マス分多く進める。=[Cooking] You can move 1 extra Tile next turn.
+【料理】移動時にマイルマスをスキップできる=[Cooking] Skip Mile Tiles when moving.
+【料理】移動系カテゴリーの料理が食べられなくなる=[Cooking] You can't be able to eat food in the mobile category.
+【料理】移動時に「マイルマス」「トレジャーマス」をスキップできる=[Cooking] Skip "Mile Tiles" and "Treasure Tiles" when moving.
+【料理】移動時にトレジャーマスをスキップできる=[Cooking] Skip Treasure Tiles when moving
 
 ---Sub-effects---
-r:"^(\d+)マイルを獲得する。$"=Acquire $1 miles.
-福引券を1枚獲得する。=Acquire 1 lottery ticket.
+r:"^([0-9,]+)マイルを獲得する。?$"=Acquire $1 miles.
 r:"^RANK(\d+)のマイルショップを開く。$"=Open a RANK$1 mile shop.
-sr:"^(.+)を(\d+)個獲得する。$"=Obtain $2 x $1.
-sr:"^(.+)を(\d+)個獲得…$"=Obtain $2 x $1.
+sr:"^(.+)を([0-9,]+)個獲得する。$"=Obtain $2 x $1.
+sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 
 ---Overwrite confirmation texts, cause the have gray color codes... Could not test all yet, excluded the non-overwritable one, will test on the go---
 ---Red---
-[90A0BC]マイルマスをスキップして移動できる。効果は2\nターンの間継続する。[-]=[90A0BC]You can move by skipping the Mile Tiles. Effect lasts for 2 turns.[-]
+[90A0BC]マイルマスをスキップして移動できる。効果は2ターンの間継続する。[-]=[90A0BC]You can move by skipping the Mile Tiles. Effect lasts for 2 turns.[-]
 [90A0BC]次に振るダイスが2個に増える。出目の合計の数だけ進める。[-]=[90A0BC]You will roll 2 dice next turn and move as many tiles as their sum.[-]
 [90A0BC]次に振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。[-]=[90A0BC]You will roll a guaranteed 1 next turn. The turn counter will not increase.[-]
 [90A0BC]次に振るダイスの目が必ず「5」になる。[-]=[90A0BC]You will roll a guaranteed 5 next turn.[-]
@@ -104,16 +140,36 @@ sr:"^(.+)を(\d+)個獲得…$"=Obtain $2 x $1.
 [90A0BC]次に振るダイスの目が「4・5・6」のみになる。[-]=[90A0BC]You will roll a 4, 5 or 6 next turn.[-]
 [90A0BC]次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。[-]=[90A0BC]You will roll a guaranteed 3 next turn. Then, a guaranteed 6 the turn after.[-]
 [90A0BC]次に振るダイスの目を必ず「2」に、その次に振るダイスの目を必ず「7」にする。[-]=[90A0BC]You will roll a guaranteed 2 next turn. Then, a guaranteed 7 the turn after.[-]
-[90A0BC]次に振るダイスの目が「1・2・3」のみになる。\nさらに、次のターン数のカウントをスキップす\nる。[-]=[90A0BC]You will roll a 1, 2 or 3 next turn.\nThe turn counter will not increase.[-]
-
+[90A0BC]次に振るダイスの目が「1・2・3」のみになる。さらに、次のターン数のカウントをスキップする。[-]=[90A0BC]You will roll a 1, 2 or 3 next turn.The turn counter will not increase.[-]
+出目が固定されているため振りなおせません。=I can't roll again because the starting point is fixed.
+[90A0BC]トレジャーマスをスキップして移動できる。効果は3ターンの間継続する。[-]=[90A0BC]You can move by skipping Treasure Square. The effect lasts for 3 turns.[-]
 ---Yellow---
 [90A0BC]マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計2回止まるまで継続する。[-]=[90A0BC]The RANK of all "Mile Tiles", "Treasure Tiles" and "Shop Tiles" will increase by 1. This effect will last until you stop at a relevant tile mentioned earlier for a total of 2 times. [-]
 [90A0BC]次にマイルマスに止まった際の獲得マイルが200%アップする。[-]=[90A0BC]You will get 200% more Miles on the next Mile Tile you stop at.[-]
 ---Green---
 [90A0BC]ランダムなイベントを発生させる。[-]=[90A0BC]You will get a random event next turn.[-]
+ダイスを3回振るまでの間、「5と6」の⽬が出る確率が3倍になる。=Until you roll the dice three times, the probability of getting a 5 or 6 is tripled.
+【料理】ダイスの「5と6」の目が出る確率が3倍になる=【Cooking】 The odds of the dice getting a 5 and 6 are tripled
+[90A0BC]ダイスを3回振るまでの間、「5と6」の⽬が出る確率が3倍になる。[-]=[90A0BC]The odds of the dice getting a 5 and 6 are tripled[-]
+
+一定の経過ターン以内にチェックポイントを通過すると\n豪華なアイテムが手に入ります!=Pass a checkpoint within a certain turn to obtain an extravagant item!
 
 ---Dish descriptions---
+マイルを消費してガチャを引くことができます。=You can use miles to pull the gacha.
+ガチャマス=Gachamas
+トレジャーマスをスキップして移動できる。効果は3ターンの間継続する。=You can move by skipping Treasure Square. The effect lasts for 3 turns.
+
+綺麗な装飾箱に納められたボンボン・ショコラ。そのほろ苦さを秘めた濃密な甘さが灰色の脳細胞に働きかける時、名探偵の鋭い推理が隠された謎を全て白日の下へと晒し、事件を解決へ導く。=A set of Bonbon chocolates, placed in a beautifully decorated box. As their decadent flavor with a bittersweet finish stimulates the grey matter of the brain, the great detective's sharp reasoning brings all unknowns to light, leading to the resolution of the case.
+
+
+2ターンの間ターン数のカウントをスキップする。=Skips turn count for 2 turns.
+【イベント】次のターン数のカウントをスキップする=[Event] Skip the next turn count
+
 ---Red---
+ミミが、ジオ・ゲヘナで助けてくれたお姉さん達のことを思い作ったおにぎり。それぞれ異なる味付けがされているが、ミミの願い通りお互いにケンカをせず仲良くハーモニーを奏でている。=Mimi made these rice balls in memory of the big sisters who helped her in Gio Gehenna. Each one has a unique flavor, but just as Mimi wished, no one rice ball overpowers the other, forming a wonderful harmony together.
+
+アキノがジオ・ゲヘナで仕入れてきたスパイスを\n使用した、お洒落で豪華なチキンプレート。牧場\n特製ヨーグルトソースと奏でる刺激的な味わいは\nまさに二つの世界の奇跡のマリアージュである。=A stylish and luxurious chicken platter made with spices that Akino procured in Gio Gehenna. The stimulating flavor of the chicken combined with the ranch's special yogurt sauce makes for a miraculous union of two worlds.
+
 アオイがお弁当として作ったエルフ伝統の野菜サンド。一緒についてきてくれる最高の友だちの助言により、どんなに深い森の中でも全速力で駆け抜けることができるらしい。（アオイ談）=A traditional Elven vegetable sandwich that Aoi made for lunch. Thanks to the advice of her best friend, she can run as fast as she wants, no matter how deep in the forest it is. (According to Aoi)
 
 数多くのドM妄想をしてきたクウカの中で最近のマイブームである触手をモチーフとした活造り。新鮮な蛸足が、濃厚なうま味と共に物理的に絡み付き身も心も縛りあげられる様な体験ができる。=From yet another one of Kuuka's masochistic fantasies comes this sashimi-like dish with an octopus twist. The wriggling of the fresh tentacles combined with their rich umami flavor makes for an experience that ensnares both body and soul.
@@ -132,9 +188,9 @@ sr:"^(.+)を(\d+)個獲得…$"=Obtain $2 x $1.
 
 リマがネネカにもらったリンゴで作った秘密の\nスイーツ。爽やかな酸味と濃厚な甘さがまるで\n魔法のようなバランスでお互いを引きたてており\n食べた者をたちまち虜にしてしまうという。=A hidden dessert made from an apple that Rima had received from Neneka. The refreshing sourness and rich sweetness complement each other to form a truly magical balance, instantly captivating anyone who takes a bite.
 
-クレジッタが考案した、ジオ・テオゴニアで流通\nしているチョコの貨幣の盛り合わせ。一見すると\n金貨を口に入れるおバカさんではあるが、通貨を\n食べるという背徳感が隠し味となっている。=An assortment of chocolate coins in circulation within Geo Teogonia, invented by Creditta. At first, it might seem stupid to eat your own money, but the feeling of immorality that comes with consuming currency makes for an acquired taste.
+クレジッタが考案した、ジオ・テオゴニアで流通\nしているチョコの貨幣の盛り合わせ。一見すると\n金貨を口に入れるおバカさんではあるが、通貨を\n食べるという背徳感が隠し味となっている。=An assortment of chocolate coins in circulation within Gio Teogonia, invented by Creditta. At first, it might seem stupid to eat your own money, but the feeling of immorality that comes with consuming currency makes for an acquired taste.
 
-ニノンがジオ・テオゴニアに持ち込んだ特別な\n寿司。厳選された新鮮な魚介を使った逸品だが、\n一部のネタは、寿司のセオリーを逸脱したニノン\n我流のものに仕上がっている。=A special sushi that Ninon brought to Geo Teogonia, only the freshest seafood was used in it's creation. Ultimately though, it's her unconventional usage of alternative ingredients that elevates this dish into a masterpiece.
+ニノンがジオ・テオゴニアに持ち込んだ特別な\n寿司。厳選された新鮮な魚介を使った逸品だが、\n一部のネタは、寿司のセオリーを逸脱したニノン\n我流のものに仕上がっている。=A special sushi that Ninon brought to Gio Teogonia, only the freshest seafood was used in it's creation. Ultimately though, it's her unconventional usage of alternative ingredients that elevates this dish into a masterpiece.
 
 可愛い妹がお兄ちゃんのために心を込めて作った\nスペシャルなかき氷。一口食べるとたちどころに\nクールな甘さが精神を研ぎ澄まし、いかなる\nお得をも見逃さない要塞賢母と化すという。=A special serving of shaved ice made with fiery passion, from an adorable little sister to her dearest brother. Just one bite and the cold, heart-melting sweetness will hone your senses, turning you into a veritable fountain of wisdom that never misses a bargain.
 
@@ -142,18 +198,44 @@ sr:"^(.+)を(\d+)個獲得…$"=Obtain $2 x $1.
 
 バンディ・シスターズの昨夜の夕食カレー。作り\n過ぎて食べきれずにいたものをワカナがお裾分け\nしてくれた。寝かされていたためしっかりと味の\n染みた、極上の二日目カレーとなっている。=The curry the Bandy Sisters' had for dinner last night. Wakana made too much, so she gave us the leftovers that they couldn't eat. Due to it sitting overnight, the depth of flavor has flourished, making this a true first-class second-day curry.
  
+リンからもらった非常食のあんパン。ナッツが\n練り込まれクランチな食感で食べ飽きない。\nゲームのため部屋に引きこもる際のお供であり、\n必要な栄養素が全て賄える完全栄養食、らしい。=Rin gave us her emergency ration of choice: Anpan. The mixed-in nuts give it a crunchy texture that you'll never get tired of. The perfect companion when holing yourself up in a room and playing games, she says that it provides all the nutrients one could possibly need.
 
-
+シェフィが自身の魔力の氷を使い作ったアイス。\nペコリーヌにねだられて作ったものだがキャル達\nにも好評である。コッコロ曰くひんやりしている\nのに食べると心が温かくなってきます、との事。=An ice cream made by Sheffy using her magical ice. She made it at Pecorine's request, but it has also been well-received by Karyl and the others. According to Kokkoro, "Even though it's chilly, eating it makes your heart feel warm."
 
 ---Yellow---
+イロハの最強クワガタゼリー（人間用）=Iroha's Ultimate Stag Beetle Jelly (For Humans)
+次に振るダイスの目が「1・6・6・6・8・8」になる。=The next dice roll will have the faces: "1, 6, 6, 6, 8, 8."
+イロハがいつも持ち歩いているカラフルなゼリー…なのだがアルケス錬金堂で作られたクワガタ用餌ゼリーとそっくりな見た目をしている。甘くて美味しいが、人間用か尋ねると目を逸らされる。=This is the colorful jelly Iroha always carries around... but it looks strikingly similar to the jelly made as stag beetle feed by Alkes Alchemy. It's sweet and tasty, but if you ask whether it's truly for humans, Iroha avoids eye contact.
+料理マスをスキップして移動できる。効果は2\nターンの間継続する。=Allows you to skip food tiles and move forward.\nThe effect lasts for 2 turns.
+グレイスお手製のカップケーキ。ショッキングな見た目に全振り…と思わせて目玉も食べることが可能で大変美味…と思わせて一部だけ魂消るほど甘い部分がある。原材料は頑なに秘されている。=Grace's Homemade Cupcake. At first glance, its shocking appearance seems to be the entire focus... But in reality, even the eyeball decorations are edible and surprisingly delicious. That said, some parts are shockingly sweet to the point of being overwhelming. The ingredients remain a closely guarded secret.
 アヤネとクルミが二人で用意した特別なランチバスケット。仲間との冒険への希望が詰まったご機嫌な料理の数々で、道中の様々な出来事が１ランク上のイベントに感じられるようになる。=Ayane and Kurumi have prepared a special picnic basket together. Their excitement for this trip with their friends is packed into every single delicious dish. Eating them fills you with joy and ensures that the next event will be just that bit more special.
 
-カヤとイノリが弁当代わりに持ってきたケバブ。\nイノリ行きつけの店の硬派な味わいで、ギャング\nとしてのやる気が一人3倍、コンビで6倍となり\n下剋上を成し遂げるパワーが湧く……らしい。=Instead of typical lunches, Kaya and Inori brought this Kebab from Inori's favorite restaurant. They claim that the robust savory flavor gives them three times the motivation (six times as a duo) to power on through and achieve their goals as the underdog... apparently.
+カヤとイノリが弁当代わりに持ってきたケバブ。イノリ行きつけの店の硬派な味わいで、ギャングとしてのやる気が一人3倍、コンビで6倍となり下剋上を成し遂げるパワーが湧く……らしい。=Instead of typical lunches, Kaya and Inori brought this Kebab from Inori's favorite restaurant. They claim that the robust savory flavor gives them three times the motivation (six times as a duo) to power on through and achieve their goals as the underdog... apparently.
 
-タマキたちが『ジオ・テオゴニア』に持ち込んだ\nたい焼きの概念が現地の文化と溶け合い生まれた\n魔改造スイーツ。虹色に輝くその甘さは、実に\nランドソルのたい焼きの数倍と言われている。=After Tamaki and her friends introduced Geo Teogonia to taiyaki, the locals took the concept and adapted it into this magical sweet treat. This iridescent dessert is said to be several times sweeter than Landosol's taiyaki.
+タマキたちが『ジオ・テオゴニア』に持ち込んだたい焼きの概念が現地の文化と溶け合い生まれた\n魔改造スイーツ。虹色に輝くその甘さは、実にランドソルのたい焼きの数倍と言われている。=After Tamaki and her friends introduced Gio Teogonia to taiyaki, the locals took the concept and adapted it into this magical sweet treat. This iridescent dessert is said to be several times sweeter than Landosol's taiyaki.
 
 ---Green---
 クリアが朝早くから用意した冒険用のお弁当。おかずは様々でどれも絶品だが、どんなものが入っているかはみんなにも秘密にされているため蓋を開けるまでのお楽しみとなっている。=Quria woke up very early to prepare this lunch box for the adventure. There is a variety of dishes, all of them exquisite, but it's true contents are kept secret until lunch time, making everyone tremble in anticipation when it's time to open the lid.
 
 
-コッコロの指導により料理の腕を上げたランファが手作りした肉じゃが。まだ改 善の余地はあるものの、不器用なランファが誰かのために積み重ねた努力を思うととてもおいしく味わえる。= After receiving plenty of guidance from Kokkoro in the ways of cooking, Ranpha made this homestyle meat and potato stew. There is room for improvement, but knowing how much effort the typically clumsy Ranpha put in for someone else's sake fills your stomach with glee.
+コッコロの指導により料理の腕を上げたランファ\nが手作りした肉じゃが。まだ改善の余地はある\nものの、不器用なランファが誰かのために積み\n重ねた努力を思うととてもおいしく味わえる。= After receiving plenty of guidance from Kokkoro in the ways of cooking, Ranpha made this homestyle meat and potato stew. There is room for improvement, but knowing how much effort the typically clumsy Ranpha put in for someone else's sake fills your stomach with glee.
+
+アユミの隠密ガトーインビジブル=Ayumi's Covert Gâteau Invisible
+気が付くとリリの手元にあった不思議なお菓子。一見普通のケーキだが、内部に様々な具材が隠れるように入っている。複雑で重層的な味わいを見せる様は、まるで誰かさんのよう。=Before she knew it, Riri found a peculiar pastry in her hands. At first glance, it looks like a normal cake, but there are a variety of ingredients hidden within. It's complex and multi-layered flavor reminds you of someone.
+
+「マイルマス」「トレジャーマス」をスキップして移動できる。効果は1ターンの間継続する。=You can skip "mile tiles" and "treasure tiles" when moving. The effect lasts for 1 turn.
+
+アネモネが世話する秘密の菜園の野菜を使ったサラダ。栄養を重視するアネモネは草食獣の肉を野菜と解釈、当初は野菜の上に肉を置いただけであったが、ネラの指導で盛り付け直された。=A salad made with vegetables from Anemone's secret garden. Anemone, who prioritizes nutrition, interpreted the meat of herbivorous animals as a vegetable, initially placing the meat directly on top of the salad. However, with Nera's guidance, she re-plated the meat.
+
+
+ジオ・ゲヘナを探索中の冥姫たちが現地で採取したスパイスで味付けした一皿。赤く煮え滾るソースは刺激的かつ非常に奥深い味わいで未知の大地の如く冒険者たちをその深奥へと誘う。=A dish seasoned with spices collected on site by the Hecate of the Gale as she was exploring Gio Gehenna. The red, simmering sauce has a stimulating and extremely deep flavor that invites adventurers into the depths of the unknown.
+
+ユイが食べる人のことを考え、心を込めて作ったお弁当。程よいサイズのお弁当箱に愛情と手間暇をたっぷりとかけた極上の料理が詰まっており、食べた者の心と胃袋を優しく満たしてくれる。=Yui makes these bento boxes with care and with the person who will eat them in mind. The perfect sized bento box is filled with exquisite food, made with love and care, to gently fill the heart and stomach of anyone who eats it.
+
+ナーナ=Nana
+出たダイスの目が奇数だった場合、\nライバルを1ターン休みにできる=If the die has an odd number of eyes, you can take a turn off your rival
+【仲間】出たダイスの目が奇数だった場合、ライバルを1ターン休みにできる=[Friend] If the dice roll is an odd number, you can give your rival one turn off.
+
+出たダイスの目が偶数だった場合、\n+1進める=If the dice roll is an even number, move forward +1.
+【仲間】出たダイスの目が偶数だった場合、1マス分多く進める=[Friend] If the dice roll is an even number, move forward one tile.
+\n「まとめて３個」モードでダイスを振ると、\n出現中の仲間効果は消失します。\nダイスを振ってもよろしいですか？=\nIf you roll the dice in "Three at once" mode,\nany active companion effects will disappear. \nAre you sure you want to roll the dice?

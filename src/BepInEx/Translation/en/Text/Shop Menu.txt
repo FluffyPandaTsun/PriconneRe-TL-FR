@@ -21,17 +21,17 @@ r:"^残り(\d+)回$"=$1 Times Left
 これ以上、\n購入できません=Cannot purchase\nany more.
 これ以上、\\n購入できません=Cannot purchase\nany more.
 所持コイン=Coins Held:
-
+これ以上購入回数を減らせません。=The number of purchases cannot be reduced any further.
 ポーション=EXP Potion
 r:^"([0-9,]+)でまとめて購入する$"=Buy All with: $1
 まとめて購入する=Buy All
 ---Confirm---
-sr:"^\[3B3F4D\](.+)×\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]を消費して\n以下のアイテムを購入しますか\?\[-\]$"=[3B3F4D]Use $1 × [FFBB00,CE4F00]$2[-]\nto purchase the following items?[-]
+sr:"^\[3B3F4D\](.+)×\[-\]\[FFBB00,CE4F00\]([0-9,]+)\[-\]\[3B3F4D\]を消費して\n以下のアイテムを購入しますか\?\[-\]$"=[3B3F4D]Use $1 × [FFBB00,CE4F00]$2[-]\nto purchase the following items?[-]
 
 ---Bough List---
-sr:"^\[3B3F4D\](.+)×\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]を消費して\n以下のアイテムを購入しました。\[-\]$"=[3B3F4D]You used $1 × [FFBB00,CE4F00]$2[-]\n to buy the following items.[-]
+sr:"^\[3B3F4D\](.+)×\[-\]\[FFBB00,CE4F00\]([0-9,]+)\[-\]\[3B3F4D\]を消費して\n以下のアイテムを購入しました。\[-\]$"=[3B3F4D]You used $1 × [FFBB00,CE4F00]$2[-]\n to buy the following items.[-]
 
-sr:"^\[3C404E\](.+)×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n(.+)×\[FFBB00,CE4F00\](\d+)\[-\]を購入しました。\[-\]$"=[3C404E]You used $1 × [FFBB00,CE4F00]$2[-] to buy\n$3 × [FFBB00,CE4F00]$4[-].[-]
+sr:"^(?:\[3C404E\])?(.+)×\[FFBB00,CE4F00\]([0-9,]+)\[-\]を消費して\n(.+)×\[FFBB00,CE4F00\]([0-9,]+)\[-\]を購入しました。(?:\[-\])?$"=[3C404E]You used $1 × [FFBB00,CE4F00]$2[-] to buy\n$3 × [FFBB00,CE4F00]$4[-].[-]
 
 ---sort order---
 ピュアメモリー\nピースのみ=Pure Memory\nShard only
@@ -83,14 +83,11 @@ r:"^([0-9,]+)で一部更新$"=$1: Reset Some.
 一部ラインナップは毎日5:00更新=Some lineup Reset Daily at 5:00(JST)
 r:"^([0-9/]+) 枚$"=$1 Coin
 
-ダンジョンコイン不足=Insufficient Dungeon Coins 
-プリンセスアリーナコイン不足=Insufficient Princess Arena Coins
-アリーナコイン不足=Insufficient Battle Arena Coins
+
+sr:"^(.{4,20})不足$"=Insufficient $1
+sr:"^購入に必要な(.{4,20})が不足しています。$"=Insufficient $1 to purchase.
 バトルアリーナへ=To the Battle Arena
 プリンセスアリーナへ=To the Princess Arena
-購入に必要なダンジョンコインが不足しています。=Not enough Dungeon Coins to complete purchase.
-購入に必要なプリンセスアリーナコインが不足しています。=Not enough Princess Arena Coins to complete purchase.
-購入に必要なアリーナコインが不足しています。=Not enough Battle Arena Coins to complete purchase.
 ダンジョンへ移動しますか?=Move to the Dungeon?
 プリンセスアリーナへ移動しますか?=Move to the Princess Arena?
 バトルアリーナへ移動しますか?=Move to the Battle Arena?
@@ -116,7 +113,11 @@ r:"^([0-9,]+)で購入$"=Purchase at $1
 [FF7C4E,D62146]専用装備２作成に必要な数を超えています。[-]=[FF7C4E,D62146]Exceeds the number required to create UE-2.[-]
 [FF7C4E,D62146]専用装備２作成に必要な数を所持しています。[-]=[FF7C4E,D62146]Has the necessary amount to create UE-2.[-]
 
-キャラLv限界突破に必要な数が含まれています。\n専用装備の上限解放に必要な数を購入できます。=Contains the number required to Limit Break the character\nYou can purchase the number required to uncap Unique Equipment.
+使用可能なスロットがありません。=No usable slots.
+sr:"^\[FF7C4E,D62146\]([べ-・ー＆]{2,11})(\（.{2,10}\）)?の専用装備２を\n(.)段階強化するのに必要な数を超えています。\[-\]$"=[FFF7C4E,D621446]You have the necessary quantity required to upgrade\n$1$2's Unique Equipment 2 by $3 level(s).[-]
+
+
+キャラLv限界突破に必要な数が含まれています。\n専用装備１の上限解放に必要な数を購入できます。=Contains the number required to Limit Break the character\nYou can purchase the number required to uncap Unique Equipment 1.
 特定の強化分の購入数を超えています。\nそのまま購入しますか？=Exceeded the number required for UE enhancement.\nDo you want to continue with the purchase?
 ★5に必要な個数まで指定できます。=You can specify up to the number you need for ★5.
 ★4に必要な個数まで指定できます。=You can specify up to the number you need for ★4.
@@ -127,17 +128,21 @@ r:"^([0-9,]+)で購入$"=Purchase at $1
 以下のアイテムを購入しますか?=Do you buy the following items?
 メモリーピース購入数に応じて、1個あたりの女神の秘石の\n必要数が異なります。詳細は下記をご覧ください。=The required number of Divine Amulets per Shard\ndepends on the number of Memory Shards purchased.\nSee below for details.
 メモリーピース単価一覧=Memory Shard unit Price List
-sr:"^([べ-ヺー＆]+)(（.+）)?のメモリーピースの購入数が(\d)になりました。$"=The number of purchases of $1$2 now $4.
+sr:"^([べ-ヺー＆＝]+)(（.+）)?のメモリーピースの購入数が(\d)になりました。$"=The number of purchases of $1$2 now $4.
 
 r:"^(\d)個になります。$"=$1 per Shard
 
 対象アイテム1個あたりの単価が=The unit price per target item is
-sr:"^([べ-ヺー＆]+)(（.+）)?の\nメモリーピースの購入数が(\d+)になりました。$"=The Total number of purchases of\n$1$2's Memory Shard is $3.
+sr:"^([べ-ヺー＆＝]+) ?(（.+）)?の\nメモリーピースの購入数が(\d+)になりました。$"=The Total number of purchases of\n$1$2's Memory Shard is $3.
 ---Reset---
 一部毎日5:00更新=Reset some Daily at 5:00(JST)
 
 sr:"^\[3B3F4D\]([べ-・ー]{2,12})を\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]個使用して\nショップの内容をリセットしますか\?\[-\]$"=[3B3F4D]Use $1 ×[FFBB00,CE4F00]$2[-]\nto reset the contents of the shop?[-]
 
+r:"^\[3B3F4D\]マスターコイン×\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]を消費して\n?以下のアイテムをリセットしますか？\[-\]$"=[3B3F4D]Use Master Coin ×[FFBB00,CE4F00]$1[-]\nto reset the following items?[-]
+[FF7C4E,D62146]リセット対象外のアイテムはリセットされません。[-]=[FF7C4E,D62146] Items that are not eligible for reset will not be reset.[-]
+リセット対象外のアイテム=Items that are not reset
+リセット対象のアイテム=Items to be reset
 r:"^次回ラインナップは(\d+):00更新$"=Next Reset at $1:00(JST)
 毎日5:00ラインナップ更新=Reset Daily at 5:00(JST)
 毎日5:00更新　出現数4/5

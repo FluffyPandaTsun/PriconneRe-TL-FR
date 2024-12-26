@@ -6,7 +6,7 @@
 sr:"^(.+)（欠片）$"=$1 (Piece)
 sr:"^(.+)の設計図$"=$1 Blueprint
 
-sr:"^必要Lv(\d+)\n「(.+)」([の欠片設計図\n]+)。$"=Required Lv$1\nA$3 of $2.
+sr:"^必要Lv(\d+)\n「(.+)」([の欠片設計図\n]+)。$"=Required Lv $1\nA$3 of $2.
 sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 
 アイアンブレード=Iron Blade
@@ -571,3 +571,88 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 紅葉扇コチョウモミジ=Autumn Leaves Fan - Kocho Momiji
 碧夜扇イノコカエデ=Deep Night Fan - Inoko Kaede
 翠風扇カノコイチョウ=Fresh Breeze Fan - Kanoko Icho
+
+ハットオブケルビム=Hat of Kerubim
+ロッドオブガブリエル=Rod of Gabriel
+ワンドオブヨフィエル=Wand of Jophiel
+ローブオブドミニオン=Robe of Dominion
+ボウオブラファエル=Bow of Raphael
+ランスオブザドキエル=Lance of Zadkiel
+ヒールオブプリンシパリティ=Heel of Principality
+アクスオブカマエル=Axe of Camael
+エッジオブサタナエル=Edge of Satanael
+ティアラオブソロネ=Tiara of Solorne
+フィストオブウリエル=Fist of Uriel
+ソードオブミカエル=Sword of Michael
+アーマーオブパワー=Armor of Power
+メイルオブヴァーチャー=Mail of Virtue
+ブレイドオブルシフェル=Blade of Lucifer
+パラディゾの揺り籃=Cradle of Paradiso
+
+リングオブメタトロン=Ring of Metatron
+リングオブサンダルフォン=Ring of Sandalphon
+リングオブセフィロト=Ring of Sephiroth
+
+妖精鎧甲オーベロン=Fairy Armor Oberon
+妖精輝装クーフーリン=Fairy Radiant Armor Cú Chulainn
+妖精舞沓シルキー=Fairy Dance Boots Silky
+妖精叢盾スプリガン=Fairy Thicket Shield Spriggan
+妖精麗装ティターニア=Fairy Elegant Attire Titania
+
+妖精揚斧モンテズマ=Fairy Lifting Axe Montezuma
+妖精崩杖キプリス=Fairy Crushing Staff Kypris
+妖精翅槍メネラウス=Fairy Winged Spear Menelaus
+妖精煌剣アキレアナ=Fairy Shining Sword Achilleana
+妖精舞刀パトロクルス=Fairy Dancing Sword Patroclus
+妖精梓弓タミュリス=Fairy Catalpa Bow Thamyris
+妖精幻手カシカモ=Fairy Phantom Hand Caccomo
+妖精回杖アナクシビア=Fairy Spinning Staff Anaxibia
+妖精夢刃ダイダミア=Fairy Dream Blade Deidamia
+妖精舞装アヌーン=Fairy Dance Attire Annwn
+
+妖精環翅モーリアン=Fairy Ring Wings Morrian
+妖精晶翅ヴァハ=Fairy Crystal Wings Vaha
+妖精踊翅ネヴァン=Fairy Dancing Wings Nevan
+
+鳳梨の重殻鎧=Pineapple Heavy Shell Armor
+白蓮閣の鱗鎧=White Lotus Pavilion Scale Armor
+葡萄柚の霊装=Grapefruit Spirit Attire
+麝香猫果の薫盾=Musk Melon Scented Shield
+翠華西瓜の海水駄=Emerald Watermelon Sea Sandals
+紅玉苺の短靴=Ruby Strawberry Short Boots
+
+甘蕉の秘剣=Secret Sword of Banana  
+麝香猫果の剛槌=Mighty Hammer of Civet Fruit  
+覆盆子の晶槍=Crystal Spear of Raspberry  
+天下一甜瓜刀=Supreme Melon Blade  
+桜桃の枝弓=Cherry Blossom Branch Bow  
+菴羅の手甲=Gauntlets of Indian Gooseberry  
+未完刃・雲愁=Unfinished Blade: Cloud Sorrow  
+林檎杖・北斗=Apple Staff: Big Dipper  
+葡萄杖・竜眼=Grape Staff: Dragon's Eye  
+
+紅玉の徽章=Ruby Emblem
+鬼木天蓼の徽章=Demonwood Matatabi Emblem
+巨峰の徽章=Grape Emblem
+
+錬成工房=Alchemy Workshop
+オートマトンエグゾシェル=Automaton Exoshell
+オートマトンエグゾスカル=Automaton Exoskull
+オートマトンエグゾスーツ=Automaton Exosuit
+オートマトンバイザー=Automaton Visor
+オートマトンジャケット=Automaton Jacket
+オートマトンフルフェイス=Automaton Full Face
+
+オートマトンエクスプレス=Automaton Ex Press  
+オートマトンエクスランス=Automaton Ex Lance  
+オートマトンエクスソード=Automaton Ex Sword  
+オートマトンエクスロッド=Automaton Ex Rod  
+オートマトンエクスバトン=Automaton Ex Baton  
+オートマトンエクスエッジ=Automaton Ex Edge  
+オートマトンエクスダガー=Automaton Ex Dagger  
+オートマトンエクスカタナ=Automaton Ex Katana  
+オートマトンエクスボウ=Automaton Ex Bow  
+
+アズールサーキュラー=Azure Circular
+クリムゾンデルタ=Crimson Delta
+ヴェルデスクエア=Verde Square

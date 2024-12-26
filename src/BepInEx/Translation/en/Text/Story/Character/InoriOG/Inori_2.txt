@@ -1,8 +1,8 @@
 通行人女性=Passerby woman
 通行人男性=Passerby Man
 店長=Store Manager
-r:"^イノリがギャングの「シノギ」で借金の取り立てに向かった相手は行きつけの屋台だった。イノリと(.{2,10})のおかげで屋台は救われるが、店を手に入れるというギャングとしての目論見は失敗する。$"="Inori's target for debt collection through the gang's 'business' was a regular food stall. Thanks to Inori and $1, the stall was saved, but the gang's plan to take over the business failed."
-r:"^イノリと出会った日から数日後、\n再びランドソルの路地裏に迷い込んでしまった\n(.{2,10})は、聞き覚えのある声に振り返った。$"="A few days after meeting Inori, $1 found herself lost again in the alleys of Landosol. She turned around at a familiar voice."
+イノリがギャングの「シノギ」で借金の取り立てに向かった相手は行きつけの屋台だった。イノリと{playername}のおかげで屋台は救われるが、店を手に入れるというギャングとしての目論見は失敗する。=Inori's target for debt collection through the gang's 'business' was a regular food stall. Thanks to Inori and {playername}, the stall was saved, but the gang's plan to take over the business failed.
+イノリと出会った日から数日後、\n再びランドソルの路地裏に迷い込んでしまった\n{playername}は、聞き覚えのある声に振り返った。=A few days after meeting Inori, {playername} found herself lost again in the alleys of Landosol. She turned around at a familiar voice.
 ふふふんふーん♪\n今日のシノギでボスとカヤぴぃをあっと驚かせてやるですよ！=Hehehe, today's "business" will surprise Boss and Kaya-pii!
 いったぁ……！　おいこら！\nなに道の真ん中でぼーっと……=Ouch...! Hey you! What are you spacing out for?
 って、ああー！\nおまえはこの前の！\nこんなところでなにしてやがるです！=Wait, ahh! You're the one from the other day! What are you doing in a place like this?
@@ -44,7 +44,7 @@ r:"^イノリと出会った日から数日後、\n再びランドソルの路�
 ……おまえたち、なにやってるです？=...What are you guys doing?
 ゲッ、イノリちゃん……=Ugh, Inori-chan...
 なにって、仕事だけど……=What do you mean, it's work...
-イノリに導かれてたどり着いた先にいたのは、先ほどのギャングたちと\n彼らに取り囲まれている屋台の店長らしき人物だった。=Guided by Inori, Cornelia arrived at a place surrounded by the gang from earlier, with what seemed to be the owner of the stall they were targeting.
+イノリに導かれてたどり着いた先にいたのは、先ほどのギャングたちと\n彼らに取り囲まれている屋台の店長らしき人物だった。=Guided by Inori, we arrived at a place surrounded by the gang from earlier, with what seemed to be the owner of the stall they were targeting.
 キミは、よく買いに来てくれてたお嬢ちゃん……\nこの人たちの知り合いだったのかい？=Are you the young lady who used to buy here? Are you acquainted with these people?
 まさか、今日の取り立てっていうのはここのお店だったですか！？=Wait, was today's collection about this shop!?
 あちゃー……だから連れて来たくなかったんだけどなあ……=Oh no... I didn't want to bring her here...

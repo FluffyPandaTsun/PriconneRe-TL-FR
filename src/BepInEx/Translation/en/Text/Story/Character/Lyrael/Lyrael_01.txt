@@ -1,22 +1,22 @@
 リンド=Lind
-ヴルム=Wurm
+ヴルム=Wyrm
 ヴォルガーノ=Volgano
-
-r:"^ライラエルと(.{2,10})は、ランドソルのお菓子を食べながら旅についての雑談をしていた。国を離れる考えがあまりなかった彼女が手にしたのは旅を後押しするフォーチュンクッキーの結果だった。$"="Lyrael and $1 were chatting about travelling while eating sweets from Landosol. She had never thought of leaving her country before until a result from a fortune cookie changed her mind."
-
-裏世界『ジオ・テオゴニア』──\nその地を治めるプリンセス・ライラエル。\n彼女は今日も玉座につき、臣下からの報告に目を通していた。=The Reverse World "Geo Teogonia"── Princess Lyrael is managing this land. Today too, she is sitting on her throne and receiving reports from her subjects.
+旅とはどんなものかしら？=What Is a Journey Like?  
+天使の姫、ランドソルへ=Angel Princess Comes to Landosol  
+夜の天使=Night Angel  
+天使のおままごと=Angel's Make-Believe  
+ライラエルと{playername}は、ランドソルのお菓子を食べながら旅についての雑談をしていた。国を離れる考えがあまりなかった彼女が手にしたのは旅を後押しするフォーチュンクッキーの結果だった。=Lyrael and {playername} were chatting about travelling while eating sweets from Landosol. She had never thought of leaving her country before until a result from a fortune cookie changed her mind.
+裏世界『ジオ・テオゴニア』──\nその地を治めるプリンセス・ライラエル。\n彼女は今日も玉座につき、臣下からの報告に目を通していた。=The Reverse World "Gio Teogonia"── Princess Lyrael is managing this land. Today too, she is sitting on her throne and receiving reports from her subjects.
 ……これで書類はすべて目を通せたでしょうか。\n今回は大きなトラブルの報告はありませんでしたね。\nなによりです。=...With that, I've read all of the documents.\nThankfully, there is no major incidents this time.
 さて、と。\nお仕事も終わりましたし……少しだけお昼寝でもしようかしら。\nふわぁ……=Now with my work being over...\nI wonder if I should take a little break. Fwahh...
 …………こほん。\nごきげんよう、騎士。=...Ahem. Good to see you, Sir Knight.
 お休みでした？=Were you going to sleep?
 ああ……\nやはり見られていたのですね。=Ah... so you saw that.
 もしかしたら見られていないかも、と思ったのですが……\nあんなに口を開けているところを……\n恥ずかしい……=I really wished you didn't see that...\nI just had to yawn like that, it's so embarassing...
-
 誰にも言いません。=I won't tell anyone.
 騎士……\nふふ、本当に優しいですね、あなたは。\nではこれも、二人だけの内緒にしておいてくださいね。=Sir Knight... Fufu, you really are a kind person. Then please keep this a secret, for just the two of us.
 かわいかったです。=It's cute.
 かわっ……？\nもう、からかわないでください。\nいじわるなところもあるのですね、あなたには……ふふっ。=Cute...? Please don't go around teasing me, this isn't the place to be teasing someone like me... fufu. 
-
 それで……\n今日はどうされましたか？=So... what are you doing here today?
 お土産を持ってきました。=I brought some souvenirs.
 お土産……？\nああ、そういえば用事を片付けるために\nあなたたちの世界に戻ると言っていましたね。=Souvenirs...? Ah, you did say you went back to your world to take care of something.
@@ -30,7 +30,7 @@ r:"^ライラエルと(.{2,10})は、ランドソルのお菓子を食べなが�
 素材の味を引き立てる、ほどよい甘さ……♪\nそれに食感も軽やかで心地いい。\nこれは、つい手が伸びてしまいます。=It's just the right amount of sweetness that brings out the ingredients' flavor. And the texture is also light and comfortable, I can even stretch it with my hands.
 お口に合ってよかった。=I'm glad it fits your taste.
 ふふ。\n甘味は世界を越えるものなのですね。=Fufu, sweets truly is larger than simply the world you live in.
-……どれも『ジオ・テオゴニア』のものと似ていて。\nしかし、まったく同じではなく個性がある。=...As much as these foods resemble Geo Teogonia's sweets, it still has its unique difference.
+……どれも『ジオ・テオゴニア』のものと似ていて。\nしかし、まったく同じではなく個性がある。=...As much as these foods resemble Gio Teogonia's sweets, it still has its unique difference.
 確実に異なる世界でありながらも、\n『おいしい』と感じる心に違いはない。\nこれは素晴らしい事実です。=It's great to know that even though we come from two different worlds, we can still feel "delicious" foods all the same.
 たとえ生まれ育った世界が違っていても、\n心は通じ合えるのだと……\nそう思うことができますから。=That even if we were born in a different world, we can still connect with each other... to think that such a thing's possible.
 ……アストライア大陸。そしてランドソル。\nあなたやクローチェから話を聞いて、思ってはいましたが……\n想像している以上に、近しい場所なのかもしれませんね。=...The continent of Astraea and Landosol.\nI've heard it from you and Croce, but maybe it's more similar than I thought.
@@ -54,14 +54,14 @@ r:"^ライラエルと(.{2,10})は、ランドソルのお菓子を食べなが�
 よいこと……\n何が起きるのでしょう……=Something good... I wonder what that'd be...
 ……はっ。\nわたしとしたことが、つい余計なことを考えてしまいましたね。=...Haah. I'm overthinking this.
 さあ、次はどのお菓子を食べましょう。\n騎士。あなたのおすすめはどちらです？=Now, which sweets are we going to eat next?\nSir Knight, which one do you recommend?
-r:"^数日後──\n(.{2,10})は再びライラエルの元を訪れていた。$"="A few days later, $1 was again visiting Lyrael."
+数日後──\n{playername}は再びライラエルの元を訪れていた。=A few days later, {playername} was again visiting Lyrael.
 騎士。\n今日はどうされましたか。\nまたランドソルのお土産を……？=Sir Knight. What brings you here today?\nIs it more souvenirs from Landosol?
 お手紙を持ってきました。=I've brought a letter.
 ありがとうございます。\nこれは……招待状、でしょうか。\nまあ、珍しいですね。どなたからでしょう……？=Much appreciated, this is... an invitation?\nThat's pretty unusual, who is this from?
 ──ペコリーヌ姫？=Princess Pecorine?
 どんな内容でした？=What is it about?
 ……そういうことでしたか。=...So it's about that.
-ランドソルと『ジオ・テオゴニア』。\n両国の交流が今後も増えていく可能性を鑑みて、\nぜひ一度ランドソルへいらしてくださいとのことです。=Landosol and Geo Teogonia. With interactions between the two country potentially increasing in the future, we ask you to visit Landosol at least once.
+ランドソルと『ジオ・テオゴニア』。\n両国の交流が今後も増えていく可能性を鑑みて、\nぜひ一度ランドソルへいらしてくださいとのことです。=Landosol and Gio Teogonia. With interactions between the two country potentially increasing in the future, we ask you to visit Landosol at least once.
 それも一国の姫としてではなく……\nその、彼女の友人として。\nいわゆる、お忍びで……と。=And not just as a princess of a country, but as a close friend. Albeit secretly... 
 ……というよりも。\nどのような内容か、あなたはご存じだったのではないですか？=...That being said. You already knew what the letter is about, right?
 先日、旅の話をしたばかりで、この招待状……\nとても無関係とは思えません。\nあなたからペコリーヌ姫に何か話されたのでは？=We've only just talked about this the other day and now this invitation... They're definitely related, did you say something to the Princess?
@@ -74,7 +74,7 @@ r:"^数日後──\n(.{2,10})は再びライラエルの元を訪れていた�
 メイド長らに不在のあいだの指示を出し、クローチェを護衛とすれば……\nごく短期であれば、問題は無いはず。\n……わかりました。ペコリーヌ姫からの招待、喜んでお受けいたします。=If I inform the head maids that I'll be gone, and bring Croce as my escort... It should be fine to be out for a little while...\nAlright, I'll gladly accept Princess Pecorine's invitation.
 ご案内願えますか、騎士。\nあなた方の世界──アストライア大陸へ。=Please guide me, Sir Knight. To your world──\nContinent of Astraea.
 そして翌日──=The next day──
-そろそろですねっ、そろそろですねっ！\nプレシアちゃんが教えてくれた、\n空に穴があくタイミングっ♪=Anytime now, anytime now～\nPrecia-chan told me when the hole would appear already♪
+そろそろですねっ、そろそろですねっ！\nプレシアちゃんが教えてくれた、\n空に穴があくタイミングっ♪=Anytime now, anytime now～\nPrecia told me when the hole would appear already♪
 クロさん、テンション高。\nどんだけ行きたいんですかランドソル。=Croce, you're too excited. Why are you this excited over going to Landosol?
 だってだってっ！\n前にランドソルに行ったとき、今度はライラエルさまも一緒に！\nって思ってたんですっ！　だからワクワクが止まらなくってっ！=Last time I went to Landosol, I kept thinking how much more fun it'd be alongside Lyrael-sama!\nThat's why I'm so excited this time!
 クローチェさんっ。\n今回はただ観光にいくんじゃないんですよっ？\nしっかりライラエルさまのことをお守りしてくださいね？=Croce, please remember that you're not just going on a sightseeing trip this time.\nPlease protect Lyrael-sama properly, alright?
@@ -90,11 +90,11 @@ r:"^数日後──\n(.{2,10})は再びライラエルの元を訪れていた�
 ……あ。\n空の雰囲気、それっぽくなってる。\nあっちと繋がるっぽい？=...Ah. The sky feels like it changed.\nDid it finally connect with the other world?
 ですねですねっ！\nライラエルさま、準備はいいですかっ？=That's it! Lyrael-sama, are you ready?
 ええ。\nわたしはいつでも。=Yes, I'm ready.
-…………\nリンド。ヴルム。ヴォルガーノ。\nいってきますね。=...Lind, Wurm, and Volgano. I'll be going now.
+…………\nリンド。ヴルム。ヴォルガーノ。\nいってきますね。=...Lind, Wyrm, and Volgano. I'll be going now.
 いってらっしゃいませ。=Have a safe trip!
 ふふ。\nでは……騎士、クローチェ。\n旅立つことにしましょう。=Fufu, well then. Sir Knight, Croce, let us go now.
 まだ見ぬ異邦の地──\nアストライア大陸へ。=To a foreign land I've never seen before──\nContinent of Astraea.
-……こうして。\nわたしたちは『ジオ・テオゴニア』を離れました。=...Thus we left Geo Teogonia.
+……こうして。\nわたしたちは『ジオ・テオゴニア』を離れました。=...Thus we left Gio Teogonia.
 わたしにとって、これははじめての旅……\nいいえ、はじめての冒険といってもよいでしょう。=For me, this is my first journey...\nOr rather, it's my first adventure.
 冒険……\n城の中で日々を過ごしてきたわたしにとって\nそれはとても縁遠い言葉。=Adventure... It's a very foreign word for someone like me who spent my days in the castle.
 ……ああ、どうしましょう。\n知らず知らずのうちに、胸が高鳴っています。\n不安？　期待？　いえ、あるいは……=...Oh no, what's wrong with me?\nFor some reason, my heart is pounding so loudly.\nAm I nervous? Or excited? No, it's not any of those... 

@@ -30,7 +30,7 @@
 じぇんじぇんおいしくな～～～～い！！！！=It's not delicious at all!!
 悲鳴っ！？\n今助けに行くっ！！=Someone screamed!? I'll go help right away!!
 レジャー施設に似つかわしくない悲鳴を聞いたジュンは、\n広大なキャンプ場を駆け抜けていくのだった。=Upon hearing a scream that doesn't suit a leisure facility, Jun rushes through the vast campground.
-r:"^──一方その頃、ユカリの足取りを求める(.{2,10})は、\n【フォレスティエ】を訪ねていた。$"="Meanwhile, $1, who is seeking Yukari's whereabouts, visits the "Forestier" guild."
+──一方その頃、ユカリの足取りを求める{playername}は、\n【フォレスティエ】を訪ねていた。=Meanwhile, {playername}, who is seeking Yukari's whereabouts, visits the "Forestier" guild.
 あらあら～……\nお知り合いが失踪？　大変だわ～……=Oh my... A acquaintance has gone missing? That's troublesome...
 ユカリさん、だったわよね？\n聖騎士の格好をしたエルフさん……ハツネちゃん、どうかしら？=It was Yukari-san, right? The elf dressed as a paladin... Did you know anything, Hatsune-chan?
 う～～ん……私は見てないなぁ。\n同じエルフでも、そんな人は珍しくてきっと目立つからね。=Hmm... I haven't seen her. Even among the elves, someone like that would stand out, so I'm sure I would notice.
@@ -50,16 +50,13 @@ r:"^──一方その頃、ユカリの足取りを求める(.{2,10})は、\n�
 それに……テントがぐちゃぐちゃになったまま放置されている……\n設営も済んでいないのに、昼間から眠ってしまうとは……=And... the tent is still a mess... It's not even set up, and she's already sleeping during the daytime...
 見たところ、キャンプは慣れていないみたいだね。\n放っておくこともできないし……どれ、代わりに設営をしてあげよう。=It seems she's not used to camping. I can't leave her like this... Well, let's set up the tent in her place.
 しかし……この女性、確か前にどこかで……？=But... I feel like I've seen this woman somewhere before...?
-
-r:"^──一方その頃、ランドソル王城の前には、\nアオイとユカリの目撃情報を得ようとする(.{2,10})がいた。$"=──Meanwhile, in front of the Landosol Royal Castle, $1 was trying to gather information about Aoi and Yukari.
-
+──一方その頃、ランドソル王城の前には、\nアオイとユカリの目撃情報を得ようとする{playername}がいた。=──Meanwhile, in front of the Landosol Royal Castle, {playername} was trying to gather information about Aoi and Yukari.
 やあ、今日はどうしたんだい？=Hey, what brings you here today?
 まさか事件ッスか！？=Could it be an incident?
 実は……=Actually...
 はぁ……飲んだくれエルフに、友達のいないエルフ……？\nう〜ん……目撃情報は、うちには来てないね。=*sigh*... A drunk elf and an elf with no friends...? Hmm... No reports have come to us.
 でも、本当に失踪なんッスか？\n仕事疲れを癒すために、どっかに行ったとかじゃないッスか？=But are they really missing? Maybe they went somewhere to heal their work fatigue?
 そうそう。ジュンさんみたいにね。\nまあ、あれは私たちが休ませたみたいなものだけど。=Yeah, like Jun-san. Well, it's like we gave her a break.
-
 あなたには言ってなかったね。今ジュンさんは珍しく休暇中なんだ。\n溜まりに溜まった有給を消化するためにね。=I didn't tell you, but Jun-san is actually on vacation now. She's using up all her accumulated paid leave.
 しかも、休みの日にも無断で出勤してたッスからね……\n自分たち部下も予定休ですら、休みづらかったッスよ～=And she was even coming to work on her days off without permission... It was hard for her subordinates to take their scheduled leave too.
 今は、山奥のキャンプ場でのんびりと過ごしている頃かな？\nそうしていてほしいと、心から思うよ……=Maybe they're relaxing at a campsite deep in the mountains? I truly hope so...
@@ -82,7 +79,6 @@ r:"^──一方その頃、ランドソル王城の前には、\nアオイと�
 ああ、やはりあの時の。どこかで会った気はしていたんだが……\nその……すっかり様子が違っていたから、すぐには気付かなかったよ。=Ah, I thought so. I had a feeling we met somewhere... but... you looked completely different, so I didn't recognize you right away.
 あはは……お恥ずかしい限りです……\nあの時は、その……麦しゅわを飲んでなかったから……=Ahaha... I'm so embarrassed... at that time, I didn't drink the barley soda...
 それと……あれからイメチェンしたんですか？\n以前は黒い鎧だったと思うんですけど……\n今は草っぽいというか森っぽいというかなんというか……=And... have you changed your image since then? I think you used to wear black armor... but now it's more like grass or forest or something...
-
 これは野戦仕様の鎧だ。\n状況に応じて使い分けていてね。=This is field-use armor. I use it depending on the situation.
 野戦……ジュンさんもキャンプしに来たのでは……？=Field use... Did Jun-san come here to camp too...?
 うん、その通りだよ。\nトレーニングキャンプだ。=Yeah, exactly. It's a training camp.
@@ -92,7 +88,6 @@ r:"^──一方その頃、ランドソル王城の前には、\nアオイと�
 え、ええ。どうぞ？=Um, yes. Please go ahead.
 戦いの中で、戦えぬ者を守ることだけが、\n我々【王宮騎士団（NIGHTMARE）】の仕事じゃない。\n生き残る術が身に付くよう促すことも、仕事の一つなんだ。=Protecting those who can't fight in battle is not the only job of our the Nightmare, the Royal Knight Order. It's also our job to encourage them to acquire survival skills.
 はい……立派な信念だと思います。\nいつもランドソルの平和を、ありがとうございます。=Yes... I think that's a noble belief. Thank you for always protecting the peace of Landosol.
-
 そこでだ、ユカリちゃん。\n君の大自然に対する無防備な姿は、\n【王宮騎士団（NIGHTMARE）】の団長として無視できない。=That's why, Yukari-chan. I can't ignore your vulnerable attitude towards nature as the Captain of the Nightmare.
 良ければ野営に関する初心者向けの心構えや、\n技術を教えようと思うが、どうかな？=If you're interested, I'd like to teach you the basics and techniques of camping for beginners. What do you think?
 う〜ん……私がしたいのはキャンプ飲みであって、野営じゃないし……\nでも、確かにキャンプのことはよく分からないのも事実よね……=Hmm... What I want to do is just have a camping drink, not camping... but, it's true that I don't know much about camping...
@@ -112,7 +107,6 @@ r:"^──一方その頃、ランドソル王城の前には、\nアオイと�
 ふむ……ユカリちゃんの薪割りを見ていたら、\n私も体を動かしたくなってきたよ。一緒にやろうじゃないか！=Hmm... Seeing Yukari chop wood makes me want to move my body too. Let's do it together!
 ええっ！=Eeeeei!
 せいっ！　せいっ！　せいっ！　せいっ！　せいっ！=Sei! Sei! Sei! Sei! Sei! Sei!
-ジュン・ユカリ=Jun & Yukari
 どこかでキツツキさんが巣を作っていますね。\nお引っ越しの時期なんでしょうか。=It seems like a woodpecker is making a nest somewhere. Is it the season for moving?
 こういう自然の営みの音を聞くと、やっぱり心が洗われます～\nランドソルでは聞くことができませんからね～=When I hear the sound of nature's activities like this, my heart feels refreshed... We can't hear it in Landosol, you know...
 え？　今なんと？=Huh? Right now?
@@ -128,128 +122,10 @@ r:"^──一方その頃、ランドソル王城の前には、\nアオイと�
 学院で講師もしているんでしょ？\nもしかしたら、疲れが溜まっていたのかもね。=She's also a teacher at the academy, right? Maybe She's accumulated some fatigue.
 しばらく休みを取るって言っていたから、\n自然を感じにリフレッシュしてるんじゃないかな。=She mentioned taking a break for a while, so maybe She's refreshing herself by experiencing nature.
 ほら、最近キャンプが流行っているでしょ？\nうちの作業員たちも、みんな今ハマっているみたいだからね。\nアオイくんも息抜きに行ってると思うよ。=You know, camping has been popular lately, right? Our workers seem to be really into it. I think Aoi-kun is also taking a break and going for some relaxation.
-
-r:"^失踪する直前のアオイの情報を集めた(.{2,10})は、\n次にユカリの情報を集めに向かうのだった。$"=After gathering information about Aoi's recent disappearance, $1 set out to gather information about Yukari.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-r:"^──一方その頃、アオイの直近の動向を探るため、\n(.{2,10})はおもちゃ工場を訪れていた。$"=Meanwhile, to investigate Aoi's recent whereabouts, $1 visited the toy factory.
-
-
-
-
-
-
-
-
-
+失踪する直前のアオイの情報を集めた{playername}は、\n次にユカリの情報を集めに向かうのだった。=After gathering information about Aoi's recent disappearance, {playername} set out to gather information about Yukari.
+Yeah.今は休暇中だけどね。=Ah, yes. I'm on vacation now though.
+That's right ...まずは薪割りからだ！=Well... first, we'll start with chopping firewood!
+eh?いきなり運動……？\n心構えは……？=Huh? Exercise right away...? What should I keep in mind...?
+ Sei! Sei    Seighせいっ！　せいっ！=Sei! Sei! Sei! Sei! Sei! Sei!
+──一方その頃、アオイの直近の動向を探るため、\n{playername}はおもちゃ工場を訪れていた。=Meanwhile, to investigate Aoi's recent whereabouts, {playername} visited the toy factory.
+...Oh, him.アオイくんの様子？=...Hmm. How is Aoi-kun doing?

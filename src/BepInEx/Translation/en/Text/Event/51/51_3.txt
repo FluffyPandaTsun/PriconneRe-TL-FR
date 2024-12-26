@@ -1,4 +1,4 @@
-r:"^ユカリは、ジュンが休暇でキャンプ場へ来ていると知って麦しゅわを勧める。一方ランドソルでは、(.{2,10})が所属ギルドなどから行方不明扱いされているアオイとユカリの行方を追っていた。$"="Yukari, upon learning that Jun is on vacation and at the campsite, suggests having some "Barley Soda". Meanwhile, in Landosol, $1 is investigating the whereabouts of Aoi and Yukari, who have been reported missing by their guilds."
+ユカリは、ジュンが休暇でキャンプ場へ来ていると知って麦しゅわを勧める。一方ランドソルでは、{playername}が所属ギルドなどから行方不明扱いされているアオイとユカリの行方を追っていた。=Yukari, upon learning that Jun is on vacation and at the campsite, suggests having some "Barley Soda". Meanwhile, in Landosol, {playername} is investigating the whereabouts of Aoi and Yukari, who have been reported missing by their guilds.
 
 キャンプ場で最高の一杯を求めるユカリは、\nジュンと共に薪割りを行っていた──=In search of the perfect drink at the campsite, Yukari and Jun were splitting firewood together──
 ……うん。これくらい用意すれば、薪は持つだろう。\nそれじゃあ、食事まで少し休もうか。=...Yeah, if we prepare this much, we should have enough firewood. Well then, let's take a little break until mealtime.
@@ -57,9 +57,7 @@ r:"^ユカリは、ジュンが休暇でキャンプ場へ来ていると知っ�
 いーよー！　その調子ー！\n今の態度は、素敵な上司よ！=That's right! Keep it up! Your attitude right now is that of a wonderful boss!
 おお、そうか！　胸を張って帰れそうだ！\n教えてくれてありがとう、ユカリちゃん！=Oh, I see! I can return with confidence now! Thank you for teaching me, Yukari-chan!
 甘い！　ジュンさん、甘いわ！=Sweet! Jun-san, you're sweet!
-
 あなたは、まだ麦しゅわ道の入り口に立ったばかり！\n麦しゅわの力は、まだまだこ～んなもんじゃないわ！=You're just at the beginning of the barley soda path! The power of barley soda is far from being limited to this!
-
 なに……？　麦しゅわの力……？\n教えてくれ！　部下のためにも、その力が欲しいんだ！=What...? The power of barley soda...? Tell me! I want that power for the sake of my subordinates!
 その言葉待ってました！　もちろん教えてあげるわー！\n設営してくれたお礼に、私が知る限りの麦しゅわの力を教えちゃう！=I've been waiting for those words! Of course, I'll teach you everything I know about the power of mugi-shuwa as a thank you for setting up the camp!
 それに、二人で麦しゅわを飲めば、\n最高の一杯に近づけるかもしれないし！=And if we both drink mugi-shuwa together, we might achieve the perfect cup!
@@ -84,9 +82,7 @@ r:"^ユカリは、ジュンが休暇でキャンプ場へ来ていると知っ�
 それじゃ、景気付けにもう一杯飲んでから行きましょう！\nごくっ……ごくっ……ごくっ……ごくっ……！=In that case, let's have another drink to liven things up before we go! *gulp*... *gulp*... *gulp*... *gulp*...!
 ああ。楽しくなってきたな！\nんくっ……んくっ……んくっ……！=Ahh. This is getting fun! Ngh... ngh... ngh!
 ぷっは〜〜〜〜〜っ！！\n気ン持ちいい〜〜〜〜っ！！=Pwaaaaah!! Feels great!!
-
-r:"^──一方その頃、ユカリの直近の動向を探るため、\n(.{2,10})はユカリ行きつけの飲食店を訪れていた。$"=──Meanwhile, $1 visited a restaurant that Yukari frequents in order to gather information about Yukari's recent activities.
-
+──一方その頃、ユカリの直近の動向を探るため、\n{playername}はユカリ行きつけの飲食店を訪れていた。=──Meanwhile, {playername} visited a restaurant that Yukari frequents in order to gather information about Yukari's recent activities.
 最近ユカリさんに会った？=Have you seen Yukari-san lately?
 ん？　ユカリちゃんかい？\nこの前一緒に飲んだばっかりだぞ。=Huh? Yukari-chan? We just had a drink together not too long ago.
 あぁ、そういえば……\n麦しゅわにマンネリを感じてるって言ってたね。=Oh, now that you mention it... She said she's feeling bored with barley soda.
@@ -95,9 +91,7 @@ r:"^──一方その頃、ユカリの直近の動向を探るため、\n(.{2,
 だから、キャンプ飲みを勧めてみたんだよ。\nほら、最近流行ってるだろう？=So, I suggested camp drinking. You know, it's been trendy lately, right?
 いいキャンプ場を教えたから、そこに飲みに行ってるんじゃないかな。\nなんと言ってもキャンプ飲みは、人生観が変わる体験だからね……=I told her about a great campsite, so maybe she went there for a drink. After all, camp drinking is an experience that can change your perspective on life...
 ……キャンプ場に向かおう！=...Let's head to the campsite!
-
-r:"^失踪したアオイとユカリはキャンプ場に向かったと推測し、\n(.{2,10})は自らもそこへ向かうことに決める。$"=Assuming that Aoi and Yukari had gone to the campsite, $1 decided to go there himself.
-
+失踪したアオイとユカリはキャンプ場に向かったと推測し、\n{playername}は自らもそこへ向かうことに決める。=Assuming that Aoi and Yukari had gone to the campsite, {playername} decided to go there himself.
 ほうほう……？=Oh-ho...?
 ズモモモ……=Zumomomomo...
 大木=Large tree.
@@ -113,109 +107,12 @@ r:"^失踪したアオイとユカリはキャンプ場に向かったと推測�
 宣誓！\n私は、二度と自分がぼっちのエルフであることを忘れないと誓います！\nぼっち代表、アオイ！=I swear! I will never forget that I am an elf who is a loner! Aoi, representative of the loners!
 よぉーし！\n田舎者のぼっちエルフとして、もう一度やり直しますよー！=Alright! As a loner elf from the countryside, I'll start again!
 大自然の声を再び聞けるようになったアオイは、\nぼっちとしての初心に立ち返ることに成功するのだった。=Having regained the ability to hear the voices of nature, Aoi successfully returns to her initial loner spirit.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+キャンプ場で最高の一杯を求めるユカリは、\nジュンと共に薪割りを行っていた──=Yukari, who wanted the best drink at the campsite, was chopping firewood with Jun
+...Ok.これくらい用意すれば、薪は持つだろう。\nそれじゃあ、食事まで少し休もうか。=...Yeah, if we prepare this much, we should have enough firewood. Well then, let's take a little break until mealtime.
+あ～～、体に染みるわ～～\nやっぱ運動したあとの一杯は格別だわ～～=Ah~ It feels so refreshing~ After exercising, there's nothing like a drink
+!?一瞬で全身の力が抜けた……？\n薪割りで見せた勢いはどこに……？=Huh!? All of a sudden, all my strength left my body...? Where did the momentum from splitting firewood go...?
+まさか、これが……\nこれこそトモちゃんが私に求めていた休暇の在り方なのか……？=DCould it be... Could this be the way Tomo-chan wanted me to spend my vacation...?
+Yeah.私もそう思うよ。自慢の部下たちだ。=Yeah. I feel the same way. They're my pride and joy, those subordinates of mine.
+I see...本当はコミュ力なんて欠片もない、\n人付き合いが苦手な不器用ぼっちエルフなのに……=Sigh... In reality, I don't have any social skills. I'm an awkward loner elf who struggles with human interaction...
+Yeah.楽しくなってきたな！\nんくっ……んくっ……んくっ……！=Ahh. This is getting fun! Ngh... ngh... ngh!
+ごくっ……ごくっ……ごくっ……！=*Gulp*... *Glug*... ... *Grunt*...!

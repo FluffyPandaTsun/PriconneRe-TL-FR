@@ -2,8 +2,8 @@
 ク= 
 r:"^スタミナ回復まで残り ([0-9]{2}):([0-9]{2})$"=Stamina refill in $1m$2s
 マップ=Map
-r:"^([0-9]+)枚$"=$1 Tix
-r:"^([0-9]+)枚 使う$"=Use $1
+r:"^([0-9,]+)枚$"=$1 Tix
+r:"^([0-9]+)枚 ?使う$"=Use $1
 
 r:"^あと (\d+)$"=remaining $1
 クリアパーティ一覧=Clear Party List
@@ -17,12 +17,16 @@ r:"^現在、スキップチケットの消費枚数が\n(\d+)枚に設定され
 1枚に戻す=Reset to 1
 1体に戻す=Reset to 1
 スキップチケット枚数リセット確認=Skip Ticket Number Reset
+下記のアイテムを装備します。よろしいですか？=Equip the following items. Is it OK?
 
 ---Menu---
 次へ=Next
 勝利数=Win
 編成完了=Done
-
+探索・調査=Search &\nSurvey
+探索・調査\nダンジョン=Grotto &\nDungeon
+探索・調査・ダンジョン=Grotto, Expedition, and Dungeon
+深域クエスト=Talent Quest
 消費挑戦回数=Use attempts
 メインクエスト=Main Quest
 開催中=Underway!
@@ -48,7 +52,8 @@ r:"^現在、スキップチケットの消費枚数が\n(\d+)枚に設定され
 設定できるサポートキャラがいません。=No rental character can be set.
 消費したスタミナはマスターコインに変換されました。=The consumed Stamina was converted to Master Coins.
 Lv上限に達した状態で消費したスタミナは\nマスターコインに変換されます。=Level cap has been reached, consumed Stamina converted to Master Coins.
-プレイヤー経験値は最大に達しているので受け取れませんでした。=Player EXP could not be earned because you have reached the Level cap.
+プレイヤー経験値は最大に達しているので受け取れませんでした。=Player EXP couldn't be earned because you have reached the Level cap.
+マスターコインはウィークリーの獲得上限に達しているため受け取れませんでした。=Master Coin couldn't be earned because the weekly acquisition limit has been reached.
 経験値の最大値が更新されるまで表示しない=Do not display until the level cap\nis updated.
 チケットで再戦=Replay with Ticket
 このキャラのユニオンバースト中は速度を変更できません=Speed cannot be changed during Union Burst of this character
@@ -63,9 +68,12 @@ Lv上限に達した状態で消費したスタミナは\nマスターコイン�
 r:"^\[3C404E\]挑戦回数を\[FFBB00,CE4F00\](\d+)\[-\]消費して、同じパーティで\nもう一度クエストをプレイします。\[-\]$"=[3C404E]Using [FFBB00,CE4F00]$1[-] Attempts to play the quest\none more time with the same party.[-]
 同じパーティでもう一度\nクエストをプレイします。\n\nよろしいですか？=Attempts to play the quest\none more time with the same party.\n\nConfirm?
 
-r:"^\[3C404E\]スタミナを\[FFBB00,CE4F00\](\d+)\[-\]消費して、同じパーティで\nもう一度クエストをプレイします。\[-\]$"=[3C404E]Using [FFBB00,CE4F00]$1[-] Stamina to play the quest\none more time with the same party.[-]
+r:"^\[3C404E\]スタミナを\[FFBB00,CE4F00\](\d+)\[-\]消費して、同じパーティで\nもう一度クエストをプレイします。(?:よろしいですか？)?\[-\]$"=[3C404E]Using [FFBB00,CE4F00]$1[-] Stamina to play the quest\none more time with the same party.\nIs this OK?[-]
+
 
 r:"^\[3C404E\]ボスチケットを\[FFBB00,CE4F00\](\d+)\[-\]枚消費して、同じパーティで\nもう一度クエストをプレイします。\[-\]$"=[3C404E]Using [FFBB00,CE4F00]$1[-] Boss Tickets to play the quest\none more time with the same party.[-]
+r:"^\[3C404E\]ボスチケットを\[FFBB00,CE4F00\](\d+)\[-\]消費して、同じパーティで\nもう一度クエストをプレイします。よろしいですか？\[-\]$"=[3C404E]Using [FFBB00,CE4F00]$1[-] Boss Tickets to play the quest\none more time with the same party.\nIs this OK?[-]
+
 よろしいですか？=Is this OK?
 [3C404E]よろしいですか？[-]=[3C404E]Is this OK?[-]
 本日の回復可能回数上限に達しているため回復できません。=You have reached the limit on refreshes for today.
